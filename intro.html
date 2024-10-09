@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Welcome to your Jupyter Book &#8212; My sample book</title>
+    <title>Introduction to the Machine Learning Project &#8212; Trading-solutions-2024-II</title>
   
   
   
@@ -62,7 +62,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Introducción del EDA de la Divisa EUR/USD" href="EDA_ProyectoF.html" />
+    <link rel="next" title="Exploratory Data Analysis" href="EDA_ProyectoF.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -153,8 +153,8 @@
       
     
     
-    <img src="_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
-    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
+    <img src="_static/logo.jpeg" class="logo__image only-light" alt="Trading-solutions-2024-II - Home"/>
+    <script>document.write(`<img src="_static/logo.jpeg" class="logo__image only-dark" alt="Trading-solutions-2024-II - Home"/>`);</script>
   
   
 </a></div>
@@ -175,12 +175,12 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1 current active">
                 <a class="reference internal" href="#">
-                    Welcome to your Jupyter Book
+                    Introduction to the Machine Learning Project
                 </a>
             </li>
         </ul>
         <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="EDA_ProyectoF.html">Introducción del EDA de la Divisa EUR/USD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="EDA_ProyectoF.html">Exploratory Data Analysis</a></li>
 
 
 
@@ -192,6 +192,8 @@
 
 
 
+<li class="toctree-l1"><a class="reference internal" href="Theorical_explanation.html">Theorical Explanation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Borrador_NEAT.html">Algorithms</a></li>
 </ul>
 
     </div>
@@ -364,7 +366,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -375,11 +379,19 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Welcome to your Jupyter Book</h1>
+    <h1>Introduction to the Machine Learning Project</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-objectives">Project Objectives</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -389,16 +401,25 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="welcome-to-your-jupyter-book">
-<h1>Welcome to your Jupyter Book<a class="headerlink" href="#welcome-to-your-jupyter-book" title="Link to this heading">#</a></h1>
-<p>This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out <a class="reference external" href="https://jupyterbook.org">the Jupyter Book documentation</a> for more information.</p>
-<p>Check out the content pages bundled with this sample book to see more.</p>
+  <section id="introduction-to-the-machine-learning-project">
+<h1>Introduction to the Machine Learning Project<a class="headerlink" href="#introduction-to-the-machine-learning-project" title="Link to this heading">#</a></h1>
+<p>The rise of <strong>Machine Learning</strong> has transformed the financial landscape, providing innovative tools for decision-making in stock trading. In this context, the present project aims to explore the synergy between <strong>neural networks</strong> and <strong>genetic algorithms</strong> to develop a robust predictive model that optimizes trading strategies.</p>
+<p><strong>Neural networks</strong>, inspired by the functioning of the human brain, are capable of learning complex patterns from large datasets. Their ability to process and analyze information in a non-linear manner makes them a powerful tool for predicting stock market movements. This project focuses on the use of neural networks to model stock price behavior, leveraging historical data and relevant market features.</p>
+<p>On the other hand, <strong>genetic algorithms</strong> are optimization techniques based on the principles of natural evolution. These algorithms can be used to tune the hyperparameters of neural networks, improving their performance and optimizing trading strategies. By simulating evolutionary processes, genetic algorithms efficiently explore the solution space, finding configurations that maximize the profitability of trading operations.</p>
+<section id="project-objectives">
+<h2>Project Objectives<a class="headerlink" href="#project-objectives" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p><strong>Define the Problem</strong>: Identify the specific problem in stock trading to be addressed, such as price prediction or the classification of buy/sell signals.</p></li>
+<li><p><strong>Data Collection</strong>: Compile a historical dataset that includes stock prices, trading volumes, and other financial indicators.</p></li>
+<li><p><strong>Model Development</strong>: Implement neural networks for the analysis and prediction of price movements, using supervised learning techniques.</p></li>
+<li><p><strong>Optimization</strong>: Apply genetic algorithms to adjust the hyperparameters of the neural network model, improving its accuracy and generalization capacity.</p></li>
+<li><p><strong>Performance Evaluation</strong>: Evaluate the model using relevant metrics and compare its performance with conventional trading strategies.</p></li>
+<li><p><strong>Strategy Implementation</strong>: Develop an automated trading system that integrates the predictive model, allowing the execution of operations based on the generated signals.</p></li>
+</ol>
+<p>Through this project, we aim to demonstrate how the combination of neural networks and genetic algorithms can offer an innovative and effective approach to stock trading. Ultimately, the goal is not only to provide a functional model but also to contribute to the understanding of how these technologies can transform financial analysis and enhance investment profitability.</p>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="EDA_ProyectoF.html">Introducción del EDA de la Divisa EUR/USD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="EDA_ProyectoF.html">Exploratory Data Analysis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="EDA_ProyectoF.html#base-de-datos">Base de datos</a></li>
 <li class="toctree-l1"><a class="reference internal" href="EDA_ProyectoF.html#descripcion-del-dataframe-de-trading">Descripción del DataFrame de Trading</a></li>
 <li class="toctree-l1"><a class="reference internal" href="EDA_ProyectoF.html#analisis-del-dataframe">Análisis del DataFrame</a></li>
@@ -410,8 +431,11 @@ It does not go in-depth into any particular topic - check out <a class="referenc
 <li class="toctree-l1"><a class="reference internal" href="EDA_ProyectoF.html#autocorrelacion-y-autocorrelacion-parcial">Autocorrelación y Autocorrelación Parcial</a></li>
 <li class="toctree-l1"><a class="reference internal" href="EDA_ProyectoF.html#aplicacion-de-diferenciacion">Aplicación de Diferenciación</a></li>
 <li class="toctree-l1"><a class="reference internal" href="EDA_ProyectoF.html#id1">Autocorrelación y Autocorrelación Parcial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Theorical_explanation.html">Theorical Explanation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Borrador_NEAT.html">Algorithms</a></li>
 </ul>
 </div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -449,7 +473,7 @@ It does not go in-depth into any particular topic - check out <a class="referenc
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Introducción del EDA de la Divisa EUR/USD</p>
+        <p class="prev-next-title">Exploratory Data Analysis</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -460,7 +484,20 @@ It does not go in-depth into any particular topic - check out <a class="referenc
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-objectives">Project Objectives</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
@@ -471,7 +508,7 @@ It does not go in-depth into any particular topic - check out <a class="referenc
   <div class="footer-item">
     
 <p class="component-author">
-By The Jupyter Book Community
+By Lorenzo David Gutierrez Vesga
 </p>
 
   </div>

@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Notebooks with MyST Markdown &#8212; Trading-solutions-2024-II</title>
+    <title>Theorical Explanation &#8212; Trading-solutions-2024-II</title>
   
   
   
@@ -57,9 +57,13 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'markdown-notebooks';</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Theorical_explanation';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Algorithms" href="Borrador_NEAT.html" />
+    <link rel="prev" title="Exploratory Data Analysis" href="EDA_ProyectoF.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -121,8 +125,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -176,7 +178,7 @@
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="EDA_ProyectoF.html">Exploratory Data Analysis</a></li>
 
 
@@ -189,7 +191,7 @@
 
 
 
-<li class="toctree-l1"><a class="reference internal" href="Theorical_explanation.html">Theorical Explanation</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Theorical Explanation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Borrador_NEAT.html">Algorithms</a></li>
 </ul>
 
@@ -262,7 +264,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fmarkdown-notebooks.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FTheorical_explanation.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -292,7 +294,7 @@
       
       
       
-      <li><a href="_sources/markdown-notebooks.md" target="_blank"
+      <li><a href="_sources/Theorical_explanation.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -302,7 +304,7 @@
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.md</span>
+<span class="btn__text-container">.ipynb</span>
 </a>
 </li>
       
@@ -376,7 +378,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Notebooks with MyST Markdown</h1>
+    <h1>Theorical Explanation</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -386,9 +388,16 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#an-example-cell">An example cell</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-notebook-with-myst-markdown">Create a notebook with MyST Markdown</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quickly-add-yaml-metadata-for-myst-notebooks">Quickly add YAML metadata for MyST Notebooks</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#important-aspects-of-the-project">Important Aspects of the Project</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dag-directed-acyclic-graph">DAG (Directed Acyclic Graph):</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#neural-networks">Neural Networks</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#genetic-algorithm">Genetic Algorithm</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dag">DAG</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#kahn-s-topological-order">Kahn’s Topological Order</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#forward-propagation">Forward Propagation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#backward-propagation">Backward Propagation</a></li>
 </ul>
             </nav>
         </div>
@@ -400,50 +409,76 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="notebooks-with-myst-markdown">
-<h1>Notebooks with MyST Markdown<a class="headerlink" href="#notebooks-with-myst-markdown" title="Link to this heading">#</a></h1>
-<p>Jupyter Book also lets you write text-based notebooks using MyST Markdown.
-See <a class="reference external" href="https://jupyterbook.org/file-types/myst-notebooks.html">the Notebooks with MyST Markdown documentation</a> for more detailed instructions.
-This page shows off a notebook written in MyST Markdown.</p>
-<section id="an-example-cell">
-<h2>An example cell<a class="headerlink" href="#an-example-cell" title="Link to this heading">#</a></h2>
-<p>With MyST Markdown, you can define code cells with a directive like so:</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>4
-</pre></div>
-</div>
-</div>
-</div>
-<p>When your book is built, the contents of any <code class="docutils literal notranslate"><span class="pre">{code-cell}</span></code> blocks will be
-executed with your default Jupyter kernel, and their outputs will be displayed
-in-line with the rest of your content.</p>
-<div class="admonition seealso">
-<p class="admonition-title">See also</p>
-<p>Jupyter Book uses <a class="reference external" href="https://jupytext.readthedocs.io/en/latest/">Jupytext</a> to convert text-based files to notebooks, and can support <a class="reference external" href="https://jupyterbook.org/file-types/jupytext.html">many other text-based notebook files</a>.</p>
-</div>
+  <section class="tex2jax_ignore mathjax_ignore" id="theorical-explanation">
+<h1>Theorical Explanation<a class="headerlink" href="#theorical-explanation" title="Link to this heading">#</a></h1>
+<section id="important-aspects-of-the-project">
+<h2>Important Aspects of the Project<a class="headerlink" href="#important-aspects-of-the-project" title="Link to this heading">#</a></h2>
+<section id="dag-directed-acyclic-graph">
+<h3>DAG (Directed Acyclic Graph):<a class="headerlink" href="#dag-directed-acyclic-graph" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Khans Topological order</p></li>
+</ul>
 </section>
-<section id="create-a-notebook-with-myst-markdown">
-<h2>Create a notebook with MyST Markdown<a class="headerlink" href="#create-a-notebook-with-myst-markdown" title="Link to this heading">#</a></h2>
-<p>MyST Markdown notebooks are defined by two things:</p>
+<section id="neural-networks">
+<h3>Neural Networks<a class="headerlink" href="#neural-networks" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Backward propagation</p></li>
+<li><p>Forward propagation</p></li>
+</ul>
+</section>
+<section id="genetic-algorithm">
+<h3>Genetic Algorithm<a class="headerlink" href="#genetic-algorithm" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Genotype</p></li>
+<li><p>Fenotype</p></li>
+<li><p>Mutation</p></li>
+<li><p>Selection</p></li>
+</ul>
+</section>
+</section>
+<section id="dag">
+<h2>DAG<a class="headerlink" href="#dag" title="Link to this heading">#</a></h2>
+<p>Un DAG (Directed Acyclic Graph, o Grafo Dirigido Acíclico) es una estructura matemática que consta de nodos conectados por aristas (o enlaces), donde cada arista tiene una dirección específica y no existen ciclos. Es decir, si sigues las aristas en la dirección indicada, nunca podrás regresar al mismo nodo de partida, lo que garantiza que el grafo sea acíclico.
+<img alt="" src="_images/net_1.png" /></p>
+</section>
+<section id="kahn-s-topological-order">
+<h2>Kahn’s Topological Order<a class="headerlink" href="#kahn-s-topological-order" title="Link to this heading">#</a></h2>
+<p>Kahn’s topological order is a method used to determine the sequence in which operations should be performed in a directed acyclic graph (DAG), which is particularly useful in neural networks and computational graphs. This algorithm finds the correct order to compute the forward propagation in a neural network by identifying dependencies between the nodes. Each node represents a mathematical operation or a neuron, and edges between nodes represent the flow of data.
+<br />
+<img alt="" src="_images/Topological-order.png" /></p>
+</section>
+<section id="forward-propagation">
+<h2>Forward Propagation<a class="headerlink" href="#forward-propagation" title="Link to this heading">#</a></h2>
+<p>Let <span class="math notranslate nohighlight">\( G \)</span> be a Directed Acyclic Graph (DAG), where <span class="math notranslate nohighlight">\( G_A \)</span> represents the input layer nodes, <span class="math notranslate nohighlight">\( G_B \)</span> the hidden layer nodes, and <span class="math notranslate nohighlight">\( G_C \)</span> the output layer nodes. From the perspective of the DAG, the network consists of only three layers. Let <span class="math notranslate nohighlight">\( T \)</span> represent the weights associated with the edges between nodes.</p>
+<p>The forward propagation for a neuron in the hidden layer <span class="math notranslate nohighlight">\( G_B \)</span> can be calculated as follows:</p>
+<p>Let <span class="math notranslate nohighlight">\( i \in (1, n) \)</span>, where <span class="math notranslate nohighlight">\( n \)</span> is the number of neurons in the hidden layer, and let <span class="math notranslate nohighlight">\( p \in (1, k) \)</span>, where <span class="math notranslate nohighlight">\( k \)</span> is the number of incoming edges (connections to the neuron).</p>
+<p>The activation of neuron <span class="math notranslate nohighlight">\( GB_i \)</span> in the hidden layer is given by:</p>
+<div class="math notranslate nohighlight">
+\[
+GB_i = \tanh\left( \sum_{j=1}^{p} (T_{B_j} \cdot \text{normalized incoming information}) - \text{bias per neuron} \right)
+\]</div>
+</section>
+<section id="backward-propagation">
+<h2>Backward Propagation<a class="headerlink" href="#backward-propagation" title="Link to this heading">#</a></h2>
+<p>Backward propagation, often referred to as backpropagation, is a key algorithm used in training neural networks. It is responsible for updating the weights of the network based on the error between the predicted output and the actual target values. In the context of a Directed Acyclic Graph (DAG), backpropagation is executed in the reverse order of forward propagation.</p>
+<p>Let <span class="math notranslate nohighlight">\( G \)</span> be a Directed Acyclic Graph (DAG), where <span class="math notranslate nohighlight">\( G_A \)</span> represents the input layer nodes, <span class="math notranslate nohighlight">\( G_B \)</span> the hidden layer nodes, and <span class="math notranslate nohighlight">\( G_C \)</span> the output layer nodes. The weights associated with the edges are represented by <span class="math notranslate nohighlight">\( T \)</span>.</p>
+<p>During backpropagation, the error is propagated backwards through the network, starting from the output layer <span class="math notranslate nohighlight">\( G_C \)</span> and moving towards the input layer <span class="math notranslate nohighlight">\( G_A \)</span>. This process can be summarized as follows:</p>
 <ol class="arabic simple">
-<li><p>YAML metadata that is needed to understand if / how it should convert text files to notebooks (including information about the kernel needed).
-See the YAML at the top of this page for example.</p></li>
-<li><p>The presence of <code class="docutils literal notranslate"><span class="pre">{code-cell}</span></code> directives, which will be executed with your book.</p></li>
+<li><p><strong>Calculate the Error at the Output Layer</strong>: For each neuron <span class="math notranslate nohighlight">\( GC_i \)</span> in the output layer, compute the error <span class="math notranslate nohighlight">\( E_i \)</span> as the difference between the predicted output and the actual target value. This is often defined as:
+$<span class="math notranslate nohighlight">\( E_i = \text{target}_i - \text{output}_i \)</span>$</p></li>
+<li><p><strong>Compute the Gradient for the Output Layer</strong>: The gradient of the loss with respect to the output of the neuron is calculated using the derivative of the activation function. For example, using the tangent hyperbolic activation function:
+$<span class="math notranslate nohighlight">\( \delta_{C_i} = E_i \cdot \text{activation\_derivative}(\text{output}_i) \)</span><span class="math notranslate nohighlight">\(
+where \)</span> \text{activation_derivative} $ is the derivative of the activation function.</p></li>
+<li><p><strong>Propagate the Error Backwards</strong>: For each neuron <span class="math notranslate nohighlight">\( GB_j \)</span> in the hidden layer, compute the error signal <span class="math notranslate nohighlight">\( \delta_{B_j} \)</span> as the weighted sum of the errors from the output layer:
+$<span class="math notranslate nohighlight">\( \delta_{B_j} = \sum_{i=1}^{m} \delta_{C_i} \cdot T_{C_i \to B_j} \)</span><span class="math notranslate nohighlight">\(
+where \)</span> m $ is the number of output neurons.</p></li>
+<li><p><strong>Update Weights</strong>: After calculating the error signals for the hidden layer, the weights can be updated using a learning rate <span class="math notranslate nohighlight">\( \eta \)</span>:
+$<span class="math notranslate nohighlight">\(
+T_{B_j} = T_{B_j} + \eta \cdot \delta_{B_j} \cdot input \to {G_{B_j}}
+\)</span>$
+The same process applies to update the weights connecting the input layer to the hidden layer.</p></li>
 </ol>
-<p>That’s all that is needed to get started!</p>
-</section>
-<section id="quickly-add-yaml-metadata-for-myst-notebooks">
-<h2>Quickly add YAML metadata for MyST Notebooks<a class="headerlink" href="#quickly-add-yaml-metadata-for-myst-notebooks" title="Link to this heading">#</a></h2>
-<p>If you have a markdown file and you’d like to quickly add YAML metadata to it, so that Jupyter Book will treat it as a MyST Markdown Notebook, run the following command:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">jupyter</span><span class="o">-</span><span class="n">book</span> <span class="n">myst</span> <span class="n">init</span> <span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">markdownfile</span><span class="o">.</span><span class="n">md</span>
-</pre></div>
-</div>
+<p>By repeating this process iteratively over multiple epochs, the neural network adjusts its weights to minimize the overall error, improving its ability to predict outcomes accurately.</p>
 </section>
 </section>
 
@@ -477,6 +512,24 @@ See the YAML at the top of this page for example.</p></li>
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="EDA_ProyectoF.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Exploratory Data Analysis</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Borrador_NEAT.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Algorithms</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
@@ -493,9 +546,16 @@ See the YAML at the top of this page for example.</p></li>
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#an-example-cell">An example cell</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-notebook-with-myst-markdown">Create a notebook with MyST Markdown</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quickly-add-yaml-metadata-for-myst-notebooks">Quickly add YAML metadata for MyST Notebooks</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#important-aspects-of-the-project">Important Aspects of the Project</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dag-directed-acyclic-graph">DAG (Directed Acyclic Graph):</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#neural-networks">Neural Networks</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#genetic-algorithm">Genetic Algorithm</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dag">DAG</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#kahn-s-topological-order">Kahn’s Topological Order</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#forward-propagation">Forward Propagation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#backward-propagation">Backward Propagation</a></li>
 </ul>
   </nav></div>
 
