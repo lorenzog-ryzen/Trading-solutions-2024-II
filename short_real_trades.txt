@@ -1,0 +1,7 @@
+ID: 1, Time: 12:00, Type: short, Price: 100.0, Units: -14.0, Previous Balance: 100000, New Balance: 101400.0, Result: trade executed
+ID: 1, Time: 12:00, Type: short, Price: 100.0, Units: -14.0, Previous Balance: 100000, New Balance: 101400.0, Result: trade executed
+ID: 1, Time: 12:00, Type: short, Price: 100.0, Units: -14.0, Previous Balance: 100000, New Balance: 101400.0, Result: trade executed
+ID: 1, Time: 12:00, Type: short, Price: 100.0, Units: -14.0, Previous Balance: 100000, New Balance: 101400.0, Result: trade executed
+ID: 2, Time: 12:55, Type: short, Price: 100.0, Units: -14.0, Previous Balance: 101400.0, New Balance: 100014.0, Result: loss
+ID: 1, Time: 12:00, Type: short, Price: 100.0, Units: -14.0, Previous Balance: 100000, New Balance: 101400.0, Result: trade executed
+ID: 2, Time: 12:55, Type: short, Price: 100.0, Units: -14.0, Previous Balance: 101400.0, New Balance: 100014.0, Result: loss

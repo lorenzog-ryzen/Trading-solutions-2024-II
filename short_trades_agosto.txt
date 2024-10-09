@@ -1,0 +1,639 @@
+ID: 2800, Time: 2024-08-01 03:20:00, Type: short, Price: 552.28, Units: 1, Previous Balance: 99475.46999999984, New Balance: 98923.18999999984, Result: trade executed
+ID: 2802, Time: 2024-08-01 03:56:00, Type: short, Price: 551.34, Units: 1, Previous Balance: 99475.46999999984, New Balance: 99474.52999999984, Result: loss
+ID: 2804, Time: 2024-08-01 04:00:00, Type: short, Price: 550.93, Units: 1, Previous Balance: 99474.52999999984, New Balance: 98923.59999999985, Result: trade executed
+ID: 2806, Time: 2024-08-01 04:56:00, Type: short, Price: 552.12, Units: 1, Previous Balance: 99474.52999999984, New Balance: 99475.71999999984, Result: win
+ID: 2808, Time: 2024-08-01 05:00:00, Type: short, Price: 552.23, Units: 1, Previous Balance: 99475.71999999984, New Balance: 98923.48999999985, Result: trade executed
+ID: 2810, Time: 2024-08-01 05:56:00, Type: short, Price: 552.5, Units: 1, Previous Balance: 99475.71999999984, New Balance: 99475.98999999985, Result: win
+ID: 2812, Time: 2024-08-01 06:00:00, Type: short, Price: 552.28, Units: 1, Previous Balance: 99475.98999999985, New Balance: 98923.70999999985, Result: trade executed
+ID: 2814, Time: 2024-08-01 06:56:00, Type: short, Price: 553.35, Units: 1, Previous Balance: 99475.98999999985, New Balance: 99477.05999999985, Result: win
+ID: 2816, Time: 2024-08-01 07:00:00, Type: short, Price: 553.27, Units: 1, Previous Balance: 99477.05999999985, New Balance: 98923.78999999985, Result: trade executed
+ID: 2818, Time: 2024-08-01 07:56:00, Type: short, Price: 553.68, Units: 1, Previous Balance: 99477.05999999985, New Balance: 99477.46999999984, Result: win
+ID: 2820, Time: 2024-08-01 08:00:00, Type: short, Price: 553.28, Units: 1, Previous Balance: 99477.46999999984, New Balance: 98924.18999999984, Result: trade executed
+ID: 2822, Time: 2024-08-01 08:56:00, Type: short, Price: 553.11, Units: 1, Previous Balance: 99477.46999999984, New Balance: 99477.29999999984, Result: loss
+ID: 2824, Time: 2024-08-01 09:00:00, Type: short, Price: 553.69, Units: 1, Previous Balance: 99477.29999999984, New Balance: 98923.60999999984, Result: trade executed
+ID: 2826, Time: 2024-08-01 09:56:00, Type: short, Price: 548.79, Units: 1, Previous Balance: 99477.29999999984, New Balance: 99472.39999999983, Result: loss
+ID: 2828, Time: 2024-08-01 10:00:00, Type: short, Price: 549.37, Units: 1, Previous Balance: 99472.39999999983, New Balance: 98923.02999999984, Result: trade executed
+ID: 2830, Time: 2024-08-01 10:56:00, Type: short, Price: 545.58, Units: 1, Previous Balance: 99472.39999999983, New Balance: 99468.60999999984, Result: loss
+ID: 2832, Time: 2024-08-01 11:00:00, Type: short, Price: 545.18, Units: 1, Previous Balance: 99468.60999999984, New Balance: 98923.42999999985, Result: trade executed
+ID: 2834, Time: 2024-08-01 11:56:00, Type: short, Price: 544.74, Units: 1, Previous Balance: 99468.60999999984, New Balance: 99468.16999999985, Result: loss
+ID: 2836, Time: 2024-08-01 12:00:00, Type: short, Price: 543.72, Units: 1, Previous Balance: 99468.16999999985, New Balance: 98924.44999999985, Result: trade executed
+ID: 2838, Time: 2024-08-01 12:56:00, Type: short, Price: 541.61, Units: 1, Previous Balance: 99468.16999999985, New Balance: 99466.05999999985, Result: loss
+ID: 2840, Time: 2024-08-01 13:00:00, Type: short, Price: 540.71, Units: 1, Previous Balance: 99466.05999999985, New Balance: 98925.34999999985, Result: trade executed
+ID: 2842, Time: 2024-08-01 13:56:00, Type: short, Price: 540.04, Units: 1, Previous Balance: 99466.05999999985, New Balance: 99465.38999999984, Result: loss
+ID: 2844, Time: 2024-08-01 14:00:00, Type: short, Price: 540.72, Units: 1, Previous Balance: 99465.38999999984, New Balance: 98924.66999999984, Result: trade executed
+ID: 2846, Time: 2024-08-01 14:56:00, Type: short, Price: 542.0, Units: 1, Previous Balance: 99465.38999999984, New Balance: 99466.66999999984, Result: win
+ID: 2848, Time: 2024-08-01 15:00:00, Type: short, Price: 541.72, Units: 1, Previous Balance: 99466.66999999984, New Balance: 98924.94999999984, Result: trade executed
+ID: 2850, Time: 2024-08-01 15:56:00, Type: short, Price: 540.91, Units: 1, Previous Balance: 99466.66999999984, New Balance: 99465.85999999984, Result: loss
+ID: 2852, Time: 2024-08-01 16:00:00, Type: short, Price: 540.89, Units: 1, Previous Balance: 99465.85999999984, New Balance: 98924.96999999984, Result: trade executed
+ID: 2854, Time: 2024-08-01 16:56:00, Type: short, Price: 541.38, Units: 1, Previous Balance: 99465.85999999984, New Balance: 99466.34999999985, Result: win
+ID: 2856, Time: 2024-08-01 17:00:00, Type: short, Price: 541.43, Units: 1, Previous Balance: 99466.34999999985, New Balance: 98924.91999999985, Result: trade executed
+ID: 2858, Time: 2024-08-01 17:56:00, Type: short, Price: 541.37, Units: 1, Previous Balance: 99466.34999999985, New Balance: 99466.28999999985, Result: loss
+ID: 2860, Time: 2024-08-01 18:00:00, Type: short, Price: 540.64, Units: 1, Previous Balance: 99466.28999999985, New Balance: 98925.64999999985, Result: trade executed
+ID: 2862, Time: 2024-08-01 22:58:00, Type: short, Price: 541.13, Units: 1, Previous Balance: 99466.28999999985, New Balance: 99466.77999999985, Result: win
+ID: 2864, Time: 2024-08-01 23:43:00, Type: short, Price: 541.13, Units: 1, Previous Balance: 99466.77999999985, New Balance: 98925.64999999985, Result: trade executed
+ID: 2866, Time: 2024-08-02 03:56:00, Type: short, Price: 538.06, Units: 1, Previous Balance: 99466.77999999985, New Balance: 99463.70999999985, Result: loss
+ID: 2868, Time: 2024-08-02 04:00:00, Type: short, Price: 538.02, Units: 1, Previous Balance: 99463.70999999985, New Balance: 98925.68999999984, Result: trade executed
+ID: 2870, Time: 2024-08-02 04:56:00, Type: short, Price: 537.48, Units: 1, Previous Balance: 99463.70999999985, New Balance: 99463.16999999984, Result: loss
+ID: 2872, Time: 2024-08-02 05:00:00, Type: short, Price: 537.34, Units: 1, Previous Balance: 99463.16999999984, New Balance: 98925.82999999984, Result: trade executed
+ID: 2874, Time: 2024-08-02 05:56:00, Type: short, Price: 536.55, Units: 1, Previous Balance: 99463.16999999984, New Balance: 99462.37999999984, Result: loss
+ID: 2876, Time: 2024-08-02 06:00:00, Type: short, Price: 536.78, Units: 1, Previous Balance: 99462.37999999984, New Balance: 98925.59999999985, Result: trade executed
+ID: 2878, Time: 2024-08-02 06:56:00, Type: short, Price: 537.04, Units: 1, Previous Balance: 99462.37999999984, New Balance: 99462.63999999984, Result: win
+ID: 2880, Time: 2024-08-02 07:00:00, Type: short, Price: 537.15, Units: 1, Previous Balance: 99462.63999999984, New Balance: 98925.48999999985, Result: trade executed
+ID: 2882, Time: 2024-08-02 07:56:00, Type: short, Price: 533.27, Units: 1, Previous Balance: 99462.63999999984, New Balance: 99458.75999999985, Result: loss
+ID: 2884, Time: 2024-08-02 08:00:00, Type: short, Price: 533.63, Units: 1, Previous Balance: 99458.75999999985, New Balance: 98925.12999999984, Result: trade executed
+ID: 2886, Time: 2024-08-02 08:56:00, Type: short, Price: 534.94, Units: 1, Previous Balance: 99458.75999999985, New Balance: 99460.06999999985, Result: win
+ID: 2888, Time: 2024-08-02 09:00:00, Type: short, Price: 536.71, Units: 1, Previous Balance: 99460.06999999985, New Balance: 98923.35999999984, Result: trade executed
+ID: 2890, Time: 2024-08-02 09:56:00, Type: short, Price: 529.77, Units: 1, Previous Balance: 99460.06999999985, New Balance: 99453.12999999984, Result: loss
+ID: 2892, Time: 2024-08-02 10:00:00, Type: short, Price: 529.5, Units: 1, Previous Balance: 99453.12999999984, New Balance: 98923.62999999984, Result: trade executed
+ID: 2894, Time: 2024-08-02 10:56:00, Type: short, Price: 530.68, Units: 1, Previous Balance: 99453.12999999984, New Balance: 99454.30999999984, Result: win
+ID: 2896, Time: 2024-08-02 11:00:00, Type: short, Price: 530.98, Units: 1, Previous Balance: 99454.30999999984, New Balance: 98923.32999999984, Result: trade executed
+ID: 2898, Time: 2024-08-02 11:56:00, Type: short, Price: 532.54, Units: 1, Previous Balance: 99454.30999999984, New Balance: 99455.86999999984, Result: win
+ID: 2900, Time: 2024-08-02 12:00:00, Type: short, Price: 533.13, Units: 1, Previous Balance: 99455.86999999984, New Balance: 98922.73999999983, Result: trade executed
+ID: 2902, Time: 2024-08-02 12:56:00, Type: short, Price: 530.28, Units: 1, Previous Balance: 99455.86999999984, New Balance: 99453.01999999983, Result: loss
+ID: 2904, Time: 2024-08-02 13:00:00, Type: short, Price: 530.26, Units: 1, Previous Balance: 99453.01999999983, New Balance: 98922.75999999983, Result: trade executed
+ID: 2906, Time: 2024-08-02 13:56:00, Type: short, Price: 531.3, Units: 1, Previous Balance: 99453.01999999983, New Balance: 99454.05999999984, Result: win
+ID: 2908, Time: 2024-08-02 14:00:00, Type: short, Price: 531.47, Units: 1, Previous Balance: 99454.05999999984, New Balance: 98922.58999999984, Result: trade executed
+ID: 2910, Time: 2024-08-02 14:56:00, Type: short, Price: 532.05, Units: 1, Previous Balance: 99454.05999999984, New Balance: 99454.63999999984, Result: win
+ID: 2912, Time: 2024-08-02 15:00:00, Type: short, Price: 530.85, Units: 1, Previous Balance: 99454.63999999984, New Balance: 98923.78999999983, Result: trade executed
+ID: 2914, Time: 2024-08-02 15:56:00, Type: short, Price: 531.7, Units: 1, Previous Balance: 99454.63999999984, New Balance: 99455.48999999983, Result: win
+ID: 2916, Time: 2024-08-02 16:00:00, Type: short, Price: 531.65, Units: 1, Previous Balance: 99455.48999999983, New Balance: 98923.83999999984, Result: trade executed
+ID: 2918, Time: 2024-08-02 17:56:00, Type: short, Price: 531.86, Units: 1, Previous Balance: 99455.48999999983, New Balance: 99455.69999999984, Result: win
+ID: 2920, Time: 2024-08-02 18:00:00, Type: short, Price: 531.97, Units: 1, Previous Balance: 99455.69999999984, New Balance: 98923.72999999984, Result: trade executed
+ID: 2922, Time: 2024-08-02 18:56:00, Type: short, Price: 531.34, Units: 1, Previous Balance: 99455.69999999984, New Balance: 99455.06999999983, Result: loss
+ID: 2924, Time: 2024-08-02 19:00:00, Type: short, Price: 531.34, Units: 1, Previous Balance: 99455.06999999983, New Balance: 98923.72999999984, Result: trade executed
+ID: 2926, Time: 2024-08-05 03:56:00, Type: short, Price: 521.65, Units: 1, Previous Balance: 99455.06999999983, New Balance: 99445.37999999983, Result: loss
+ID: 2928, Time: 2024-08-05 04:00:00, Type: short, Price: 521.21, Units: 1, Previous Balance: 99445.37999999983, New Balance: 98924.16999999982, Result: trade executed
+ID: 2930, Time: 2024-08-05 04:56:00, Type: short, Price: 518.65, Units: 1, Previous Balance: 99445.37999999983, New Balance: 99442.81999999982, Result: loss
+ID: 2932, Time: 2024-08-05 05:00:00, Type: short, Price: 518.41, Units: 1, Previous Balance: 99442.81999999982, New Balance: 98924.40999999981, Result: trade executed
+ID: 2934, Time: 2024-08-05 05:56:00, Type: short, Price: 517.38, Units: 1, Previous Balance: 99442.81999999982, New Balance: 99441.78999999982, Result: loss
+ID: 2936, Time: 2024-08-05 06:00:00, Type: short, Price: 516.43, Units: 1, Previous Balance: 99441.78999999982, New Balance: 98925.35999999983, Result: trade executed
+ID: 2938, Time: 2024-08-05 06:56:00, Type: short, Price: 517.04, Units: 1, Previous Balance: 99441.78999999982, New Balance: 99442.39999999982, Result: win
+ID: 2940, Time: 2024-08-05 07:00:00, Type: short, Price: 516.29, Units: 1, Previous Balance: 99442.39999999982, New Balance: 98926.10999999983, Result: trade executed
+ID: 2942, Time: 2024-08-05 07:56:00, Type: short, Price: 508.57, Units: 1, Previous Balance: 99442.39999999982, New Balance: 99434.67999999983, Result: loss
+ID: 2944, Time: 2024-08-05 08:00:00, Type: short, Price: 512.17, Units: 1, Previous Balance: 99434.67999999983, New Balance: 98922.50999999983, Result: trade executed
+ID: 2946, Time: 2024-08-05 08:56:00, Type: short, Price: 513.1, Units: 1, Previous Balance: 99434.67999999983, New Balance: 99435.60999999984, Result: win
+ID: 2948, Time: 2024-08-05 09:00:00, Type: short, Price: 514.22, Units: 1, Previous Balance: 99435.60999999984, New Balance: 98921.38999999984, Result: trade executed
+ID: 2950, Time: 2024-08-05 09:56:00, Type: short, Price: 516.94, Units: 1, Previous Balance: 99435.60999999984, New Balance: 99438.32999999984, Result: win
+ID: 2952, Time: 2024-08-05 10:00:00, Type: short, Price: 516.5, Units: 1, Previous Balance: 99438.32999999984, New Balance: 98921.82999999984, Result: trade executed
+ID: 2954, Time: 2024-08-05 10:56:00, Type: short, Price: 520.9, Units: 1, Previous Balance: 99438.32999999984, New Balance: 99442.72999999984, Result: win
+ID: 2956, Time: 2024-08-05 11:00:00, Type: short, Price: 520.85, Units: 1, Previous Balance: 99442.72999999984, New Balance: 98921.87999999983, Result: trade executed
+ID: 2958, Time: 2024-08-05 11:56:00, Type: short, Price: 521.53, Units: 1, Previous Balance: 99442.72999999984, New Balance: 99443.40999999983, Result: win
+ID: 2960, Time: 2024-08-05 12:00:00, Type: short, Price: 520.9, Units: 1, Previous Balance: 99443.40999999983, New Balance: 98922.50999999983, Result: trade executed
+ID: 2962, Time: 2024-08-05 12:56:00, Type: short, Price: 520.03, Units: 1, Previous Balance: 99443.40999999983, New Balance: 99442.53999999983, Result: loss
+ID: 2964, Time: 2024-08-05 13:00:00, Type: short, Price: 520.37, Units: 1, Previous Balance: 99442.53999999983, New Balance: 98922.16999999984, Result: trade executed
+ID: 2966, Time: 2024-08-05 13:56:00, Type: short, Price: 518.92, Units: 1, Previous Balance: 99442.53999999983, New Balance: 99441.08999999984, Result: loss
+ID: 2968, Time: 2024-08-05 14:00:00, Type: short, Price: 517.37, Units: 1, Previous Balance: 99441.08999999984, New Balance: 98923.71999999984, Result: trade executed
+ID: 2970, Time: 2024-08-05 14:56:00, Type: short, Price: 516.5, Units: 1, Previous Balance: 99441.08999999984, New Balance: 99440.21999999984, Result: loss
+ID: 2972, Time: 2024-08-05 15:00:00, Type: short, Price: 516.05, Units: 1, Previous Balance: 99440.21999999984, New Balance: 98924.16999999984, Result: trade executed
+ID: 2974, Time: 2024-08-05 15:56:00, Type: short, Price: 519.41, Units: 1, Previous Balance: 99440.21999999984, New Balance: 99443.57999999984, Result: win
+ID: 2976, Time: 2024-08-05 16:00:00, Type: short, Price: 519.1, Units: 1, Previous Balance: 99443.57999999984, New Balance: 98924.47999999984, Result: trade executed
+ID: 2978, Time: 2024-08-05 16:56:00, Type: short, Price: 520.14, Units: 1, Previous Balance: 99443.57999999984, New Balance: 99444.61999999984, Result: win
+ID: 2980, Time: 2024-08-05 17:00:00, Type: short, Price: 520.18, Units: 1, Previous Balance: 99444.61999999984, New Balance: 98924.43999999984, Result: trade executed
+ID: 2982, Time: 2024-08-05 17:56:00, Type: short, Price: 522.48, Units: 1, Previous Balance: 99444.61999999984, New Balance: 99446.91999999984, Result: win
+ID: 2984, Time: 2024-08-05 18:00:00, Type: short, Price: 522.29, Units: 1, Previous Balance: 99446.91999999984, New Balance: 98924.62999999984, Result: trade executed
+ID: 2986, Time: 2024-08-05 18:56:00, Type: short, Price: 522.14, Units: 1, Previous Balance: 99446.91999999984, New Balance: 99446.76999999984, Result: loss
+ID: 2988, Time: 2024-08-05 19:00:00, Type: short, Price: 522.19, Units: 1, Previous Balance: 99446.76999999984, New Balance: 98924.57999999984, Result: trade executed
+ID: 2990, Time: 2024-08-05 21:58:00, Type: short, Price: 522.96, Units: 1, Previous Balance: 99446.76999999984, New Balance: 99447.53999999985, Result: win
+ID: 2992, Time: 2024-08-06 01:00:00, Type: short, Price: 522.96, Units: 1, Previous Balance: 99447.53999999985, New Balance: 98924.57999999984, Result: trade executed
+ID: 2994, Time: 2024-08-06 03:56:00, Type: short, Price: 521.42, Units: 1, Previous Balance: 99447.53999999985, New Balance: 99445.99999999984, Result: loss
+ID: 2996, Time: 2024-08-06 04:00:00, Type: short, Price: 521.28, Units: 1, Previous Balance: 99445.99999999984, New Balance: 98924.71999999984, Result: trade executed
+ID: 2998, Time: 2024-08-06 04:56:00, Type: short, Price: 518.69, Units: 1, Previous Balance: 99445.99999999984, New Balance: 99443.40999999984, Result: loss
+ID: 3000, Time: 2024-08-06 05:00:00, Type: short, Price: 518.57, Units: 1, Previous Balance: 99443.40999999984, New Balance: 98924.83999999984, Result: trade executed
+ID: 3002, Time: 2024-08-06 05:56:00, Type: short, Price: 521.72, Units: 1, Previous Balance: 99443.40999999984, New Balance: 99446.55999999984, Result: win
+ID: 3004, Time: 2024-08-06 06:00:00, Type: short, Price: 521.88, Units: 1, Previous Balance: 99446.55999999984, New Balance: 98924.67999999983, Result: trade executed
+ID: 3006, Time: 2024-08-06 06:56:00, Type: short, Price: 521.96, Units: 1, Previous Balance: 99446.55999999984, New Balance: 99446.63999999984, Result: win
+ID: 3008, Time: 2024-08-06 07:00:00, Type: short, Price: 521.33, Units: 1, Previous Balance: 99446.63999999984, New Balance: 98925.30999999984, Result: trade executed
+ID: 3010, Time: 2024-08-06 07:56:00, Type: short, Price: 519.58, Units: 1, Previous Balance: 99446.63999999984, New Balance: 99444.88999999984, Result: loss
+ID: 3012, Time: 2024-08-06 08:00:00, Type: short, Price: 519.25, Units: 1, Previous Balance: 99444.88999999984, New Balance: 98925.63999999984, Result: trade executed
+ID: 3014, Time: 2024-08-06 08:56:00, Type: short, Price: 519.17, Units: 1, Previous Balance: 99444.88999999984, New Balance: 99444.80999999984, Result: loss
+ID: 3016, Time: 2024-08-06 09:00:00, Type: short, Price: 519.07, Units: 1, Previous Balance: 99444.80999999984, New Balance: 98925.73999999983, Result: trade executed
+ID: 3018, Time: 2024-08-06 09:56:00, Type: short, Price: 523.62, Units: 1, Previous Balance: 99444.80999999984, New Balance: 99449.35999999983, Result: win
+ID: 3020, Time: 2024-08-06 10:00:00, Type: short, Price: 524.31, Units: 1, Previous Balance: 99449.35999999983, New Balance: 98925.04999999983, Result: trade executed
+ID: 3022, Time: 2024-08-06 10:56:00, Type: short, Price: 523.78, Units: 1, Previous Balance: 99449.35999999983, New Balance: 99448.82999999983, Result: loss
+ID: 3024, Time: 2024-08-06 11:00:00, Type: short, Price: 523.84, Units: 1, Previous Balance: 99448.82999999983, New Balance: 98924.98999999983, Result: trade executed
+ID: 3026, Time: 2024-08-06 11:56:00, Type: short, Price: 525.91, Units: 1, Previous Balance: 99448.82999999983, New Balance: 99450.89999999983, Result: win
+ID: 3028, Time: 2024-08-06 12:00:00, Type: short, Price: 526.22, Units: 1, Previous Balance: 99450.89999999983, New Balance: 98924.67999999983, Result: trade executed
+ID: 3030, Time: 2024-08-06 12:56:00, Type: short, Price: 528.04, Units: 1, Previous Balance: 99450.89999999983, New Balance: 99452.71999999983, Result: win
+ID: 3032, Time: 2024-08-06 13:00:00, Type: short, Price: 527.99, Units: 1, Previous Balance: 99452.71999999983, New Balance: 98924.72999999982, Result: trade executed
+ID: 3034, Time: 2024-08-06 13:56:00, Type: short, Price: 529.58, Units: 1, Previous Balance: 99452.71999999983, New Balance: 99454.30999999982, Result: win
+ID: 3036, Time: 2024-08-06 14:00:00, Type: short, Price: 529.19, Units: 1, Previous Balance: 99454.30999999982, New Balance: 98925.11999999982, Result: trade executed
+ID: 3038, Time: 2024-08-06 14:56:00, Type: short, Price: 526.5, Units: 1, Previous Balance: 99454.30999999982, New Balance: 99451.61999999982, Result: loss
+ID: 3040, Time: 2024-08-06 15:00:00, Type: short, Price: 526.59, Units: 1, Previous Balance: 99451.61999999982, New Balance: 98925.02999999982, Result: trade executed
+ID: 3042, Time: 2024-08-06 15:56:00, Type: short, Price: 522.19, Units: 1, Previous Balance: 99451.61999999982, New Balance: 99447.21999999983, Result: loss
+ID: 3044, Time: 2024-08-06 16:00:00, Type: short, Price: 521.86, Units: 1, Previous Balance: 99447.21999999983, New Balance: 98925.35999999983, Result: trade executed
+ID: 3046, Time: 2024-08-06 16:57:00, Type: short, Price: 519.78, Units: 1, Previous Balance: 99447.21999999983, New Balance: 99445.13999999982, Result: loss
+ID: 3048, Time: 2024-08-06 17:00:00, Type: short, Price: 519.45, Units: 1, Previous Balance: 99445.13999999982, New Balance: 98925.68999999983, Result: trade executed
+ID: 3050, Time: 2024-08-06 17:56:00, Type: short, Price: 520.67, Units: 1, Previous Balance: 99445.13999999982, New Balance: 99446.35999999983, Result: win
+ID: 3052, Time: 2024-08-06 18:00:00, Type: short, Price: 520.8, Units: 1, Previous Balance: 99446.35999999983, New Balance: 98925.55999999982, Result: trade executed
+ID: 3054, Time: 2024-08-07 03:56:00, Type: short, Price: 526.32, Units: 1, Previous Balance: 99446.35999999983, New Balance: 99451.87999999983, Result: win
+ID: 3056, Time: 2024-08-07 04:00:00, Type: short, Price: 526.37, Units: 1, Previous Balance: 99451.87999999983, New Balance: 98925.50999999983, Result: trade executed
+ID: 3058, Time: 2024-08-07 04:56:00, Type: short, Price: 528.36, Units: 1, Previous Balance: 99451.87999999983, New Balance: 99453.86999999984, Result: win
+ID: 3060, Time: 2024-08-07 05:00:00, Type: short, Price: 528.35, Units: 1, Previous Balance: 99453.86999999984, New Balance: 98925.51999999983, Result: trade executed
+ID: 3062, Time: 2024-08-07 05:56:00, Type: short, Price: 528.51, Units: 1, Previous Balance: 99453.86999999984, New Balance: 99454.02999999982, Result: win
+ID: 3064, Time: 2024-08-07 06:00:00, Type: short, Price: 528.58, Units: 1, Previous Balance: 99454.02999999982, New Balance: 98925.44999999982, Result: trade executed
+ID: 3066, Time: 2024-08-07 06:56:00, Type: short, Price: 528.31, Units: 1, Previous Balance: 99454.02999999982, New Balance: 99453.75999999982, Result: loss
+ID: 3068, Time: 2024-08-07 07:00:00, Type: short, Price: 528.21, Units: 1, Previous Balance: 99453.75999999982, New Balance: 98925.54999999981, Result: trade executed
+ID: 3070, Time: 2024-08-07 07:56:00, Type: short, Price: 528.49, Units: 1, Previous Balance: 99453.75999999982, New Balance: 99454.03999999982, Result: win
+ID: 3072, Time: 2024-08-07 08:00:00, Type: short, Price: 528.49, Units: 1, Previous Balance: 99454.03999999982, New Balance: 98925.54999999981, Result: trade executed
+ID: 3074, Time: 2024-08-07 08:56:00, Type: short, Price: 529.17, Units: 1, Previous Balance: 99454.03999999982, New Balance: 99454.71999999981, Result: win
+ID: 3076, Time: 2024-08-07 09:00:00, Type: short, Price: 529.51, Units: 1, Previous Balance: 99454.71999999981, New Balance: 98925.20999999982, Result: trade executed
+ID: 3078, Time: 2024-08-07 09:56:00, Type: short, Price: 529.07, Units: 1, Previous Balance: 99454.71999999981, New Balance: 99454.27999999982, Result: loss
+ID: 3080, Time: 2024-08-07 10:00:00, Type: short, Price: 528.85, Units: 1, Previous Balance: 99454.27999999982, New Balance: 98925.42999999982, Result: trade executed
+ID: 3082, Time: 2024-08-07 10:56:00, Type: short, Price: 529.86, Units: 1, Previous Balance: 99454.27999999982, New Balance: 99455.28999999982, Result: win
+ID: 3084, Time: 2024-08-07 11:00:00, Type: short, Price: 529.23, Units: 1, Previous Balance: 99455.28999999982, New Balance: 98926.05999999982, Result: trade executed
+ID: 3086, Time: 2024-08-07 11:56:00, Type: short, Price: 527.77, Units: 1, Previous Balance: 99455.28999999982, New Balance: 99453.82999999983, Result: loss
+ID: 3088, Time: 2024-08-07 12:00:00, Type: short, Price: 527.42, Units: 1, Previous Balance: 99453.82999999983, New Balance: 98926.40999999983, Result: trade executed
+ID: 3090, Time: 2024-08-07 12:56:00, Type: short, Price: 524.28, Units: 1, Previous Balance: 99453.82999999983, New Balance: 99450.68999999983, Result: loss
+ID: 3092, Time: 2024-08-07 13:00:00, Type: short, Price: 524.51, Units: 1, Previous Balance: 99450.68999999983, New Balance: 98926.17999999983, Result: trade executed
+ID: 3094, Time: 2024-08-07 13:56:00, Type: short, Price: 519.79, Units: 1, Previous Balance: 99450.68999999983, New Balance: 99445.96999999983, Result: loss
+ID: 3096, Time: 2024-08-07 14:00:00, Type: short, Price: 520.4, Units: 1, Previous Balance: 99445.96999999983, New Balance: 98925.56999999983, Result: trade executed
+ID: 3098, Time: 2024-08-07 14:56:00, Type: short, Price: 521.43, Units: 1, Previous Balance: 99445.96999999983, New Balance: 99446.99999999983, Result: win
+ID: 3100, Time: 2024-08-07 15:00:00, Type: short, Price: 520.71, Units: 1, Previous Balance: 99446.99999999983, New Balance: 98926.28999999982, Result: trade executed
+ID: 3102, Time: 2024-08-07 15:56:00, Type: short, Price: 517.57, Units: 1, Previous Balance: 99446.99999999983, New Balance: 99443.85999999983, Result: loss
+ID: 3104, Time: 2024-08-07 16:00:00, Type: short, Price: 517.62, Units: 1, Previous Balance: 99443.85999999983, New Balance: 98926.23999999983, Result: trade executed
+ID: 3106, Time: 2024-08-07 16:56:00, Type: short, Price: 516.55, Units: 1, Previous Balance: 99443.85999999983, New Balance: 99442.78999999983, Result: loss
+ID: 3108, Time: 2024-08-07 17:00:00, Type: short, Price: 516.62, Units: 1, Previous Balance: 99442.78999999983, New Balance: 98926.16999999984, Result: trade executed
+ID: 3110, Time: 2024-08-07 17:56:00, Type: short, Price: 517.49, Units: 1, Previous Balance: 99442.78999999983, New Balance: 99443.65999999984, Result: win
+ID: 3112, Time: 2024-08-07 18:00:00, Type: short, Price: 517.57, Units: 1, Previous Balance: 99443.65999999984, New Balance: 98926.08999999984, Result: trade executed
+ID: 3114, Time: 2024-08-07 18:56:00, Type: short, Price: 514.67, Units: 1, Previous Balance: 99443.65999999984, New Balance: 99440.75999999983, Result: loss
+ID: 3116, Time: 2024-08-07 19:00:00, Type: short, Price: 514.31, Units: 1, Previous Balance: 99440.75999999983, New Balance: 98926.44999999984, Result: trade executed
+ID: 3118, Time: 2024-08-08 03:56:00, Type: short, Price: 517.22, Units: 1, Previous Balance: 99440.75999999983, New Balance: 99443.66999999984, Result: win
+ID: 3120, Time: 2024-08-08 04:00:00, Type: short, Price: 517.49, Units: 1, Previous Balance: 99443.66999999984, New Balance: 98926.17999999983, Result: trade executed
+ID: 3122, Time: 2024-08-08 04:56:00, Type: short, Price: 517.69, Units: 1, Previous Balance: 99443.66999999984, New Balance: 99443.86999999984, Result: win
+ID: 3124, Time: 2024-08-08 05:00:00, Type: short, Price: 517.79, Units: 1, Previous Balance: 99443.86999999984, New Balance: 98926.07999999984, Result: trade executed
+ID: 3126, Time: 2024-08-08 05:56:00, Type: short, Price: 517.6, Units: 1, Previous Balance: 99443.86999999984, New Balance: 99443.67999999985, Result: loss
+ID: 3128, Time: 2024-08-08 06:00:00, Type: short, Price: 517.79, Units: 1, Previous Balance: 99443.67999999985, New Balance: 98925.88999999985, Result: trade executed
+ID: 3130, Time: 2024-08-08 06:56:00, Type: short, Price: 518.69, Units: 1, Previous Balance: 99443.67999999985, New Balance: 99444.57999999986, Result: win
+ID: 3132, Time: 2024-08-08 07:00:00, Type: short, Price: 518.9, Units: 1, Previous Balance: 99444.57999999986, New Balance: 98925.67999999986, Result: trade executed
+ID: 3134, Time: 2024-08-08 07:56:00, Type: short, Price: 522.71, Units: 1, Previous Balance: 99444.57999999986, New Balance: 99448.38999999987, Result: win
+ID: 3136, Time: 2024-08-08 08:00:00, Type: short, Price: 523.23, Units: 1, Previous Balance: 99448.38999999987, New Balance: 98925.15999999987, Result: trade executed
+ID: 3138, Time: 2024-08-08 08:56:00, Type: short, Price: 524.25, Units: 1, Previous Balance: 99448.38999999987, New Balance: 99449.40999999987, Result: win
+ID: 3140, Time: 2024-08-08 09:00:00, Type: short, Price: 523.21, Units: 1, Previous Balance: 99449.40999999987, New Balance: 98926.19999999987, Result: trade executed
+ID: 3142, Time: 2024-08-08 09:56:00, Type: short, Price: 528.01, Units: 1, Previous Balance: 99449.40999999987, New Balance: 99454.20999999986, Result: win
+ID: 3144, Time: 2024-08-08 10:00:00, Type: short, Price: 527.95, Units: 1, Previous Balance: 99454.20999999986, New Balance: 98926.25999999986, Result: trade executed
+ID: 3146, Time: 2024-08-08 10:56:00, Type: short, Price: 527.73, Units: 1, Previous Balance: 99454.20999999986, New Balance: 99453.98999999986, Result: loss
+ID: 3148, Time: 2024-08-08 11:00:00, Type: short, Price: 527.33, Units: 1, Previous Balance: 99453.98999999986, New Balance: 98926.65999999986, Result: trade executed
+ID: 3150, Time: 2024-08-08 14:59:00, Type: short, Price: 528.95, Units: 1, Previous Balance: 99453.98999999986, New Balance: 99455.60999999986, Result: win
+ID: 3152, Time: 2024-08-08 15:00:00, Type: short, Price: 529.39, Units: 1, Previous Balance: 99455.60999999986, New Balance: 98926.21999999986, Result: trade executed
+ID: 3154, Time: 2024-08-08 15:56:00, Type: short, Price: 531.37, Units: 1, Previous Balance: 99455.60999999986, New Balance: 99457.58999999985, Result: win
+ID: 3156, Time: 2024-08-08 16:00:00, Type: short, Price: 531.42, Units: 1, Previous Balance: 99457.58999999985, New Balance: 98926.16999999985, Result: trade executed
+ID: 3158, Time: 2024-08-08 17:56:00, Type: short, Price: 531.0, Units: 1, Previous Balance: 99457.58999999985, New Balance: 99457.16999999985, Result: loss
+ID: 3160, Time: 2024-08-08 18:00:00, Type: short, Price: 530.91, Units: 1, Previous Balance: 99457.16999999985, New Balance: 98926.25999999985, Result: trade executed
+ID: 3162, Time: 2024-08-08 18:56:00, Type: short, Price: 531.21, Units: 1, Previous Balance: 99457.16999999985, New Balance: 99457.46999999986, Result: win
+ID: 3164, Time: 2024-08-08 19:00:00, Type: short, Price: 531.12, Units: 1, Previous Balance: 99457.46999999986, New Balance: 98926.34999999986, Result: trade executed
+ID: 3166, Time: 2024-08-09 03:56:00, Type: short, Price: 532.82, Units: 1, Previous Balance: 99457.46999999986, New Balance: 99459.16999999987, Result: win
+ID: 3168, Time: 2024-08-09 04:00:00, Type: short, Price: 532.94, Units: 1, Previous Balance: 99459.16999999987, New Balance: 98926.22999999986, Result: trade executed
+ID: 3170, Time: 2024-08-09 04:56:00, Type: short, Price: 532.73, Units: 1, Previous Balance: 99459.16999999987, New Balance: 99458.95999999986, Result: loss
+ID: 3172, Time: 2024-08-09 05:00:00, Type: short, Price: 532.69, Units: 1, Previous Balance: 99458.95999999986, New Balance: 98926.26999999986, Result: trade executed
+ID: 3174, Time: 2024-08-09 05:56:00, Type: short, Price: 531.77, Units: 1, Previous Balance: 99458.95999999986, New Balance: 99458.03999999986, Result: loss
+ID: 3176, Time: 2024-08-09 06:00:00, Type: short, Price: 531.54, Units: 1, Previous Balance: 99458.03999999986, New Balance: 98926.49999999987, Result: trade executed
+ID: 3178, Time: 2024-08-09 06:56:00, Type: short, Price: 530.7, Units: 1, Previous Balance: 99458.03999999986, New Balance: 99457.19999999987, Result: loss
+ID: 3180, Time: 2024-08-09 07:00:00, Type: short, Price: 530.3, Units: 1, Previous Balance: 99457.19999999987, New Balance: 98926.89999999986, Result: trade executed
+ID: 3182, Time: 2024-08-09 07:56:00, Type: short, Price: 528.14, Units: 1, Previous Balance: 99457.19999999987, New Balance: 99455.03999999986, Result: loss
+ID: 3184, Time: 2024-08-09 08:00:00, Type: short, Price: 529.04, Units: 1, Previous Balance: 99455.03999999986, New Balance: 98925.99999999987, Result: trade executed
+ID: 3186, Time: 2024-08-09 08:56:00, Type: short, Price: 530.34, Units: 1, Previous Balance: 99455.03999999986, New Balance: 99456.33999999987, Result: win
+ID: 3188, Time: 2024-08-09 09:00:00, Type: short, Price: 530.13, Units: 1, Previous Balance: 99456.33999999987, New Balance: 98926.20999999986, Result: trade executed
+ID: 3190, Time: 2024-08-09 09:56:00, Type: short, Price: 530.17, Units: 1, Previous Balance: 99456.33999999987, New Balance: 99456.37999999986, Result: win
+ID: 3192, Time: 2024-08-09 10:00:00, Type: short, Price: 530.57, Units: 1, Previous Balance: 99456.37999999986, New Balance: 98925.80999999985, Result: trade executed
+ID: 3194, Time: 2024-08-09 10:56:00, Type: short, Price: 530.9, Units: 1, Previous Balance: 99456.37999999986, New Balance: 99456.70999999985, Result: win
+ID: 3196, Time: 2024-08-09 11:00:00, Type: short, Price: 530.88, Units: 1, Previous Balance: 99456.70999999985, New Balance: 98925.82999999984, Result: trade executed
+ID: 3198, Time: 2024-08-09 11:56:00, Type: short, Price: 530.72, Units: 1, Previous Balance: 99456.70999999985, New Balance: 99456.54999999984, Result: loss
+ID: 3200, Time: 2024-08-09 12:00:00, Type: short, Price: 530.95, Units: 1, Previous Balance: 99456.54999999984, New Balance: 98925.59999999985, Result: trade executed
+ID: 3202, Time: 2024-08-09 12:56:00, Type: short, Price: 533.99, Units: 1, Previous Balance: 99456.54999999984, New Balance: 99459.58999999985, Result: win
+ID: 3204, Time: 2024-08-09 13:00:00, Type: short, Price: 533.98, Units: 1, Previous Balance: 99459.58999999985, New Balance: 98925.60999999986, Result: trade executed
+ID: 3206, Time: 2024-08-09 13:56:00, Type: short, Price: 531.92, Units: 1, Previous Balance: 99459.58999999985, New Balance: 99457.52999999985, Result: loss
+ID: 3208, Time: 2024-08-09 14:00:00, Type: short, Price: 532.31, Units: 1, Previous Balance: 99457.52999999985, New Balance: 98925.21999999986, Result: trade executed
+ID: 3210, Time: 2024-08-09 14:56:00, Type: short, Price: 533.29, Units: 1, Previous Balance: 99457.52999999985, New Balance: 99458.50999999985, Result: win
+ID: 3212, Time: 2024-08-09 15:00:00, Type: short, Price: 533.09, Units: 1, Previous Balance: 99458.50999999985, New Balance: 98925.41999999985, Result: trade executed
+ID: 3214, Time: 2024-08-09 15:56:00, Type: short, Price: 532.59, Units: 1, Previous Balance: 99458.50999999985, New Balance: 99458.00999999985, Result: loss
+ID: 3216, Time: 2024-08-09 16:00:00, Type: short, Price: 532.53, Units: 1, Previous Balance: 99458.00999999985, New Balance: 98925.47999999985, Result: trade executed
+ID: 3218, Time: 2024-08-09 16:56:00, Type: short, Price: 532.6, Units: 1, Previous Balance: 99458.00999999985, New Balance: 99458.07999999986, Result: win
+ID: 3220, Time: 2024-08-09 17:00:00, Type: short, Price: 532.7, Units: 1, Previous Balance: 99458.07999999986, New Balance: 98925.37999999986, Result: trade executed
+ID: 3222, Time: 2024-08-09 17:56:00, Type: short, Price: 532.9, Units: 1, Previous Balance: 99458.07999999986, New Balance: 99458.27999999985, Result: win
+ID: 3224, Time: 2024-08-09 18:01:00, Type: short, Price: 532.9, Units: 1, Previous Balance: 99458.27999999985, New Balance: 98925.37999999986, Result: trade executed
+ID: 3226, Time: 2024-08-09 18:57:00, Type: short, Price: 532.9, Units: 1, Previous Balance: 99458.27999999985, New Balance: 99458.27999999985, Result: loss
+ID: 3228, Time: 2024-08-09 19:00:00, Type: short, Price: 532.88, Units: 1, Previous Balance: 99458.27999999985, New Balance: 98925.39999999985, Result: trade executed
+ID: 3230, Time: 2024-08-12 03:56:00, Type: short, Price: 533.95, Units: 1, Previous Balance: 99458.27999999985, New Balance: 99459.34999999985, Result: win
+ID: 3232, Time: 2024-08-12 04:00:00, Type: short, Price: 533.85, Units: 1, Previous Balance: 99459.34999999985, New Balance: 98925.49999999984, Result: trade executed
+ID: 3234, Time: 2024-08-12 04:56:00, Type: short, Price: 533.75, Units: 1, Previous Balance: 99459.34999999985, New Balance: 99459.24999999984, Result: loss
+ID: 3236, Time: 2024-08-12 05:00:00, Type: short, Price: 533.85, Units: 1, Previous Balance: 99459.24999999984, New Balance: 98925.39999999983, Result: trade executed
+ID: 3238, Time: 2024-08-12 05:56:00, Type: short, Price: 534.1, Units: 1, Previous Balance: 99459.24999999984, New Balance: 99459.49999999984, Result: win
+ID: 3240, Time: 2024-08-12 06:00:00, Type: short, Price: 534.13, Units: 1, Previous Balance: 99459.49999999984, New Balance: 98925.36999999984, Result: trade executed
+ID: 3242, Time: 2024-08-12 06:56:00, Type: short, Price: 534.25, Units: 1, Previous Balance: 99459.49999999984, New Balance: 99459.61999999984, Result: win
+ID: 3244, Time: 2024-08-12 07:00:00, Type: short, Price: 534.25, Units: 1, Previous Balance: 99459.61999999984, New Balance: 98925.36999999984, Result: trade executed
+ID: 3246, Time: 2024-08-12 07:56:00, Type: short, Price: 534.62, Units: 1, Previous Balance: 99459.61999999984, New Balance: 99459.98999999983, Result: win
+ID: 3248, Time: 2024-08-12 08:00:00, Type: short, Price: 534.57, Units: 1, Previous Balance: 99459.98999999983, New Balance: 98925.41999999982, Result: trade executed
+ID: 3250, Time: 2024-08-12 08:56:00, Type: short, Price: 533.72, Units: 1, Previous Balance: 99459.98999999983, New Balance: 99459.13999999982, Result: loss
+ID: 3252, Time: 2024-08-12 09:00:00, Type: short, Price: 533.16, Units: 1, Previous Balance: 99459.13999999982, New Balance: 98925.97999999982, Result: trade executed
+ID: 3254, Time: 2024-08-12 09:56:00, Type: short, Price: 534.84, Units: 1, Previous Balance: 99459.13999999982, New Balance: 99460.81999999982, Result: win
+ID: 3256, Time: 2024-08-12 10:00:00, Type: short, Price: 535.05, Units: 1, Previous Balance: 99460.81999999982, New Balance: 98925.76999999981, Result: trade executed
+ID: 3258, Time: 2024-08-12 10:56:00, Type: short, Price: 532.84, Units: 1, Previous Balance: 99460.81999999982, New Balance: 99458.60999999981, Result: loss
+ID: 3260, Time: 2024-08-12 11:00:00, Type: short, Price: 533.0, Units: 1, Previous Balance: 99458.60999999981, New Balance: 98925.60999999981, Result: trade executed
+ID: 3262, Time: 2024-08-12 15:56:00, Type: short, Price: 532.96, Units: 1, Previous Balance: 99458.60999999981, New Balance: 99458.56999999982, Result: loss
+ID: 3264, Time: 2024-08-12 16:00:00, Type: short, Price: 532.98, Units: 1, Previous Balance: 99458.56999999982, New Balance: 98925.58999999982, Result: trade executed
+ID: 3266, Time: 2024-08-12 17:56:00, Type: short, Price: 533.15, Units: 1, Previous Balance: 99458.56999999982, New Balance: 99458.73999999982, Result: win
+ID: 3268, Time: 2024-08-12 18:00:00, Type: short, Price: 533.08, Units: 1, Previous Balance: 99458.73999999982, New Balance: 98925.65999999981, Result: trade executed
+ID: 3270, Time: 2024-08-12 18:56:00, Type: short, Price: 533.3, Units: 1, Previous Balance: 99458.73999999982, New Balance: 99458.95999999982, Result: win
+ID: 3272, Time: 2024-08-12 19:00:00, Type: short, Price: 533.13, Units: 1, Previous Balance: 99458.95999999982, New Balance: 98925.82999999981, Result: trade executed
+ID: 3274, Time: 2024-08-13 03:56:00, Type: short, Price: 535.03, Units: 1, Previous Balance: 99458.95999999982, New Balance: 99460.85999999981, Result: win
+ID: 3276, Time: 2024-08-13 04:00:00, Type: short, Price: 535.04, Units: 1, Previous Balance: 99460.85999999981, New Balance: 98925.81999999982, Result: trade executed
+ID: 3278, Time: 2024-08-13 04:56:00, Type: short, Price: 535.58, Units: 1, Previous Balance: 99460.85999999981, New Balance: 99461.39999999982, Result: win
+ID: 3280, Time: 2024-08-13 05:00:00, Type: short, Price: 535.7, Units: 1, Previous Balance: 99461.39999999982, New Balance: 98925.69999999982, Result: trade executed
+ID: 3282, Time: 2024-08-13 05:56:00, Type: short, Price: 533.36, Units: 1, Previous Balance: 99461.39999999982, New Balance: 99459.05999999982, Result: loss
+ID: 3284, Time: 2024-08-13 06:00:00, Type: short, Price: 533.46, Units: 1, Previous Balance: 99459.05999999982, New Balance: 98925.59999999982, Result: trade executed
+ID: 3286, Time: 2024-08-13 06:56:00, Type: short, Price: 534.27, Units: 1, Previous Balance: 99459.05999999982, New Balance: 99459.86999999982, Result: win
+ID: 3288, Time: 2024-08-13 07:00:00, Type: short, Price: 534.13, Units: 1, Previous Balance: 99459.86999999982, New Balance: 98925.73999999982, Result: trade executed
+ID: 3290, Time: 2024-08-13 07:56:00, Type: short, Price: 536.66, Units: 1, Previous Balance: 99459.86999999982, New Balance: 99462.39999999982, Result: win
+ID: 3292, Time: 2024-08-13 08:00:00, Type: short, Price: 536.49, Units: 1, Previous Balance: 99462.39999999982, New Balance: 98925.90999999981, Result: trade executed
+ID: 3294, Time: 2024-08-13 08:56:00, Type: short, Price: 537.27, Units: 1, Previous Balance: 99462.39999999982, New Balance: 99463.17999999982, Result: win
+ID: 3296, Time: 2024-08-13 09:00:00, Type: short, Price: 537.28, Units: 1, Previous Balance: 99463.17999999982, New Balance: 98925.89999999982, Result: trade executed
+ID: 3298, Time: 2024-08-13 09:56:00, Type: short, Price: 537.28, Units: 1, Previous Balance: 99463.17999999982, New Balance: 99463.17999999982, Result: loss
+ID: 3300, Time: 2024-08-13 10:00:00, Type: short, Price: 537.48, Units: 1, Previous Balance: 99463.17999999982, New Balance: 98925.69999999982, Result: trade executed
+ID: 3302, Time: 2024-08-13 10:56:00, Type: short, Price: 538.69, Units: 1, Previous Balance: 99463.17999999982, New Balance: 99464.38999999982, Result: win
+ID: 3304, Time: 2024-08-13 11:00:00, Type: short, Price: 538.94, Units: 1, Previous Balance: 99464.38999999982, New Balance: 98925.44999999982, Result: trade executed
+ID: 3306, Time: 2024-08-13 11:56:00, Type: short, Price: 539.68, Units: 1, Previous Balance: 99464.38999999982, New Balance: 99465.12999999982, Result: win
+ID: 3308, Time: 2024-08-13 12:00:00, Type: short, Price: 540.04, Units: 1, Previous Balance: 99465.12999999982, New Balance: 98925.08999999982, Result: trade executed
+ID: 3310, Time: 2024-08-13 12:56:00, Type: short, Price: 540.55, Units: 1, Previous Balance: 99465.12999999982, New Balance: 99465.63999999982, Result: win
+ID: 3312, Time: 2024-08-13 13:00:00, Type: short, Price: 540.72, Units: 1, Previous Balance: 99465.63999999982, New Balance: 98924.91999999982, Result: trade executed
+ID: 3314, Time: 2024-08-13 13:56:00, Type: short, Price: 541.24, Units: 1, Previous Balance: 99465.63999999982, New Balance: 99466.15999999983, Result: win
+ID: 3316, Time: 2024-08-13 14:00:00, Type: short, Price: 541.27, Units: 1, Previous Balance: 99466.15999999983, New Balance: 98924.88999999982, Result: trade executed
+ID: 3318, Time: 2024-08-13 14:56:00, Type: short, Price: 541.18, Units: 1, Previous Balance: 99466.15999999983, New Balance: 99466.06999999982, Result: loss
+ID: 3320, Time: 2024-08-13 15:00:00, Type: short, Price: 541.24, Units: 1, Previous Balance: 99466.06999999982, New Balance: 98924.82999999981, Result: trade executed
+ID: 3322, Time: 2024-08-13 16:56:00, Type: short, Price: 541.63, Units: 1, Previous Balance: 99466.06999999982, New Balance: 99466.45999999982, Result: win
+ID: 3324, Time: 2024-08-13 17:00:00, Type: short, Price: 541.65, Units: 1, Previous Balance: 99466.45999999982, New Balance: 98924.80999999982, Result: trade executed
+ID: 3326, Time: 2024-08-13 17:56:00, Type: short, Price: 541.65, Units: 1, Previous Balance: 99466.45999999982, New Balance: 99466.45999999982, Result: loss
+ID: 3328, Time: 2024-08-13 18:00:00, Type: short, Price: 541.62, Units: 1, Previous Balance: 99466.45999999982, New Balance: 98924.83999999982, Result: trade executed
+ID: 3330, Time: 2024-08-13 21:56:00, Type: short, Price: 541.94, Units: 1, Previous Balance: 99466.45999999982, New Balance: 99466.77999999982, Result: win
+ID: 3332, Time: 2024-08-13 23:41:00, Type: short, Price: 541.94, Units: 1, Previous Balance: 99466.77999999982, New Balance: 98924.83999999982, Result: trade executed
+ID: 3334, Time: 2024-08-14 07:56:00, Type: short, Price: 541.87, Units: 1, Previous Balance: 99466.77999999982, New Balance: 99466.70999999982, Result: loss
+ID: 3336, Time: 2024-08-14 08:00:00, Type: short, Price: 542.3, Units: 1, Previous Balance: 99466.70999999982, New Balance: 98924.40999999981, Result: trade executed
+ID: 3338, Time: 2024-08-14 08:56:00, Type: short, Price: 542.58, Units: 1, Previous Balance: 99466.70999999982, New Balance: 99466.98999999982, Result: win
+ID: 3340, Time: 2024-08-14 09:00:00, Type: short, Price: 542.29, Units: 1, Previous Balance: 99466.98999999982, New Balance: 98924.69999999982, Result: trade executed
+ID: 3342, Time: 2024-08-14 09:56:00, Type: short, Price: 540.67, Units: 1, Previous Balance: 99466.98999999982, New Balance: 99465.36999999982, Result: loss
+ID: 3344, Time: 2024-08-14 10:00:00, Type: short, Price: 541.46, Units: 1, Previous Balance: 99465.36999999982, New Balance: 98923.90999999981, Result: trade executed
+ID: 3346, Time: 2024-08-14 10:56:00, Type: short, Price: 543.75, Units: 1, Previous Balance: 99465.36999999982, New Balance: 99467.65999999981, Result: win
+ID: 3348, Time: 2024-08-14 11:00:00, Type: short, Price: 544.01, Units: 1, Previous Balance: 99467.65999999981, New Balance: 98923.64999999982, Result: trade executed
+ID: 3350, Time: 2024-08-14 11:56:00, Type: short, Price: 542.97, Units: 1, Previous Balance: 99467.65999999981, New Balance: 99466.61999999982, Result: loss
+ID: 3352, Time: 2024-08-14 12:00:00, Type: short, Price: 543.1, Units: 1, Previous Balance: 99466.61999999982, New Balance: 98923.51999999981, Result: trade executed
+ID: 3354, Time: 2024-08-14 12:56:00, Type: short, Price: 543.35, Units: 1, Previous Balance: 99466.61999999982, New Balance: 99466.86999999982, Result: win
+ID: 3356, Time: 2024-08-14 13:00:00, Type: short, Price: 543.35, Units: 1, Previous Balance: 99466.86999999982, New Balance: 98923.51999999981, Result: trade executed
+ID: 3358, Time: 2024-08-14 13:56:00, Type: short, Price: 543.46, Units: 1, Previous Balance: 99466.86999999982, New Balance: 99466.97999999982, Result: win
+ID: 3360, Time: 2024-08-14 14:00:00, Type: short, Price: 543.6, Units: 1, Previous Balance: 99466.97999999982, New Balance: 98923.37999999982, Result: trade executed
+ID: 3362, Time: 2024-08-14 14:56:00, Type: short, Price: 543.03, Units: 1, Previous Balance: 99466.97999999982, New Balance: 99466.40999999981, Result: loss
+ID: 3364, Time: 2024-08-14 15:00:00, Type: short, Price: 543.18, Units: 1, Previous Balance: 99466.40999999981, New Balance: 98923.22999999982, Result: trade executed
+ID: 3366, Time: 2024-08-14 15:56:00, Type: short, Price: 544.4, Units: 1, Previous Balance: 99466.40999999981, New Balance: 99467.62999999982, Result: win
+ID: 3368, Time: 2024-08-14 16:00:00, Type: short, Price: 544.46, Units: 1, Previous Balance: 99467.62999999982, New Balance: 98923.16999999981, Result: trade executed
+ID: 3370, Time: 2024-08-14 17:56:00, Type: short, Price: 544.1, Units: 1, Previous Balance: 99467.62999999982, New Balance: 99467.26999999981, Result: loss
+ID: 3372, Time: 2024-08-14 18:00:00, Type: short, Price: 544.1, Units: 1, Previous Balance: 99467.26999999981, New Balance: 98923.16999999981, Result: trade executed
+ID: 3374, Time: 2024-08-15 03:56:00, Type: short, Price: 544.3, Units: 1, Previous Balance: 99467.26999999981, New Balance: 99467.46999999981, Result: win
+ID: 3376, Time: 2024-08-15 04:00:00, Type: short, Price: 544.45, Units: 1, Previous Balance: 99467.46999999981, New Balance: 98923.01999999981, Result: trade executed
+ID: 3378, Time: 2024-08-15 04:56:00, Type: short, Price: 544.88, Units: 1, Previous Balance: 99467.46999999981, New Balance: 99467.89999999982, Result: win
+ID: 3380, Time: 2024-08-15 05:00:00, Type: short, Price: 544.82, Units: 1, Previous Balance: 99467.89999999982, New Balance: 98923.07999999981, Result: trade executed
+ID: 3382, Time: 2024-08-15 05:56:00, Type: short, Price: 544.53, Units: 1, Previous Balance: 99467.89999999982, New Balance: 99467.60999999981, Result: loss
+ID: 3384, Time: 2024-08-15 06:00:00, Type: short, Price: 544.3, Units: 1, Previous Balance: 99467.60999999981, New Balance: 98923.30999999981, Result: trade executed
+ID: 3386, Time: 2024-08-15 06:56:00, Type: short, Price: 545.29, Units: 1, Previous Balance: 99467.60999999981, New Balance: 99468.5999999998, Result: win
+ID: 3388, Time: 2024-08-15 07:00:00, Type: short, Price: 545.3, Units: 1, Previous Balance: 99468.5999999998, New Balance: 98923.2999999998, Result: trade executed
+ID: 3390, Time: 2024-08-15 07:56:00, Type: short, Price: 547.97, Units: 1, Previous Balance: 99468.5999999998, New Balance: 99471.2699999998, Result: win
+ID: 3392, Time: 2024-08-15 08:00:00, Type: short, Price: 548.28, Units: 1, Previous Balance: 99471.2699999998, New Balance: 98922.9899999998, Result: trade executed
+ID: 3394, Time: 2024-08-15 08:56:00, Type: short, Price: 549.94, Units: 1, Previous Balance: 99471.2699999998, New Balance: 99472.9299999998, Result: win
+ID: 3396, Time: 2024-08-15 09:00:00, Type: short, Price: 549.47, Units: 1, Previous Balance: 99472.9299999998, New Balance: 98923.4599999998, Result: trade executed
+ID: 3398, Time: 2024-08-15 09:56:00, Type: short, Price: 550.9, Units: 1, Previous Balance: 99472.9299999998, New Balance: 99474.3599999998, Result: win
+ID: 3400, Time: 2024-08-15 10:00:00, Type: short, Price: 550.78, Units: 1, Previous Balance: 99474.3599999998, New Balance: 98923.5799999998, Result: trade executed
+ID: 3402, Time: 2024-08-15 10:56:00, Type: short, Price: 551.58, Units: 1, Previous Balance: 99474.3599999998, New Balance: 99475.1599999998, Result: win
+ID: 3404, Time: 2024-08-15 11:00:00, Type: short, Price: 551.67, Units: 1, Previous Balance: 99475.1599999998, New Balance: 98923.4899999998, Result: trade executed
+ID: 3406, Time: 2024-08-15 11:56:00, Type: short, Price: 552.49, Units: 1, Previous Balance: 99475.1599999998, New Balance: 99475.9799999998, Result: win
+ID: 3408, Time: 2024-08-15 12:00:00, Type: short, Price: 552.04, Units: 1, Previous Balance: 99475.9799999998, New Balance: 98923.93999999981, Result: trade executed
+ID: 3410, Time: 2024-08-15 12:56:00, Type: short, Price: 552.4, Units: 1, Previous Balance: 99475.9799999998, New Balance: 99476.33999999981, Result: win
+ID: 3412, Time: 2024-08-15 13:00:00, Type: short, Price: 552.4, Units: 1, Previous Balance: 99476.33999999981, New Balance: 98923.93999999981, Result: trade executed
+ID: 3414, Time: 2024-08-15 13:56:00, Type: short, Price: 552.97, Units: 1, Previous Balance: 99476.33999999981, New Balance: 99476.90999999981, Result: win
+ID: 3416, Time: 2024-08-15 14:00:00, Type: short, Price: 552.85, Units: 1, Previous Balance: 99476.90999999981, New Balance: 98924.05999999981, Result: trade executed
+ID: 3418, Time: 2024-08-15 14:56:00, Type: short, Price: 553.21, Units: 1, Previous Balance: 99476.90999999981, New Balance: 99477.26999999981, Result: win
+ID: 3420, Time: 2024-08-15 15:00:00, Type: short, Price: 553.24, Units: 1, Previous Balance: 99477.26999999981, New Balance: 98924.02999999981, Result: trade executed
+ID: 3422, Time: 2024-08-15 15:56:00, Type: short, Price: 553.16, Units: 1, Previous Balance: 99477.26999999981, New Balance: 99477.18999999981, Result: loss
+ID: 3424, Time: 2024-08-15 16:00:00, Type: short, Price: 553.13, Units: 1, Previous Balance: 99477.18999999981, New Balance: 98924.05999999981, Result: trade executed
+ID: 3426, Time: 2024-08-15 16:58:00, Type: short, Price: 552.95, Units: 1, Previous Balance: 99477.18999999981, New Balance: 99477.0099999998, Result: loss
+ID: 3428, Time: 2024-08-15 17:00:00, Type: short, Price: 552.95, Units: 1, Previous Balance: 99477.0099999998, New Balance: 98924.05999999981, Result: trade executed
+ID: 3430, Time: 2024-08-15 17:56:00, Type: short, Price: 553.47, Units: 1, Previous Balance: 99477.0099999998, New Balance: 99477.52999999981, Result: win
+ID: 3432, Time: 2024-08-15 18:00:00, Type: short, Price: 553.58, Units: 1, Previous Balance: 99477.52999999981, New Balance: 98923.94999999981, Result: trade executed
+ID: 3434, Time: 2024-08-15 18:56:00, Type: short, Price: 553.81, Units: 1, Previous Balance: 99477.52999999981, New Balance: 99477.7599999998, Result: win
+ID: 3436, Time: 2024-08-15 19:00:00, Type: short, Price: 553.67, Units: 1, Previous Balance: 99477.7599999998, New Balance: 98924.08999999981, Result: trade executed
+ID: 3438, Time: 2024-08-16 03:56:00, Type: short, Price: 553.76, Units: 1, Previous Balance: 99477.7599999998, New Balance: 99477.8499999998, Result: win
+ID: 3440, Time: 2024-08-16 04:00:00, Type: short, Price: 553.77, Units: 1, Previous Balance: 99477.8499999998, New Balance: 98924.0799999998, Result: trade executed
+ID: 3442, Time: 2024-08-16 04:56:00, Type: short, Price: 553.98, Units: 1, Previous Balance: 99477.8499999998, New Balance: 99478.0599999998, Result: win
+ID: 3444, Time: 2024-08-16 05:00:00, Type: short, Price: 553.91, Units: 1, Previous Balance: 99478.0599999998, New Balance: 98924.14999999979, Result: trade executed
+ID: 3446, Time: 2024-08-16 05:56:00, Type: short, Price: 552.53, Units: 1, Previous Balance: 99478.0599999998, New Balance: 99476.67999999979, Result: loss
+ID: 3448, Time: 2024-08-16 06:00:00, Type: short, Price: 552.62, Units: 1, Previous Balance: 99476.67999999979, New Balance: 98924.0599999998, Result: trade executed
+ID: 3450, Time: 2024-08-16 06:56:00, Type: short, Price: 552.54, Units: 1, Previous Balance: 99476.67999999979, New Balance: 99476.59999999979, Result: loss
+ID: 3452, Time: 2024-08-16 07:00:00, Type: short, Price: 552.79, Units: 1, Previous Balance: 99476.59999999979, New Balance: 98923.8099999998, Result: trade executed
+ID: 3454, Time: 2024-08-16 07:56:00, Type: short, Price: 550.8, Units: 1, Previous Balance: 99476.59999999979, New Balance: 99474.6099999998, Result: loss
+ID: 3456, Time: 2024-08-16 08:00:00, Type: short, Price: 550.8, Units: 1, Previous Balance: 99474.6099999998, New Balance: 98923.8099999998, Result: trade executed
+ID: 3458, Time: 2024-08-16 08:56:00, Type: short, Price: 551.91, Units: 1, Previous Balance: 99474.6099999998, New Balance: 99475.7199999998, Result: win
+ID: 3460, Time: 2024-08-16 09:00:00, Type: short, Price: 552.26, Units: 1, Previous Balance: 99475.7199999998, New Balance: 98923.4599999998, Result: trade executed
+ID: 3462, Time: 2024-08-16 09:56:00, Type: short, Price: 552.86, Units: 1, Previous Balance: 99475.7199999998, New Balance: 99476.3199999998, Result: win
+ID: 3464, Time: 2024-08-16 10:00:00, Type: short, Price: 552.47, Units: 1, Previous Balance: 99476.3199999998, New Balance: 98923.8499999998, Result: trade executed
+ID: 3466, Time: 2024-08-16 10:56:00, Type: short, Price: 552.85, Units: 1, Previous Balance: 99476.3199999998, New Balance: 99476.69999999981, Result: win
+ID: 3468, Time: 2024-08-16 11:00:00, Type: short, Price: 552.88, Units: 1, Previous Balance: 99476.69999999981, New Balance: 98923.8199999998, Result: trade executed
+ID: 3470, Time: 2024-08-16 11:56:00, Type: short, Price: 554.24, Units: 1, Previous Balance: 99476.69999999981, New Balance: 99478.05999999981, Result: win
+ID: 3472, Time: 2024-08-16 12:00:00, Type: short, Price: 554.18, Units: 1, Previous Balance: 99478.05999999981, New Balance: 98923.87999999982, Result: trade executed
+ID: 3474, Time: 2024-08-16 12:56:00, Type: short, Price: 554.72, Units: 1, Previous Balance: 99478.05999999981, New Balance: 99478.59999999982, Result: win
+ID: 3476, Time: 2024-08-16 13:00:00, Type: short, Price: 554.78, Units: 1, Previous Balance: 99478.59999999982, New Balance: 98923.81999999982, Result: trade executed
+ID: 3478, Time: 2024-08-16 13:56:00, Type: short, Price: 554.38, Units: 1, Previous Balance: 99478.59999999982, New Balance: 99478.19999999982, Result: loss
+ID: 3480, Time: 2024-08-16 14:00:00, Type: short, Price: 554.4, Units: 1, Previous Balance: 99478.19999999982, New Balance: 98923.79999999983, Result: trade executed
+ID: 3482, Time: 2024-08-16 14:56:00, Type: short, Price: 554.42, Units: 1, Previous Balance: 99478.19999999982, New Balance: 99478.21999999983, Result: win
+ID: 3484, Time: 2024-08-16 15:00:00, Type: short, Price: 554.34, Units: 1, Previous Balance: 99478.21999999983, New Balance: 98923.87999999983, Result: trade executed
+ID: 3486, Time: 2024-08-16 15:56:00, Type: short, Price: 554.35, Units: 1, Previous Balance: 99478.21999999983, New Balance: 99478.22999999984, Result: win
+ID: 3488, Time: 2024-08-16 16:00:00, Type: short, Price: 554.4, Units: 1, Previous Balance: 99478.22999999984, New Balance: 98923.82999999984, Result: trade executed
+ID: 3490, Time: 2024-08-16 18:57:00, Type: short, Price: 554.04, Units: 1, Previous Balance: 99478.22999999984, New Balance: 99477.86999999984, Result: loss
+ID: 3492, Time: 2024-08-16 19:00:00, Type: short, Price: 554.02, Units: 1, Previous Balance: 99477.86999999984, New Balance: 98923.84999999983, Result: trade executed
+ID: 3494, Time: 2024-08-19 03:56:00, Type: short, Price: 554.07, Units: 1, Previous Balance: 99477.86999999984, New Balance: 99477.91999999984, Result: win
+ID: 3496, Time: 2024-08-19 04:00:00, Type: short, Price: 553.95, Units: 1, Previous Balance: 99477.91999999984, New Balance: 98923.96999999984, Result: trade executed
+ID: 3498, Time: 2024-08-19 04:56:00, Type: short, Price: 554.22, Units: 1, Previous Balance: 99477.91999999984, New Balance: 99478.18999999984, Result: win
+ID: 3500, Time: 2024-08-19 05:00:00, Type: short, Price: 554.16, Units: 1, Previous Balance: 99478.18999999984, New Balance: 98924.02999999984, Result: trade executed
+ID: 3502, Time: 2024-08-19 05:56:00, Type: short, Price: 554.34, Units: 1, Previous Balance: 99478.18999999984, New Balance: 99478.36999999984, Result: win
+ID: 3504, Time: 2024-08-19 06:00:00, Type: short, Price: 554.17, Units: 1, Previous Balance: 99478.36999999984, New Balance: 98924.19999999984, Result: trade executed
+ID: 3506, Time: 2024-08-19 06:56:00, Type: short, Price: 554.61, Units: 1, Previous Balance: 99478.36999999984, New Balance: 99478.80999999984, Result: win
+ID: 3508, Time: 2024-08-19 07:00:00, Type: short, Price: 554.54, Units: 1, Previous Balance: 99478.80999999984, New Balance: 98924.26999999984, Result: trade executed
+ID: 3510, Time: 2024-08-19 07:56:00, Type: short, Price: 554.75, Units: 1, Previous Balance: 99478.80999999984, New Balance: 99479.01999999984, Result: win
+ID: 3512, Time: 2024-08-19 08:00:00, Type: short, Price: 554.77, Units: 1, Previous Balance: 99479.01999999984, New Balance: 98924.24999999984, Result: trade executed
+ID: 3514, Time: 2024-08-19 09:56:00, Type: short, Price: 555.48, Units: 1, Previous Balance: 99479.01999999984, New Balance: 99479.72999999984, Result: win
+ID: 3516, Time: 2024-08-19 10:00:00, Type: short, Price: 555.46, Units: 1, Previous Balance: 99479.72999999984, New Balance: 98924.26999999983, Result: trade executed
+ID: 3518, Time: 2024-08-19 10:56:00, Type: short, Price: 556.75, Units: 1, Previous Balance: 99479.72999999984, New Balance: 99481.01999999983, Result: win
+ID: 3520, Time: 2024-08-19 11:00:00, Type: short, Price: 556.61, Units: 1, Previous Balance: 99481.01999999983, New Balance: 98924.40999999983, Result: trade executed
+ID: 3522, Time: 2024-08-19 11:56:00, Type: short, Price: 556.74, Units: 1, Previous Balance: 99481.01999999983, New Balance: 99481.14999999983, Result: win
+ID: 3524, Time: 2024-08-19 12:00:00, Type: short, Price: 556.9, Units: 1, Previous Balance: 99481.14999999983, New Balance: 98924.24999999984, Result: trade executed
+ID: 3526, Time: 2024-08-19 12:56:00, Type: short, Price: 557.18, Units: 1, Previous Balance: 99481.14999999983, New Balance: 99481.42999999983, Result: win
+ID: 3528, Time: 2024-08-19 13:00:00, Type: short, Price: 557.26, Units: 1, Previous Balance: 99481.42999999983, New Balance: 98924.16999999984, Result: trade executed
+ID: 3530, Time: 2024-08-19 13:56:00, Type: short, Price: 557.81, Units: 1, Previous Balance: 99481.42999999983, New Balance: 99481.97999999984, Result: win
+ID: 3532, Time: 2024-08-19 14:00:00, Type: short, Price: 558.23, Units: 1, Previous Balance: 99481.97999999984, New Balance: 98923.74999999984, Result: trade executed
+ID: 3534, Time: 2024-08-19 14:56:00, Type: short, Price: 558.02, Units: 1, Previous Balance: 99481.97999999984, New Balance: 99481.76999999984, Result: loss
+ID: 3536, Time: 2024-08-19 15:00:00, Type: short, Price: 558.1, Units: 1, Previous Balance: 99481.76999999984, New Balance: 98923.66999999984, Result: trade executed
+ID: 3538, Time: 2024-08-19 15:56:00, Type: short, Price: 559.2, Units: 1, Previous Balance: 99481.76999999984, New Balance: 99482.86999999984, Result: win
+ID: 3540, Time: 2024-08-19 16:00:00, Type: short, Price: 559.12, Units: 1, Previous Balance: 99482.86999999984, New Balance: 98923.74999999984, Result: trade executed
+ID: 3542, Time: 2024-08-20 00:57:00, Type: short, Price: 559.32, Units: 1, Previous Balance: 99482.86999999984, New Balance: 99483.06999999985, Result: win
+ID: 3544, Time: 2024-08-20 01:01:00, Type: short, Price: 559.32, Units: 1, Previous Balance: 99483.06999999985, New Balance: 98923.74999999984, Result: trade executed
+ID: 3546, Time: 2024-08-20 03:56:00, Type: short, Price: 559.71, Units: 1, Previous Balance: 99483.06999999985, New Balance: 99483.45999999985, Result: win
+ID: 3548, Time: 2024-08-20 04:00:00, Type: short, Price: 559.38, Units: 1, Previous Balance: 99483.45999999985, New Balance: 98924.07999999984, Result: trade executed
+ID: 3550, Time: 2024-08-20 04:56:00, Type: short, Price: 560.17, Units: 1, Previous Balance: 99483.45999999985, New Balance: 99484.24999999984, Result: win
+ID: 3552, Time: 2024-08-20 05:00:00, Type: short, Price: 560.13, Units: 1, Previous Balance: 99484.24999999984, New Balance: 98924.11999999984, Result: trade executed
+ID: 3554, Time: 2024-08-20 05:56:00, Type: short, Price: 560.04, Units: 1, Previous Balance: 99484.24999999984, New Balance: 99484.15999999983, Result: loss
+ID: 3556, Time: 2024-08-20 06:00:00, Type: short, Price: 560.09, Units: 1, Previous Balance: 99484.15999999983, New Balance: 98924.06999999983, Result: trade executed
+ID: 3558, Time: 2024-08-20 06:56:00, Type: short, Price: 559.82, Units: 1, Previous Balance: 99484.15999999983, New Balance: 99483.88999999984, Result: loss
+ID: 3560, Time: 2024-08-20 07:00:00, Type: short, Price: 560.0, Units: 1, Previous Balance: 99483.88999999984, New Balance: 98923.88999999984, Result: trade executed
+ID: 3562, Time: 2024-08-20 07:56:00, Type: short, Price: 559.67, Units: 1, Previous Balance: 99483.88999999984, New Balance: 99483.55999999984, Result: loss
+ID: 3564, Time: 2024-08-20 08:00:00, Type: short, Price: 559.69, Units: 1, Previous Balance: 99483.55999999984, New Balance: 98923.86999999984, Result: trade executed
+ID: 3566, Time: 2024-08-20 08:56:00, Type: short, Price: 559.78, Units: 1, Previous Balance: 99483.55999999984, New Balance: 99483.64999999983, Result: win
+ID: 3568, Time: 2024-08-20 09:00:00, Type: short, Price: 559.9, Units: 1, Previous Balance: 99483.64999999983, New Balance: 98923.74999999984, Result: trade executed
+ID: 3570, Time: 2024-08-20 09:56:00, Type: short, Price: 558.5, Units: 1, Previous Balance: 99483.64999999983, New Balance: 99482.24999999984, Result: loss
+ID: 3572, Time: 2024-08-20 10:00:00, Type: short, Price: 558.61, Units: 1, Previous Balance: 99482.24999999984, New Balance: 98923.63999999984, Result: trade executed
+ID: 3574, Time: 2024-08-20 10:56:00, Type: short, Price: 558.33, Units: 1, Previous Balance: 99482.24999999984, New Balance: 99481.96999999984, Result: loss
+ID: 3576, Time: 2024-08-20 11:00:00, Type: short, Price: 558.55, Units: 1, Previous Balance: 99481.96999999984, New Balance: 98923.41999999984, Result: trade executed
+ID: 3578, Time: 2024-08-20 11:56:00, Type: short, Price: 558.33, Units: 1, Previous Balance: 99481.96999999984, New Balance: 99481.74999999984, Result: loss
+ID: 3580, Time: 2024-08-20 12:00:00, Type: short, Price: 558.51, Units: 1, Previous Balance: 99481.74999999984, New Balance: 98923.23999999985, Result: trade executed
+ID: 3582, Time: 2024-08-20 12:56:00, Type: short, Price: 557.77, Units: 1, Previous Balance: 99481.74999999984, New Balance: 99481.00999999985, Result: loss
+ID: 3584, Time: 2024-08-20 13:00:00, Type: short, Price: 558.18, Units: 1, Previous Balance: 99481.00999999985, New Balance: 98922.82999999986, Result: trade executed
+ID: 3586, Time: 2024-08-20 13:56:00, Type: short, Price: 559.39, Units: 1, Previous Balance: 99481.00999999985, New Balance: 99482.21999999986, Result: win
+ID: 3588, Time: 2024-08-20 14:00:00, Type: short, Price: 559.44, Units: 1, Previous Balance: 99482.21999999986, New Balance: 98922.77999999985, Result: trade executed
+ID: 3590, Time: 2024-08-20 14:56:00, Type: short, Price: 558.71, Units: 1, Previous Balance: 99482.21999999986, New Balance: 99481.48999999986, Result: loss
+ID: 3592, Time: 2024-08-20 15:00:00, Type: short, Price: 558.77, Units: 1, Previous Balance: 99481.48999999986, New Balance: 98922.71999999986, Result: trade executed
+ID: 3594, Time: 2024-08-20 15:56:00, Type: short, Price: 558.88, Units: 1, Previous Balance: 99481.48999999986, New Balance: 99481.59999999986, Result: win
+ID: 3596, Time: 2024-08-20 16:00:00, Type: short, Price: 558.87, Units: 1, Previous Balance: 99481.59999999986, New Balance: 98922.72999999986, Result: trade executed
+ID: 3598, Time: 2024-08-20 16:56:00, Type: short, Price: 558.52, Units: 1, Previous Balance: 99481.59999999986, New Balance: 99481.24999999987, Result: loss
+ID: 3600, Time: 2024-08-20 17:02:00, Type: short, Price: 558.52, Units: 1, Previous Balance: 99481.24999999987, New Balance: 98922.72999999986, Result: trade executed
+ID: 3602, Time: 2024-08-20 17:56:00, Type: short, Price: 558.7, Units: 1, Previous Balance: 99481.24999999987, New Balance: 99481.42999999986, Result: win
+ID: 3604, Time: 2024-08-20 18:00:00, Type: short, Price: 558.63, Units: 1, Previous Balance: 99481.42999999986, New Balance: 98922.79999999986, Result: trade executed
+ID: 3606, Time: 2024-08-20 18:56:00, Type: short, Price: 558.62, Units: 1, Previous Balance: 99481.42999999986, New Balance: 99481.41999999985, Result: loss
+ID: 3608, Time: 2024-08-20 19:00:00, Type: short, Price: 558.65, Units: 1, Previous Balance: 99481.41999999985, New Balance: 98922.76999999986, Result: trade executed
+ID: 3610, Time: 2024-08-21 03:56:00, Type: short, Price: 558.75, Units: 1, Previous Balance: 99481.41999999985, New Balance: 99481.51999999986, Result: win
+ID: 3612, Time: 2024-08-21 04:00:00, Type: short, Price: 558.86, Units: 1, Previous Balance: 99481.51999999986, New Balance: 98922.65999999986, Result: trade executed
+ID: 3614, Time: 2024-08-21 04:56:00, Type: short, Price: 558.88, Units: 1, Previous Balance: 99481.51999999986, New Balance: 99481.53999999986, Result: win
+ID: 3616, Time: 2024-08-21 05:00:00, Type: short, Price: 558.81, Units: 1, Previous Balance: 99481.53999999986, New Balance: 98922.72999999986, Result: trade executed
+ID: 3618, Time: 2024-08-21 05:56:00, Type: short, Price: 559.31, Units: 1, Previous Balance: 99481.53999999986, New Balance: 99482.03999999986, Result: win
+ID: 3620, Time: 2024-08-21 06:00:00, Type: short, Price: 559.24, Units: 1, Previous Balance: 99482.03999999986, New Balance: 98922.79999999986, Result: trade executed
+ID: 3622, Time: 2024-08-21 06:56:00, Type: short, Price: 559.55, Units: 1, Previous Balance: 99482.03999999986, New Balance: 99482.34999999986, Result: win
+ID: 3624, Time: 2024-08-21 07:00:00, Type: short, Price: 559.59, Units: 1, Previous Balance: 99482.34999999986, New Balance: 98922.75999999986, Result: trade executed
+ID: 3626, Time: 2024-08-21 07:56:00, Type: short, Price: 559.75, Units: 1, Previous Balance: 99482.34999999986, New Balance: 99482.50999999986, Result: win
+ID: 3628, Time: 2024-08-21 08:00:00, Type: short, Price: 559.76, Units: 1, Previous Balance: 99482.50999999986, New Balance: 98922.74999999987, Result: trade executed
+ID: 3630, Time: 2024-08-21 08:56:00, Type: short, Price: 559.88, Units: 1, Previous Balance: 99482.50999999986, New Balance: 99482.62999999987, Result: win
+ID: 3632, Time: 2024-08-21 09:00:00, Type: short, Price: 560.04, Units: 1, Previous Balance: 99482.62999999987, New Balance: 98922.58999999988, Result: trade executed
+ID: 3634, Time: 2024-08-21 09:56:00, Type: short, Price: 561.32, Units: 1, Previous Balance: 99482.62999999987, New Balance: 99483.90999999989, Result: win
+ID: 3636, Time: 2024-08-21 10:00:00, Type: short, Price: 561.44, Units: 1, Previous Balance: 99483.90999999989, New Balance: 98922.46999999988, Result: trade executed
+ID: 3638, Time: 2024-08-21 10:56:00, Type: short, Price: 560.18, Units: 1, Previous Balance: 99483.90999999989, New Balance: 99482.64999999988, Result: loss
+ID: 3640, Time: 2024-08-21 11:00:00, Type: short, Price: 559.95, Units: 1, Previous Balance: 99482.64999999988, New Balance: 98922.69999999988, Result: trade executed
+ID: 3642, Time: 2024-08-21 11:56:00, Type: short, Price: 559.63, Units: 1, Previous Balance: 99482.64999999988, New Balance: 99482.32999999989, Result: loss
+ID: 3644, Time: 2024-08-21 12:00:00, Type: short, Price: 559.69, Units: 1, Previous Balance: 99482.32999999989, New Balance: 98922.63999999988, Result: trade executed
+ID: 3646, Time: 2024-08-21 12:56:00, Type: short, Price: 559.99, Units: 1, Previous Balance: 99482.32999999989, New Balance: 99482.62999999989, Result: win
+ID: 3648, Time: 2024-08-21 13:00:00, Type: short, Price: 560.05, Units: 1, Previous Balance: 99482.62999999989, New Balance: 98922.57999999989, Result: trade executed
+ID: 3650, Time: 2024-08-21 13:56:00, Type: short, Price: 561.08, Units: 1, Previous Balance: 99482.62999999989, New Balance: 99483.65999999989, Result: win
+ID: 3652, Time: 2024-08-21 14:00:00, Type: short, Price: 560.68, Units: 1, Previous Balance: 99483.65999999989, New Balance: 98922.9799999999, Result: trade executed
+ID: 3654, Time: 2024-08-21 14:56:00, Type: short, Price: 559.96, Units: 1, Previous Balance: 99483.65999999989, New Balance: 99482.9399999999, Result: loss
+ID: 3656, Time: 2024-08-21 15:00:00, Type: short, Price: 560.1, Units: 1, Previous Balance: 99482.9399999999, New Balance: 98922.8399999999, Result: trade executed
+ID: 3658, Time: 2024-08-21 15:56:00, Type: short, Price: 560.73, Units: 1, Previous Balance: 99482.9399999999, New Balance: 99483.56999999989, Result: win
+ID: 3660, Time: 2024-08-21 16:00:00, Type: short, Price: 560.78, Units: 1, Previous Balance: 99483.56999999989, New Balance: 98922.78999999989, Result: trade executed
+ID: 3662, Time: 2024-08-21 17:56:00, Type: short, Price: 561.14, Units: 1, Previous Balance: 99483.56999999989, New Balance: 99483.92999999989, Result: win
+ID: 3664, Time: 2024-08-21 18:00:00, Type: short, Price: 561.16, Units: 1, Previous Balance: 99483.92999999989, New Balance: 98922.76999999989, Result: trade executed
+ID: 3666, Time: 2024-08-21 18:56:00, Type: short, Price: 561.04, Units: 1, Previous Balance: 99483.92999999989, New Balance: 99483.80999999988, Result: loss
+ID: 3668, Time: 2024-08-21 19:00:00, Type: short, Price: 561.13, Units: 1, Previous Balance: 99483.80999999988, New Balance: 98922.67999999988, Result: trade executed
+ID: 3670, Time: 2024-08-22 03:56:00, Type: short, Price: 561.27, Units: 1, Previous Balance: 99483.80999999988, New Balance: 99483.94999999988, Result: win
+ID: 3672, Time: 2024-08-22 04:00:00, Type: short, Price: 561.36, Units: 1, Previous Balance: 99483.94999999988, New Balance: 98922.58999999988, Result: trade executed
+ID: 3674, Time: 2024-08-22 04:56:00, Type: short, Price: 561.27, Units: 1, Previous Balance: 99483.94999999988, New Balance: 99483.85999999988, Result: loss
+ID: 3676, Time: 2024-08-22 05:00:00, Type: short, Price: 561.28, Units: 1, Previous Balance: 99483.85999999988, New Balance: 98922.57999999989, Result: trade executed
+ID: 3678, Time: 2024-08-22 05:56:00, Type: short, Price: 561.6, Units: 1, Previous Balance: 99483.85999999988, New Balance: 99484.17999999989, Result: win
+ID: 3680, Time: 2024-08-22 06:00:00, Type: short, Price: 561.7, Units: 1, Previous Balance: 99484.17999999989, New Balance: 98922.4799999999, Result: trade executed
+ID: 3682, Time: 2024-08-22 06:56:00, Type: short, Price: 561.86, Units: 1, Previous Balance: 99484.17999999989, New Balance: 99484.3399999999, Result: win
+ID: 3684, Time: 2024-08-22 07:00:00, Type: short, Price: 561.76, Units: 1, Previous Balance: 99484.3399999999, New Balance: 98922.5799999999, Result: trade executed
+ID: 3686, Time: 2024-08-22 07:56:00, Type: short, Price: 561.81, Units: 1, Previous Balance: 99484.3399999999, New Balance: 99484.3899999999, Result: win
+ID: 3688, Time: 2024-08-22 08:00:00, Type: short, Price: 561.73, Units: 1, Previous Balance: 99484.3899999999, New Balance: 98922.6599999999, Result: trade executed
+ID: 3690, Time: 2024-08-22 08:56:00, Type: short, Price: 562.87, Units: 1, Previous Balance: 99484.3899999999, New Balance: 99485.5299999999, Result: win
+ID: 3692, Time: 2024-08-22 09:00:00, Type: short, Price: 562.86, Units: 1, Previous Balance: 99485.5299999999, New Balance: 98922.6699999999, Result: trade executed
+ID: 3694, Time: 2024-08-22 09:56:00, Type: short, Price: 561.0, Units: 1, Previous Balance: 99485.5299999999, New Balance: 99483.6699999999, Result: loss
+ID: 3696, Time: 2024-08-22 10:00:00, Type: short, Price: 560.92, Units: 1, Previous Balance: 99483.6699999999, New Balance: 98922.7499999999, Result: trade executed
+ID: 3698, Time: 2024-08-22 10:56:00, Type: short, Price: 559.2, Units: 1, Previous Balance: 99483.6699999999, New Balance: 99481.9499999999, Result: loss
+ID: 3700, Time: 2024-08-22 11:00:00, Type: short, Price: 558.49, Units: 1, Previous Balance: 99481.9499999999, New Balance: 98923.45999999989, Result: trade executed
+ID: 3702, Time: 2024-08-22 11:56:00, Type: short, Price: 559.88, Units: 1, Previous Balance: 99481.9499999999, New Balance: 99483.3399999999, Result: win
+ID: 3704, Time: 2024-08-22 12:00:00, Type: short, Price: 559.84, Units: 1, Previous Balance: 99483.3399999999, New Balance: 98923.4999999999, Result: trade executed
+ID: 3706, Time: 2024-08-22 12:56:00, Type: short, Price: 556.63, Units: 1, Previous Balance: 99483.3399999999, New Balance: 99480.1299999999, Result: loss
+ID: 3708, Time: 2024-08-22 13:00:00, Type: short, Price: 556.76, Units: 1, Previous Balance: 99480.1299999999, New Balance: 98923.36999999991, Result: trade executed
+ID: 3710, Time: 2024-08-22 13:56:00, Type: short, Price: 556.75, Units: 1, Previous Balance: 99480.1299999999, New Balance: 99480.11999999991, Result: loss
+ID: 3712, Time: 2024-08-22 14:00:00, Type: short, Price: 556.85, Units: 1, Previous Balance: 99480.11999999991, New Balance: 98923.2699999999, Result: trade executed
+ID: 3714, Time: 2024-08-22 14:56:00, Type: short, Price: 555.67, Units: 1, Previous Balance: 99480.11999999991, New Balance: 99478.9399999999, Result: loss
+ID: 3716, Time: 2024-08-22 15:00:00, Type: short, Price: 555.59, Units: 1, Previous Balance: 99478.9399999999, New Balance: 98923.3499999999, Result: trade executed
+ID: 3718, Time: 2024-08-22 15:56:00, Type: short, Price: 556.74, Units: 1, Previous Balance: 99478.9399999999, New Balance: 99480.08999999991, Result: win
+ID: 3720, Time: 2024-08-22 16:00:00, Type: short, Price: 556.59, Units: 1, Previous Balance: 99480.08999999991, New Balance: 98923.49999999991, Result: trade executed
+ID: 3722, Time: 2024-08-22 16:56:00, Type: short, Price: 556.8, Units: 1, Previous Balance: 99480.08999999991, New Balance: 99480.29999999992, Result: win
+ID: 3724, Time: 2024-08-22 17:00:00, Type: short, Price: 556.71, Units: 1, Previous Balance: 99480.29999999992, New Balance: 98923.58999999991, Result: trade executed
+ID: 3726, Time: 2024-08-22 17:56:00, Type: short, Price: 557.05, Units: 1, Previous Balance: 99480.29999999992, New Balance: 99480.63999999991, Result: win
+ID: 3728, Time: 2024-08-22 18:00:00, Type: short, Price: 557.0, Units: 1, Previous Balance: 99480.63999999991, New Balance: 98923.63999999991, Result: trade executed
+ID: 3730, Time: 2024-08-22 18:56:00, Type: short, Price: 557.05, Units: 1, Previous Balance: 99480.63999999991, New Balance: 99480.68999999992, Result: win
+ID: 3732, Time: 2024-08-22 19:00:00, Type: short, Price: 556.9, Units: 1, Previous Balance: 99480.68999999992, New Balance: 98923.78999999992, Result: trade executed
+ID: 3734, Time: 2024-08-23 03:56:00, Type: short, Price: 558.53, Units: 1, Previous Balance: 99480.68999999992, New Balance: 99482.31999999992, Result: win
+ID: 3736, Time: 2024-08-23 04:00:00, Type: short, Price: 558.44, Units: 1, Previous Balance: 99482.31999999992, New Balance: 98923.87999999992, Result: trade executed
+ID: 3738, Time: 2024-08-23 04:56:00, Type: short, Price: 558.86, Units: 1, Previous Balance: 99482.31999999992, New Balance: 99482.73999999992, Result: win
+ID: 3740, Time: 2024-08-23 05:00:00, Type: short, Price: 558.93, Units: 1, Previous Balance: 99482.73999999992, New Balance: 98923.80999999992, Result: trade executed
+ID: 3742, Time: 2024-08-23 05:56:00, Type: short, Price: 559.15, Units: 1, Previous Balance: 99482.73999999992, New Balance: 99482.95999999992, Result: win
+ID: 3744, Time: 2024-08-23 06:00:00, Type: short, Price: 559.34, Units: 1, Previous Balance: 99482.95999999992, New Balance: 98923.61999999992, Result: trade executed
+ID: 3746, Time: 2024-08-23 06:56:00, Type: short, Price: 559.33, Units: 1, Previous Balance: 99482.95999999992, New Balance: 99482.94999999992, Result: loss
+ID: 3748, Time: 2024-08-23 07:00:00, Type: short, Price: 559.4, Units: 1, Previous Balance: 99482.94999999992, New Balance: 98923.54999999993, Result: trade executed
+ID: 3750, Time: 2024-08-23 07:56:00, Type: short, Price: 559.35, Units: 1, Previous Balance: 99482.94999999992, New Balance: 99482.89999999994, Result: loss
+ID: 3752, Time: 2024-08-23 08:00:00, Type: short, Price: 559.5, Units: 1, Previous Balance: 99482.89999999994, New Balance: 98923.39999999994, Result: trade executed
+ID: 3754, Time: 2024-08-23 08:56:00, Type: short, Price: 559.56, Units: 1, Previous Balance: 99482.89999999994, New Balance: 99482.95999999993, Result: win
+ID: 3756, Time: 2024-08-23 09:00:00, Type: short, Price: 559.64, Units: 1, Previous Balance: 99482.95999999993, New Balance: 98923.31999999993, Result: trade executed
+ID: 3758, Time: 2024-08-23 09:56:00, Type: short, Price: 561.71, Units: 1, Previous Balance: 99482.95999999993, New Balance: 99485.02999999994, Result: win
+ID: 3760, Time: 2024-08-23 10:00:00, Type: short, Price: 561.24, Units: 1, Previous Balance: 99485.02999999994, New Balance: 98923.78999999994, Result: trade executed
+ID: 3762, Time: 2024-08-23 10:56:00, Type: short, Price: 561.85, Units: 1, Previous Balance: 99485.02999999994, New Balance: 99485.63999999994, Result: win
+ID: 3764, Time: 2024-08-23 11:00:00, Type: short, Price: 562.46, Units: 1, Previous Balance: 99485.63999999994, New Balance: 98923.17999999993, Result: trade executed
+ID: 3766, Time: 2024-08-23 12:56:00, Type: short, Price: 560.29, Units: 1, Previous Balance: 99485.63999999994, New Balance: 99483.46999999993, Result: loss
+ID: 3768, Time: 2024-08-23 13:00:00, Type: short, Price: 560.44, Units: 1, Previous Balance: 99483.46999999993, New Balance: 98923.02999999993, Result: trade executed
+ID: 3770, Time: 2024-08-23 13:56:00, Type: short, Price: 560.6, Units: 1, Previous Balance: 99483.46999999993, New Balance: 99483.62999999993, Result: win
+ID: 3772, Time: 2024-08-23 14:00:00, Type: short, Price: 560.93, Units: 1, Previous Balance: 99483.62999999993, New Balance: 98922.69999999994, Result: trade executed
+ID: 3774, Time: 2024-08-23 14:56:00, Type: short, Price: 561.67, Units: 1, Previous Balance: 99483.62999999993, New Balance: 99484.36999999994, Result: win
+ID: 3776, Time: 2024-08-23 15:00:00, Type: short, Price: 561.74, Units: 1, Previous Balance: 99484.36999999994, New Balance: 98922.62999999993, Result: trade executed
+ID: 3778, Time: 2024-08-23 15:56:00, Type: short, Price: 562.27, Units: 1, Previous Balance: 99484.36999999994, New Balance: 99484.89999999994, Result: win
+ID: 3780, Time: 2024-08-23 16:00:00, Type: short, Price: 562.27, Units: 1, Previous Balance: 99484.89999999994, New Balance: 98922.62999999993, Result: trade executed
+ID: 3782, Time: 2024-08-23 17:56:00, Type: short, Price: 562.2, Units: 1, Previous Balance: 99484.89999999994, New Balance: 99484.82999999993, Result: loss
+ID: 3784, Time: 2024-08-23 18:01:00, Type: short, Price: 562.23, Units: 1, Previous Balance: 99484.82999999993, New Balance: 98922.59999999993, Result: trade executed
+ID: 3786, Time: 2024-08-23 18:56:00, Type: short, Price: 562.28, Units: 1, Previous Balance: 99484.82999999993, New Balance: 99484.87999999993, Result: win
+ID: 3788, Time: 2024-08-23 19:01:00, Type: short, Price: 562.32, Units: 1, Previous Balance: 99484.87999999993, New Balance: 98922.55999999992, Result: trade executed
+ID: 3790, Time: 2024-08-26 03:56:00, Type: short, Price: 563.21, Units: 1, Previous Balance: 99484.87999999993, New Balance: 99485.76999999993, Result: win
+ID: 3792, Time: 2024-08-26 04:00:00, Type: short, Price: 563.31, Units: 1, Previous Balance: 99485.76999999993, New Balance: 98922.45999999993, Result: trade executed
+ID: 3794, Time: 2024-08-26 04:56:00, Type: short, Price: 563.14, Units: 1, Previous Balance: 99485.76999999993, New Balance: 99485.59999999993, Result: loss
+ID: 3796, Time: 2024-08-26 05:00:00, Type: short, Price: 563.29, Units: 1, Previous Balance: 99485.59999999993, New Balance: 98922.30999999994, Result: trade executed
+ID: 3798, Time: 2024-08-26 05:56:00, Type: short, Price: 563.16, Units: 1, Previous Balance: 99485.59999999993, New Balance: 99485.46999999994, Result: loss
+ID: 3800, Time: 2024-08-26 06:00:00, Type: short, Price: 563.25, Units: 1, Previous Balance: 99485.46999999994, New Balance: 98922.21999999994, Result: trade executed
+ID: 3802, Time: 2024-08-26 06:56:00, Type: short, Price: 563.07, Units: 1, Previous Balance: 99485.46999999994, New Balance: 99485.28999999995, Result: loss
+ID: 3804, Time: 2024-08-26 07:00:00, Type: short, Price: 562.86, Units: 1, Previous Balance: 99485.28999999995, New Balance: 98922.42999999995, Result: trade executed
+ID: 3806, Time: 2024-08-26 07:56:00, Type: short, Price: 562.83, Units: 1, Previous Balance: 99485.28999999995, New Balance: 99485.25999999995, Result: loss
+ID: 3808, Time: 2024-08-26 08:00:00, Type: short, Price: 562.88, Units: 1, Previous Balance: 99485.25999999995, New Balance: 98922.37999999995, Result: trade executed
+ID: 3810, Time: 2024-08-26 09:56:00, Type: short, Price: 561.12, Units: 1, Previous Balance: 99485.25999999995, New Balance: 99483.49999999994, Result: loss
+ID: 3812, Time: 2024-08-26 10:00:00, Type: short, Price: 560.63, Units: 1, Previous Balance: 99483.49999999994, New Balance: 98922.86999999994, Result: trade executed
+ID: 3814, Time: 2024-08-26 10:56:00, Type: short, Price: 560.47, Units: 1, Previous Balance: 99483.49999999994, New Balance: 99483.33999999994, Result: loss
+ID: 3816, Time: 2024-08-26 11:00:00, Type: short, Price: 560.49, Units: 1, Previous Balance: 99483.33999999994, New Balance: 98922.84999999993, Result: trade executed
+ID: 3818, Time: 2024-08-26 11:56:00, Type: short, Price: 561.25, Units: 1, Previous Balance: 99483.33999999994, New Balance: 99484.09999999993, Result: win
+ID: 3820, Time: 2024-08-26 12:00:00, Type: short, Price: 561.27, Units: 1, Previous Balance: 99484.09999999993, New Balance: 98922.82999999993, Result: trade executed
+ID: 3822, Time: 2024-08-26 12:56:00, Type: short, Price: 560.7, Units: 1, Previous Balance: 99484.09999999993, New Balance: 99483.52999999993, Result: loss
+ID: 3824, Time: 2024-08-26 13:00:00, Type: short, Price: 560.18, Units: 1, Previous Balance: 99483.52999999993, New Balance: 98923.34999999993, Result: trade executed
+ID: 3826, Time: 2024-08-26 13:56:00, Type: short, Price: 560.55, Units: 1, Previous Balance: 99483.52999999993, New Balance: 99483.89999999994, Result: win
+ID: 3828, Time: 2024-08-26 14:00:00, Type: short, Price: 560.79, Units: 1, Previous Balance: 99483.89999999994, New Balance: 98923.10999999994, Result: trade executed
+ID: 3830, Time: 2024-08-26 14:56:00, Type: short, Price: 560.37, Units: 1, Previous Balance: 99483.89999999994, New Balance: 99483.47999999994, Result: loss
+ID: 3832, Time: 2024-08-26 15:00:00, Type: short, Price: 560.44, Units: 1, Previous Balance: 99483.47999999994, New Balance: 98923.03999999994, Result: trade executed
+ID: 3834, Time: 2024-08-26 15:56:00, Type: short, Price: 559.9, Units: 1, Previous Balance: 99483.47999999994, New Balance: 99482.93999999993, Result: loss
+ID: 3836, Time: 2024-08-26 16:00:00, Type: short, Price: 559.93, Units: 1, Previous Balance: 99482.93999999993, New Balance: 98923.00999999994, Result: trade executed
+ID: 3838, Time: 2024-08-26 16:56:00, Type: short, Price: 560.17, Units: 1, Previous Balance: 99482.93999999993, New Balance: 99483.17999999993, Result: win
+ID: 3840, Time: 2024-08-26 17:00:00, Type: short, Price: 560.05, Units: 1, Previous Balance: 99483.17999999993, New Balance: 98923.12999999993, Result: trade executed
+ID: 3842, Time: 2024-08-26 17:56:00, Type: short, Price: 559.59, Units: 1, Previous Balance: 99483.17999999993, New Balance: 99482.71999999993, Result: loss
+ID: 3844, Time: 2024-08-26 18:00:00, Type: short, Price: 559.61, Units: 1, Previous Balance: 99482.71999999993, New Balance: 98923.10999999993, Result: trade executed
+ID: 3846, Time: 2024-08-26 18:56:00, Type: short, Price: 560.3, Units: 1, Previous Balance: 99482.71999999993, New Balance: 99483.40999999993, Result: win
+ID: 3848, Time: 2024-08-26 19:00:00, Type: short, Price: 560.25, Units: 1, Previous Balance: 99483.40999999993, New Balance: 98923.15999999993, Result: trade executed
+ID: 3850, Time: 2024-08-26 22:58:00, Type: short, Price: 560.26, Units: 1, Previous Balance: 99483.40999999993, New Balance: 99483.41999999993, Result: win
+ID: 3852, Time: 2024-08-26 23:40:00, Type: short, Price: 560.26, Units: 1, Previous Balance: 99483.41999999993, New Balance: 98923.15999999993, Result: trade executed
+ID: 3854, Time: 2024-08-27 03:56:00, Type: short, Price: 561.57, Units: 1, Previous Balance: 99483.41999999993, New Balance: 99484.72999999994, Result: win
+ID: 3856, Time: 2024-08-27 04:00:00, Type: short, Price: 561.53, Units: 1, Previous Balance: 99484.72999999994, New Balance: 98923.19999999994, Result: trade executed
+ID: 3858, Time: 2024-08-27 04:56:00, Type: short, Price: 561.48, Units: 1, Previous Balance: 99484.72999999994, New Balance: 99484.67999999993, Result: loss
+ID: 3860, Time: 2024-08-27 05:00:00, Type: short, Price: 561.37, Units: 1, Previous Balance: 99484.67999999993, New Balance: 98923.30999999994, Result: trade executed
+ID: 3862, Time: 2024-08-27 05:56:00, Type: short, Price: 560.58, Units: 1, Previous Balance: 99484.67999999993, New Balance: 99483.88999999994, Result: loss
+ID: 3864, Time: 2024-08-27 06:00:00, Type: short, Price: 560.54, Units: 1, Previous Balance: 99483.88999999994, New Balance: 98923.34999999995, Result: trade executed
+ID: 3866, Time: 2024-08-27 06:56:00, Type: short, Price: 561.02, Units: 1, Previous Balance: 99483.88999999994, New Balance: 99484.36999999995, Result: win
+ID: 3868, Time: 2024-08-27 07:00:00, Type: short, Price: 560.98, Units: 1, Previous Balance: 99484.36999999995, New Balance: 98923.38999999996, Result: trade executed
+ID: 3870, Time: 2024-08-27 07:56:00, Type: short, Price: 559.83, Units: 1, Previous Balance: 99484.36999999995, New Balance: 99483.21999999996, Result: loss
+ID: 3872, Time: 2024-08-27 08:00:00, Type: short, Price: 559.74, Units: 1, Previous Balance: 99483.21999999996, New Balance: 98923.47999999995, Result: trade executed
+ID: 3874, Time: 2024-08-27 08:56:00, Type: short, Price: 559.16, Units: 1, Previous Balance: 99483.21999999996, New Balance: 99482.63999999996, Result: loss
+ID: 3876, Time: 2024-08-27 09:00:00, Type: short, Price: 558.38, Units: 1, Previous Balance: 99482.63999999996, New Balance: 98924.25999999995, Result: trade executed
+ID: 3878, Time: 2024-08-27 09:56:00, Type: short, Price: 561.26, Units: 1, Previous Balance: 99482.63999999996, New Balance: 99485.51999999995, Result: win
+ID: 3880, Time: 2024-08-27 10:00:00, Type: short, Price: 561.22, Units: 1, Previous Balance: 99485.51999999995, New Balance: 98924.29999999994, Result: trade executed
+ID: 3882, Time: 2024-08-27 15:56:00, Type: short, Price: 561.59, Units: 1, Previous Balance: 99485.51999999995, New Balance: 99485.88999999994, Result: win
+ID: 3884, Time: 2024-08-27 16:00:00, Type: short, Price: 561.6, Units: 1, Previous Balance: 99485.88999999994, New Balance: 98924.28999999994, Result: trade executed
+ID: 3886, Time: 2024-08-27 16:56:00, Type: short, Price: 561.54, Units: 1, Previous Balance: 99485.88999999994, New Balance: 99485.82999999993, Result: loss
+ID: 3888, Time: 2024-08-27 17:00:00, Type: short, Price: 561.56, Units: 1, Previous Balance: 99485.82999999993, New Balance: 98924.26999999993, Result: trade executed
+ID: 3890, Time: 2024-08-27 17:56:00, Type: short, Price: 560.72, Units: 1, Previous Balance: 99485.82999999993, New Balance: 99484.98999999993, Result: loss
+ID: 3892, Time: 2024-08-27 18:00:00, Type: short, Price: 560.8, Units: 1, Previous Balance: 99484.98999999993, New Balance: 98924.18999999993, Result: trade executed
+ID: 3894, Time: 2024-08-28 03:56:00, Type: short, Price: 562.0, Units: 1, Previous Balance: 99484.98999999993, New Balance: 99486.18999999993, Result: win
+ID: 3896, Time: 2024-08-28 04:00:00, Type: short, Price: 562.13, Units: 1, Previous Balance: 99486.18999999993, New Balance: 98924.05999999992, Result: trade executed
+ID: 3898, Time: 2024-08-28 04:56:00, Type: short, Price: 562.11, Units: 1, Previous Balance: 99486.18999999993, New Balance: 99486.16999999993, Result: loss
+ID: 3900, Time: 2024-08-28 05:00:00, Type: short, Price: 562.03, Units: 1, Previous Balance: 99486.16999999993, New Balance: 98924.13999999993, Result: trade executed
+ID: 3902, Time: 2024-08-28 05:56:00, Type: short, Price: 561.93, Units: 1, Previous Balance: 99486.16999999993, New Balance: 99486.06999999992, Result: loss
+ID: 3904, Time: 2024-08-28 06:00:00, Type: short, Price: 561.88, Units: 1, Previous Balance: 99486.06999999992, New Balance: 98924.18999999992, Result: trade executed
+ID: 3906, Time: 2024-08-28 06:56:00, Type: short, Price: 561.62, Units: 1, Previous Balance: 99486.06999999992, New Balance: 99485.80999999991, Result: loss
+ID: 3908, Time: 2024-08-28 07:00:00, Type: short, Price: 561.7, Units: 1, Previous Balance: 99485.80999999991, New Balance: 98924.10999999991, Result: trade executed
+ID: 3910, Time: 2024-08-28 07:56:00, Type: short, Price: 561.38, Units: 1, Previous Balance: 99485.80999999991, New Balance: 99485.48999999992, Result: loss
+ID: 3912, Time: 2024-08-28 08:00:00, Type: short, Price: 561.36, Units: 1, Previous Balance: 99485.48999999992, New Balance: 98924.12999999992, Result: trade executed
+ID: 3914, Time: 2024-08-28 08:56:00, Type: short, Price: 560.78, Units: 1, Previous Balance: 99485.48999999992, New Balance: 99484.90999999992, Result: loss
+ID: 3916, Time: 2024-08-28 09:00:00, Type: short, Price: 561.23, Units: 1, Previous Balance: 99484.90999999992, New Balance: 98923.67999999992, Result: trade executed
+ID: 3918, Time: 2024-08-28 09:56:00, Type: short, Price: 561.08, Units: 1, Previous Balance: 99484.90999999992, New Balance: 99484.75999999992, Result: loss
+ID: 3920, Time: 2024-08-28 10:00:00, Type: short, Price: 560.86, Units: 1, Previous Balance: 99484.75999999992, New Balance: 98923.89999999992, Result: trade executed
+ID: 3922, Time: 2024-08-28 10:56:00, Type: short, Price: 558.3, Units: 1, Previous Balance: 99484.75999999992, New Balance: 99482.19999999992, Result: loss
+ID: 3924, Time: 2024-08-28 11:00:00, Type: short, Price: 558.16, Units: 1, Previous Balance: 99482.19999999992, New Balance: 98924.03999999992, Result: trade executed
+ID: 3926, Time: 2024-08-28 11:56:00, Type: short, Price: 558.02, Units: 1, Previous Balance: 99482.19999999992, New Balance: 99482.05999999992, Result: loss
+ID: 3928, Time: 2024-08-28 12:00:00, Type: short, Price: 557.94, Units: 1, Previous Balance: 99482.05999999992, New Balance: 98924.11999999992, Result: trade executed
+ID: 3930, Time: 2024-08-28 12:56:00, Type: short, Price: 558.24, Units: 1, Previous Balance: 99482.05999999992, New Balance: 99482.35999999993, Result: win
+ID: 3932, Time: 2024-08-28 13:00:00, Type: short, Price: 557.82, Units: 1, Previous Balance: 99482.35999999993, New Balance: 98924.53999999992, Result: trade executed
+ID: 3934, Time: 2024-08-28 13:56:00, Type: short, Price: 555.69, Units: 1, Previous Balance: 99482.35999999993, New Balance: 99480.22999999992, Result: loss
+ID: 3936, Time: 2024-08-28 14:00:00, Type: short, Price: 556.0, Units: 1, Previous Balance: 99480.22999999992, New Balance: 98924.22999999992, Result: trade executed
+ID: 3938, Time: 2024-08-28 14:56:00, Type: short, Price: 558.25, Units: 1, Previous Balance: 99480.22999999992, New Balance: 99482.47999999992, Result: win
+ID: 3940, Time: 2024-08-28 15:00:00, Type: short, Price: 558.3, Units: 1, Previous Balance: 99482.47999999992, New Balance: 98924.17999999992, Result: trade executed
+ID: 3942, Time: 2024-08-28 15:56:00, Type: short, Price: 556.93, Units: 1, Previous Balance: 99482.47999999992, New Balance: 99481.10999999991, Result: loss
+ID: 3944, Time: 2024-08-28 16:00:00, Type: short, Price: 557.92, Units: 1, Previous Balance: 99481.10999999991, New Balance: 98923.18999999992, Result: trade executed
+ID: 3946, Time: 2024-08-28 16:56:00, Type: short, Price: 556.18, Units: 1, Previous Balance: 99481.10999999991, New Balance: 99479.36999999991, Result: loss
+ID: 3948, Time: 2024-08-28 17:00:00, Type: short, Price: 556.05, Units: 1, Previous Balance: 99479.36999999991, New Balance: 98923.3199999999, Result: trade executed
+ID: 3950, Time: 2024-08-28 17:56:00, Type: short, Price: 555.19, Units: 1, Previous Balance: 99479.36999999991, New Balance: 99478.50999999991, Result: loss
+ID: 3952, Time: 2024-08-28 18:00:00, Type: short, Price: 554.22, Units: 1, Previous Balance: 99478.50999999991, New Balance: 98924.2899999999, Result: trade executed
+ID: 3954, Time: 2024-08-28 18:56:00, Type: short, Price: 554.32, Units: 1, Previous Balance: 99478.50999999991, New Balance: 99478.60999999991, Result: win
+ID: 3956, Time: 2024-08-28 19:00:00, Type: short, Price: 554.3, Units: 1, Previous Balance: 99478.60999999991, New Balance: 98924.30999999991, Result: trade executed
+ID: 3958, Time: 2024-08-29 03:56:00, Type: short, Price: 558.3, Units: 1, Previous Balance: 99478.60999999991, New Balance: 99482.60999999991, Result: win
+ID: 3960, Time: 2024-08-29 04:00:00, Type: short, Price: 558.4, Units: 1, Previous Balance: 99482.60999999991, New Balance: 98924.20999999992, Result: trade executed
+ID: 3962, Time: 2024-08-29 04:56:00, Type: short, Price: 559.5, Units: 1, Previous Balance: 99482.60999999991, New Balance: 99483.70999999992, Result: win
+ID: 3964, Time: 2024-08-29 05:00:00, Type: short, Price: 559.74, Units: 1, Previous Balance: 99483.70999999992, New Balance: 98923.96999999991, Result: trade executed
+ID: 3966, Time: 2024-08-29 05:56:00, Type: short, Price: 559.35, Units: 1, Previous Balance: 99483.70999999992, New Balance: 99483.31999999992, Result: loss
+ID: 3968, Time: 2024-08-29 06:00:00, Type: short, Price: 559.09, Units: 1, Previous Balance: 99483.31999999992, New Balance: 98924.22999999992, Result: trade executed
+ID: 3970, Time: 2024-08-29 06:56:00, Type: short, Price: 559.38, Units: 1, Previous Balance: 99483.31999999992, New Balance: 99483.60999999993, Result: win
+ID: 3972, Time: 2024-08-29 07:00:00, Type: short, Price: 559.63, Units: 1, Previous Balance: 99483.60999999993, New Balance: 98923.97999999992, Result: trade executed
+ID: 3974, Time: 2024-08-29 07:56:00, Type: short, Price: 559.81, Units: 1, Previous Balance: 99483.60999999993, New Balance: 99483.78999999992, Result: win
+ID: 3976, Time: 2024-08-29 08:00:00, Type: short, Price: 559.75, Units: 1, Previous Balance: 99483.78999999992, New Balance: 98924.03999999992, Result: trade executed
+ID: 3978, Time: 2024-08-29 08:56:00, Type: short, Price: 560.95, Units: 1, Previous Balance: 99483.78999999992, New Balance: 99484.98999999992, Result: win
+ID: 3980, Time: 2024-08-29 09:00:00, Type: short, Price: 560.4, Units: 1, Previous Balance: 99484.98999999992, New Balance: 98924.58999999992, Result: trade executed
+ID: 3982, Time: 2024-08-29 09:56:00, Type: short, Price: 562.11, Units: 1, Previous Balance: 99484.98999999992, New Balance: 99486.69999999992, Result: win
+ID: 3984, Time: 2024-08-29 10:00:00, Type: short, Price: 562.01, Units: 1, Previous Balance: 99486.69999999992, New Balance: 98924.68999999993, Result: trade executed
+ID: 3986, Time: 2024-08-29 10:56:00, Type: short, Price: 562.27, Units: 1, Previous Balance: 99486.69999999992, New Balance: 99486.95999999993, Result: win
+ID: 3988, Time: 2024-08-29 11:00:00, Type: short, Price: 562.41, Units: 1, Previous Balance: 99486.95999999993, New Balance: 98924.54999999993, Result: trade executed
+ID: 3990, Time: 2024-08-29 11:56:00, Type: short, Price: 563.4, Units: 1, Previous Balance: 99486.95999999993, New Balance: 99487.94999999992, Result: win
+ID: 3992, Time: 2024-08-29 12:00:00, Type: short, Price: 563.44, Units: 1, Previous Balance: 99487.94999999992, New Balance: 98924.50999999992, Result: trade executed
+ID: 3994, Time: 2024-08-29 12:56:00, Type: short, Price: 562.63, Units: 1, Previous Balance: 99487.94999999992, New Balance: 99487.13999999993, Result: loss
+ID: 3996, Time: 2024-08-29 13:00:00, Type: short, Price: 562.38, Units: 1, Previous Balance: 99487.13999999993, New Balance: 98924.75999999992, Result: trade executed
+ID: 3998, Time: 2024-08-29 13:56:00, Type: short, Price: 559.96, Units: 1, Previous Balance: 99487.13999999993, New Balance: 99484.71999999993, Result: loss
+ID: 4000, Time: 2024-08-29 14:00:00, Type: short, Price: 558.75, Units: 1, Previous Balance: 99484.71999999993, New Balance: 98925.96999999993, Result: trade executed
+ID: 4002, Time: 2024-08-29 14:56:00, Type: short, Price: 559.19, Units: 1, Previous Balance: 99484.71999999993, New Balance: 99485.15999999993, Result: win
+ID: 4004, Time: 2024-08-29 15:00:00, Type: short, Price: 559.19, Units: 1, Previous Balance: 99485.15999999993, New Balance: 98925.96999999993, Result: trade executed
+ID: 4006, Time: 2024-08-29 15:56:00, Type: short, Price: 559.28, Units: 1, Previous Balance: 99485.15999999993, New Balance: 99485.24999999993, Result: win
+ID: 4008, Time: 2024-08-29 16:00:00, Type: short, Price: 559.2, Units: 1, Previous Balance: 99485.24999999993, New Balance: 98926.04999999993, Result: trade executed
+ID: 4010, Time: 2024-08-29 16:56:00, Type: short, Price: 559.22, Units: 1, Previous Balance: 99485.24999999993, New Balance: 99485.26999999993, Result: win
+ID: 4012, Time: 2024-08-29 17:00:00, Type: short, Price: 559.31, Units: 1, Previous Balance: 99485.26999999993, New Balance: 98925.95999999993, Result: trade executed
+ID: 4014, Time: 2024-08-29 17:56:00, Type: short, Price: 558.97, Units: 1, Previous Balance: 99485.26999999993, New Balance: 99484.92999999993, Result: loss
+ID: 4016, Time: 2024-08-29 18:00:00, Type: short, Price: 559.01, Units: 1, Previous Balance: 99484.92999999993, New Balance: 98925.91999999994, Result: trade executed
+ID: 4018, Time: 2024-08-30 03:56:00, Type: short, Price: 561.07, Units: 1, Previous Balance: 99484.92999999993, New Balance: 99486.98999999995, Result: win
+ID: 4020, Time: 2024-08-30 04:00:00, Type: short, Price: 561.0, Units: 1, Previous Balance: 99486.98999999995, New Balance: 98925.98999999995, Result: trade executed
+ID: 4022, Time: 2024-08-30 04:56:00, Type: short, Price: 560.79, Units: 1, Previous Balance: 99486.98999999995, New Balance: 99486.77999999994, Result: loss
+ID: 4024, Time: 2024-08-30 05:00:00, Type: short, Price: 560.85, Units: 1, Previous Balance: 99486.77999999994, New Balance: 98925.92999999993, Result: trade executed
+ID: 4026, Time: 2024-08-30 05:56:00, Type: short, Price: 560.47, Units: 1, Previous Balance: 99486.77999999994, New Balance: 99486.39999999994, Result: loss
+ID: 4028, Time: 2024-08-30 06:00:00, Type: short, Price: 560.53, Units: 1, Previous Balance: 99486.39999999994, New Balance: 98925.86999999994, Result: trade executed
+ID: 4030, Time: 2024-08-30 06:56:00, Type: short, Price: 561.13, Units: 1, Previous Balance: 99486.39999999994, New Balance: 99486.99999999994, Result: win
+ID: 4032, Time: 2024-08-30 07:00:00, Type: short, Price: 561.14, Units: 1, Previous Balance: 99486.99999999994, New Balance: 98925.85999999994, Result: trade executed
+ID: 4034, Time: 2024-08-30 07:56:00, Type: short, Price: 560.56, Units: 1, Previous Balance: 99486.99999999994, New Balance: 99486.41999999994, Result: loss
+ID: 4036, Time: 2024-08-30 08:00:00, Type: short, Price: 560.89, Units: 1, Previous Balance: 99486.41999999994, New Balance: 98925.52999999994, Result: trade executed
+ID: 4038, Time: 2024-08-30 08:56:00, Type: short, Price: 561.24, Units: 1, Previous Balance: 99486.41999999994, New Balance: 99486.76999999995, Result: win
+ID: 4040, Time: 2024-08-30 09:00:00, Type: short, Price: 561.5, Units: 1, Previous Balance: 99486.76999999995, New Balance: 98925.26999999995, Result: trade executed
+ID: 4042, Time: 2024-08-30 09:56:00, Type: short, Price: 561.79, Units: 1, Previous Balance: 99486.76999999995, New Balance: 99487.05999999994, Result: win
+ID: 4044, Time: 2024-08-30 10:00:00, Type: short, Price: 561.87, Units: 1, Previous Balance: 99487.05999999994, New Balance: 98925.18999999994, Result: trade executed
+ID: 4046, Time: 2024-08-30 10:56:00, Type: short, Price: 558.76, Units: 1, Previous Balance: 99487.05999999994, New Balance: 99483.94999999994, Result: loss
+ID: 4048, Time: 2024-08-30 11:00:00, Type: short, Price: 559.0, Units: 1, Previous Balance: 99483.94999999994, New Balance: 98924.94999999994, Result: trade executed
+ID: 4050, Time: 2024-08-30 11:56:00, Type: short, Price: 557.47, Units: 1, Previous Balance: 99483.94999999994, New Balance: 99482.41999999994, Result: loss
+ID: 4052, Time: 2024-08-30 12:00:00, Type: short, Price: 557.72, Units: 1, Previous Balance: 99482.41999999994, New Balance: 98924.69999999994, Result: trade executed
+ID: 4054, Time: 2024-08-30 12:56:00, Type: short, Price: 559.16, Units: 1, Previous Balance: 99482.41999999994, New Balance: 99483.85999999994, Result: win
+ID: 4056, Time: 2024-08-30 13:00:00, Type: short, Price: 559.14, Units: 1, Previous Balance: 99483.85999999994, New Balance: 98924.71999999994, Result: trade executed
+ID: 4058, Time: 2024-08-30 13:56:00, Type: short, Price: 559.88, Units: 1, Previous Balance: 99483.85999999994, New Balance: 99484.59999999995, Result: win
+ID: 4060, Time: 2024-08-30 14:00:00, Type: short, Price: 560.24, Units: 1, Previous Balance: 99484.59999999995, New Balance: 98924.35999999994, Result: trade executed
+ID: 4062, Time: 2024-08-30 14:56:00, Type: short, Price: 561.53, Units: 1, Previous Balance: 99484.59999999995, New Balance: 99485.88999999994, Result: win
+ID: 4064, Time: 2024-08-30 15:00:00, Type: short, Price: 561.76, Units: 1, Previous Balance: 99485.88999999994, New Balance: 98924.12999999995, Result: trade executed
+ID: 4066, Time: 2024-08-30 15:56:00, Type: short, Price: 563.56, Units: 1, Previous Balance: 99485.88999999994, New Balance: 99487.68999999994, Result: win
+ID: 4068, Time: 2024-08-30 16:00:00, Type: short, Price: 563.6, Units: 1, Previous Balance: 99487.68999999994, New Balance: 98924.08999999994, Result: trade executed
+ID: 4070, Time: 2024-08-30 16:56:00, Type: short, Price: 563.57, Units: 1, Previous Balance: 99487.68999999994, New Balance: 99487.65999999995, Result: loss
+ID: 4072, Time: 2024-08-30 17:00:00, Type: short, Price: 563.57, Units: 1, Previous Balance: 99487.65999999995, New Balance: 98924.08999999994, Result: trade executed
+ID: 4074, Time: 2024-08-30 17:59:00, Type: short, Price: 563.5, Units: 1, Previous Balance: 99487.65999999995, New Balance: 99487.58999999994, Result: loss
+ID: 4076, Time: 2024-08-30 18:00:00, Type: short, Price: 563.55, Units: 1, Previous Balance: 99487.58999999994, New Balance: 98924.03999999994, Result: trade executed

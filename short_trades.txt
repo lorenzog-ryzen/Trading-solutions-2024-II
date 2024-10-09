@@ -1,0 +1,54 @@
+ID: 2, Time: 08:01:00, Type: short, Price: 566.22, Units: 1, Previous Balance: 100000, New Balance: 99433.78, Result: trade executed
+ID: 4, Time: 08:56:00, Type: short, Price: 566.22, Units: 1, Previous Balance: 100000, New Balance: 99998.575, Result: loss
+ID: 6, Time: 09:00:00, Type: short, Price: 564.54, Units: 1, Previous Balance: 99998.575, New Balance: 99434.035, Result: trade executed
+ID: 8, Time: 09:56:00, Type: short, Price: 564.54, Units: 1, Previous Balance: 99998.575, New Balance: 99998.83, Result: win
+ID: 10, Time: 10:00:00, Type: short, Price: 563.83, Units: 1, Previous Balance: 99998.83, New Balance: 99435.0, Result: trade executed
+ID: 12, Time: 10:56:00, Type: short, Price: 563.83, Units: 1, Previous Balance: 99998.83, New Balance: 99999.795, Result: win
+ID: 14, Time: 11:00:00, Type: short, Price: 563.465, Units: 1, Previous Balance: 99999.795, New Balance: 99436.33, Result: trade executed
+ID: 16, Time: 11:56:00, Type: short, Price: 563.465, Units: 1, Previous Balance: 99999.795, New Balance: 100001.125, Result: win
+ID: 18, Time: 12:00:00, Type: short, Price: 563.065, Units: 1, Previous Balance: 100001.125, New Balance: 99438.06, Result: trade executed
+ID: 20, Time: 12:56:00, Type: short, Price: 563.065, Units: 1, Previous Balance: 100001.125, New Balance: 100002.855, Result: win
+ID: 22, Time: 13:00:00, Type: short, Price: 563.945, Units: 1, Previous Balance: 100002.855, New Balance: 99438.90999999999, Result: trade executed
+ID: 24, Time: 13:56:00, Type: short, Price: 563.945, Units: 1, Previous Balance: 100002.855, New Balance: 100003.70499999999, Result: win
+ID: 26, Time: 14:00:00, Type: short, Price: 563.835, Units: 1, Previous Balance: 100003.70499999999, New Balance: 99439.86999999998, Result: trade executed
+ID: 28, Time: 14:56:00, Type: short, Price: 563.835, Units: 1, Previous Balance: 100003.70499999999, New Balance: 100004.66499999998, Result: win
+ID: 30, Time: 15:00:00, Type: short, Price: 562.61, Units: 1, Previous Balance: 100004.66499999998, New Balance: 99442.05499999998, Result: trade executed
+ID: 32, Time: 15:56:00, Type: short, Price: 562.61, Units: 1, Previous Balance: 100004.66499999998, New Balance: 100006.84999999998, Result: win
+ID: 34, Time: 16:00:00, Type: short, Price: 564.625, Units: 1, Previous Balance: 100006.84999999998, New Balance: 99442.22499999998, Result: trade executed
+ID: 36, Time: 16:56:00, Type: short, Price: 564.625, Units: 1, Previous Balance: 100006.84999999998, New Balance: 100007.01999999997, Result: win
+ID: 38, Time: 08:00:00, Type: short, Price: 566.15, Units: 1, Previous Balance: 100007.01999999997, New Balance: 99440.86999999998, Result: trade executed
+ID: 40, Time: 08:56:00, Type: short, Price: 566.15, Units: 1, Previous Balance: 100007.01999999997, New Balance: 100005.66499999998, Result: loss
+ID: 42, Time: 09:00:00, Type: short, Price: 564.54, Units: 1, Previous Balance: 100005.66499999998, New Balance: 99441.12499999999, Result: trade executed
+ID: 44, Time: 09:56:00, Type: short, Price: 564.54, Units: 1, Previous Balance: 100005.66499999998, New Balance: 100005.91999999998, Result: win
+ID: 46, Time: 10:00:00, Type: short, Price: 563.83, Units: 1, Previous Balance: 100005.91999999998, New Balance: 99442.08999999998, Result: trade executed
+ID: 48, Time: 10:56:00, Type: short, Price: 563.83, Units: 1, Previous Balance: 100005.91999999998, New Balance: 100006.88499999998, Result: win
+ID: 50, Time: 11:00:00, Type: short, Price: 563.465, Units: 1, Previous Balance: 100006.88499999998, New Balance: 99443.41999999998, Result: trade executed
+ID: 52, Time: 11:56:00, Type: short, Price: 563.465, Units: 1, Previous Balance: 100006.88499999998, New Balance: 100008.21499999998, Result: win
+ID: 54, Time: 12:00:00, Type: short, Price: 563.065, Units: 1, Previous Balance: 100008.21499999998, New Balance: 99445.14999999998, Result: trade executed
+ID: 56, Time: 12:56:00, Type: short, Price: 563.065, Units: 1, Previous Balance: 100008.21499999998, New Balance: 100009.94499999998, Result: win
+ID: 58, Time: 13:00:00, Type: short, Price: 563.945, Units: 1, Previous Balance: 100009.94499999998, New Balance: 99445.99999999997, Result: trade executed
+ID: 60, Time: 13:56:00, Type: short, Price: 563.945, Units: 1, Previous Balance: 100009.94499999998, New Balance: 100010.79499999997, Result: win
+ID: 62, Time: 14:00:00, Type: short, Price: 563.835, Units: 1, Previous Balance: 100010.79499999997, New Balance: 99446.95999999996, Result: trade executed
+ID: 64, Time: 14:56:00, Type: short, Price: 563.835, Units: 1, Previous Balance: 100010.79499999997, New Balance: 100011.75499999996, Result: win
+ID: 66, Time: 15:00:00, Type: short, Price: 562.61, Units: 1, Previous Balance: 100011.75499999996, New Balance: 99449.14499999996, Result: trade executed
+ID: 68, Time: 15:56:00, Type: short, Price: 562.61, Units: 1, Previous Balance: 100011.75499999996, New Balance: 100013.93999999996, Result: win
+ID: 70, Time: 16:00:00, Type: short, Price: 564.625, Units: 1, Previous Balance: 100013.93999999996, New Balance: 99449.31499999996, Result: trade executed
+ID: 72, Time: 16:56:00, Type: short, Price: 564.625, Units: 1, Previous Balance: 100013.93999999996, New Balance: 100014.10999999996, Result: win
+ID: 74, Time: 08:00:00, Type: short, Price: 566.15, Units: 1, Previous Balance: 100014.10999999996, New Balance: 99447.95999999996, Result: trade executed
+ID: 76, Time: 08:56:00, Type: short, Price: 566.15, Units: 1, Previous Balance: 100014.10999999996, New Balance: 100012.75499999996, Result: loss
+ID: 78, Time: 09:00:00, Type: short, Price: 564.54, Units: 1, Previous Balance: 100012.75499999996, New Balance: 99448.21499999997, Result: trade executed
+ID: 80, Time: 09:56:00, Type: short, Price: 564.54, Units: 1, Previous Balance: 100012.75499999996, New Balance: 100013.00999999997, Result: win
+ID: 82, Time: 10:00:00, Type: short, Price: 563.83, Units: 1, Previous Balance: 100013.00999999997, New Balance: 99449.17999999996, Result: trade executed
+ID: 84, Time: 10:56:00, Type: short, Price: 563.83, Units: 1, Previous Balance: 100013.00999999997, New Balance: 100013.97499999996, Result: win
+ID: 86, Time: 11:00:00, Type: short, Price: 563.465, Units: 1, Previous Balance: 100013.97499999996, New Balance: 99450.50999999997, Result: trade executed
+ID: 88, Time: 11:56:00, Type: short, Price: 563.465, Units: 1, Previous Balance: 100013.97499999996, New Balance: 100015.30499999996, Result: win
+ID: 90, Time: 12:00:00, Type: short, Price: 563.065, Units: 1, Previous Balance: 100015.30499999996, New Balance: 99452.23999999996, Result: trade executed
+ID: 92, Time: 12:56:00, Type: short, Price: 563.065, Units: 1, Previous Balance: 100015.30499999996, New Balance: 100017.03499999996, Result: win
+ID: 94, Time: 13:00:00, Type: short, Price: 563.945, Units: 1, Previous Balance: 100017.03499999996, New Balance: 99453.08999999995, Result: trade executed
+ID: 96, Time: 13:56:00, Type: short, Price: 563.945, Units: 1, Previous Balance: 100017.03499999996, New Balance: 100017.88499999995, Result: win
+ID: 98, Time: 14:00:00, Type: short, Price: 563.835, Units: 1, Previous Balance: 100017.88499999995, New Balance: 99454.04999999994, Result: trade executed
+ID: 100, Time: 14:56:00, Type: short, Price: 563.835, Units: 1, Previous Balance: 100017.88499999995, New Balance: 100018.84499999994, Result: win
+ID: 102, Time: 15:00:00, Type: short, Price: 562.61, Units: 1, Previous Balance: 100018.84499999994, New Balance: 99456.23499999994, Result: trade executed
+ID: 104, Time: 15:56:00, Type: short, Price: 562.61, Units: 1, Previous Balance: 100018.84499999994, New Balance: 100021.02999999994, Result: win
+ID: 106, Time: 16:00:00, Type: short, Price: 564.625, Units: 1, Previous Balance: 100021.02999999994, New Balance: 99456.40499999994, Result: trade executed
+ID: 108, Time: 16:56:00, Type: short, Price: 564.625, Units: 1, Previous Balance: 100021.02999999994, New Balance: 100021.19999999994, Result: win
