@@ -1,0 +1,613 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Theorical Explanation &#8212; Trading-solutions-2024-II</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Theorical_explanation';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Algorithms" href="Borrador_NEAT.html" />
+    <link rel="prev" title="Exploratory Data Analysis" href="EDA_ProyectoF.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.jpeg" class="logo__image only-light" alt="Trading-solutions-2024-II - Home"/>
+    <script>document.write(`<img src="_static/logo.jpeg" class="logo__image only-dark" alt="Trading-solutions-2024-II - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Introduction to the Machine Learning Project
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="EDA_ProyectoF.html">Exploratory Data Analysis</a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Theorical Explanation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Borrador_NEAT.html">Algorithms</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FTheorical_explanation.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/Theorical_explanation.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Theorical Explanation</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#important-aspects-of-the-project">Important Aspects of the Project</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dag-directed-acyclic-graph">DAG (Directed Acyclic Graph):</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#neural-networks">Neural Networks</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#genetic-algorithm">Genetic Algorithm</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dag">DAG</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#kahn-s-topological-order">Kahn’s Topological Order</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#forward-propagation">Forward Propagation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#backward-propagation">Backward Propagation</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="theorical-explanation">
+<h1>Theorical Explanation<a class="headerlink" href="#theorical-explanation" title="Link to this heading">#</a></h1>
+<section id="important-aspects-of-the-project">
+<h2>Important Aspects of the Project<a class="headerlink" href="#important-aspects-of-the-project" title="Link to this heading">#</a></h2>
+<section id="dag-directed-acyclic-graph">
+<h3>DAG (Directed Acyclic Graph):<a class="headerlink" href="#dag-directed-acyclic-graph" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Khans Topological order</p></li>
+</ul>
+</section>
+<section id="neural-networks">
+<h3>Neural Networks<a class="headerlink" href="#neural-networks" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Backward propagation</p></li>
+<li><p>Forward propagation</p></li>
+</ul>
+</section>
+<section id="genetic-algorithm">
+<h3>Genetic Algorithm<a class="headerlink" href="#genetic-algorithm" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Genotype</p></li>
+<li><p>Fenotype</p></li>
+<li><p>Mutation</p></li>
+<li><p>Selection</p></li>
+</ul>
+</section>
+</section>
+<section id="dag">
+<h2>DAG<a class="headerlink" href="#dag" title="Link to this heading">#</a></h2>
+<p>Un DAG (Directed Acyclic Graph, o Grafo Dirigido Acíclico) es una estructura matemática que consta de nodos conectados por aristas (o enlaces), donde cada arista tiene una dirección específica y no existen ciclos. Es decir, si sigues las aristas en la dirección indicada, nunca podrás regresar al mismo nodo de partida, lo que garantiza que el grafo sea acíclico.
+<img alt="" src="_images/net_1.png" /></p>
+</section>
+<section id="kahn-s-topological-order">
+<h2>Kahn’s Topological Order<a class="headerlink" href="#kahn-s-topological-order" title="Link to this heading">#</a></h2>
+<p>Kahn’s topological order is a method used to determine the sequence in which operations should be performed in a directed acyclic graph (DAG), which is particularly useful in neural networks and computational graphs. This algorithm finds the correct order to compute the forward propagation in a neural network by identifying dependencies between the nodes. Each node represents a mathematical operation or a neuron, and edges between nodes represent the flow of data.
+<br />
+<img alt="" src="_images/Topological-order.png" /></p>
+</section>
+<section id="forward-propagation">
+<h2>Forward Propagation<a class="headerlink" href="#forward-propagation" title="Link to this heading">#</a></h2>
+<p>Let <span class="math notranslate nohighlight">\( G \)</span> be a Directed Acyclic Graph (DAG), where <span class="math notranslate nohighlight">\( G_A \)</span> represents the input layer nodes, <span class="math notranslate nohighlight">\( G_B \)</span> the hidden layer nodes, and <span class="math notranslate nohighlight">\( G_C \)</span> the output layer nodes. From the perspective of the DAG, the network consists of only three layers. Let <span class="math notranslate nohighlight">\( T \)</span> represent the weights associated with the edges between nodes.</p>
+<p>The forward propagation for a neuron in the hidden layer <span class="math notranslate nohighlight">\( G_B \)</span> can be calculated as follows:</p>
+<p>Let <span class="math notranslate nohighlight">\( i \in (1, n) \)</span>, where <span class="math notranslate nohighlight">\( n \)</span> is the number of neurons in the hidden layer, and let <span class="math notranslate nohighlight">\( p \in (1, k) \)</span>, where <span class="math notranslate nohighlight">\( k \)</span> is the number of incoming edges (connections to the neuron).</p>
+<p>The activation of neuron <span class="math notranslate nohighlight">\( GB_i \)</span> in the hidden layer is given by:</p>
+<div class="math notranslate nohighlight">
+\[
+GB_i = \tanh\left( \sum_{j=1}^{p} (T_{B_j} \cdot \text{normalized incoming information}) - \text{bias per neuron} \right)
+\]</div>
+</section>
+<section id="backward-propagation">
+<h2>Backward Propagation<a class="headerlink" href="#backward-propagation" title="Link to this heading">#</a></h2>
+<p>Backward propagation, often referred to as backpropagation, is a key algorithm used in training neural networks. It is responsible for updating the weights of the network based on the error between the predicted output and the actual target values. In the context of a Directed Acyclic Graph (DAG), backpropagation is executed in the reverse order of forward propagation.</p>
+<p>Let <span class="math notranslate nohighlight">\( G \)</span> be a Directed Acyclic Graph (DAG), where <span class="math notranslate nohighlight">\( G_A \)</span> represents the input layer nodes, <span class="math notranslate nohighlight">\( G_B \)</span> the hidden layer nodes, and <span class="math notranslate nohighlight">\( G_C \)</span> the output layer nodes. The weights associated with the edges are represented by <span class="math notranslate nohighlight">\( T \)</span>.</p>
+<p>During backpropagation, the error is propagated backwards through the network, starting from the output layer <span class="math notranslate nohighlight">\( G_C \)</span> and moving towards the input layer <span class="math notranslate nohighlight">\( G_A \)</span>. This process can be summarized as follows:</p>
+<ol class="arabic simple">
+<li><p><strong>Calculate the Error at the Output Layer</strong>: For each neuron <span class="math notranslate nohighlight">\( GC_i \)</span> in the output layer, compute the error <span class="math notranslate nohighlight">\( E_i \)</span> as the difference between the predicted output and the actual target value. This is often defined as:
+$<span class="math notranslate nohighlight">\( E_i = \text{target}_i - \text{output}_i \)</span>$</p></li>
+<li><p><strong>Compute the Gradient for the Output Layer</strong>: The gradient of the loss with respect to the output of the neuron is calculated using the derivative of the activation function. For example, using the tangent hyperbolic activation function:
+$<span class="math notranslate nohighlight">\( \delta_{C_i} = E_i \cdot \text{activation\_derivative}(\text{output}_i) \)</span><span class="math notranslate nohighlight">\(
+where \)</span> \text{activation_derivative} $ is the derivative of the activation function.</p></li>
+<li><p><strong>Propagate the Error Backwards</strong>: For each neuron <span class="math notranslate nohighlight">\( GB_j \)</span> in the hidden layer, compute the error signal <span class="math notranslate nohighlight">\( \delta_{B_j} \)</span> as the weighted sum of the errors from the output layer:
+$<span class="math notranslate nohighlight">\( \delta_{B_j} = \sum_{i=1}^{m} \delta_{C_i} \cdot T_{C_i \to B_j} \)</span><span class="math notranslate nohighlight">\(
+where \)</span> m $ is the number of output neurons.</p></li>
+<li><p><strong>Update Weights</strong>: After calculating the error signals for the hidden layer, the weights can be updated using a learning rate <span class="math notranslate nohighlight">\( \eta \)</span>:
+$<span class="math notranslate nohighlight">\(
+T_{B_j} = T_{B_j} + \eta \cdot \delta_{B_j} \cdot input \to {G_{B_j}}
+\)</span>$
+The same process applies to update the weights connecting the input layer to the hidden layer.</p></li>
+</ol>
+<p>By repeating this process iteratively over multiple epochs, the neural network adjusts its weights to minimize the overall error, improving its ability to predict outcomes accurately.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="EDA_ProyectoF.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Exploratory Data Analysis</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Borrador_NEAT.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Algorithms</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#important-aspects-of-the-project">Important Aspects of the Project</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dag-directed-acyclic-graph">DAG (Directed Acyclic Graph):</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#neural-networks">Neural Networks</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#genetic-algorithm">Genetic Algorithm</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dag">DAG</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#kahn-s-topological-order">Kahn’s Topological Order</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#forward-propagation">Forward Propagation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#backward-propagation">Backward Propagation</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Lorenzo David Gutierrez Vesga
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
