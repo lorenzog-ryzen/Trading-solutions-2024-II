@@ -62,7 +62,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'EDA_ProyectoF';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Modelos regulares" href="Modelos_PF.html" />
+    <link rel="next" title="Usual Models" href="Modelos_PF.html" />
     <link rel="prev" title="Introduction to the Machine Learning Project" href="intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -180,11 +180,7 @@
         </ul>
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Exploratory Data Analysis</a></li>
-
-
-
-
-<li class="toctree-l1"><a class="reference internal" href="Modelos_PF.html">Modelos regulares</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Modelos_PF.html">Usual Models</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Theorical_explanation.html">Theorical Explanation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Borrador_NEAT.html">Algorithms</a></li>
 </ul>
@@ -382,7 +378,6 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Exploratory Data Analysis</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objective-of-the-eda">Objective of the EDA</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#description-of-the-trading-dataframe">Description of the Trading DataFrame</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dataframe-analysis">DataFrame Analysis</a><ul class="nav section-nav flex-column">
@@ -403,23 +398,16 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#time-series-analysis-of-precio-bid">Time Series Analysis of “precio_bid”</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#q-q-plot">Q-Q plot</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#kolmogorov-smirnov-ks-test">Kolmogorov-Smirnov (KS) Test</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#q-q-plot">Q-Q plot</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#kolmogorov-smirnov-ks-test">Kolmogorov-Smirnov (KS) Test</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reference-to-the-case-study">Reference to the Case Study</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#resampling">Resampling</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-of-autocorrelation-and-partial-autocorrelation-graphs">Analysis of Autocorrelation and Partial Autocorrelation Graphs</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#analytical-method-augmented-dickey-fuller-test-adf"><strong>Analytical Method (Augmented Dickey-Fuller Test - ADF)</strong></a></li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#differencing-application">Differencing Application</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#autocorrelation-and-partial-autocorrelation">Autocorrelation and Partial Autocorrelation</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#differencing-application">Differencing Application</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#autocorrelation-and-partial-autocorrelation">Autocorrelation and Partial Autocorrelation</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><strong>Analytical Method (Augmented Dickey-Fuller Test - ADF)</strong></a></li>
 </ul>
-</li>
-</ul>
-
             </nav>
         </div>
     </div>
@@ -948,9 +936,8 @@ Precio Bid - Variance1 = 36.87, Variance2 = 145.65
 <p>Additionally, an analysis comparing the mean of the first 100 observations to the next 100 was conducted to evaluate whether the time series is stationary. Based on the results, it appears that the series does not exhibit clear seasonality.</p>
 </section>
 </section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="q-q-plot">
-<h1>Q-Q plot<a class="headerlink" href="#q-q-plot" title="Link to this heading">#</a></h1>
+<section id="q-q-plot">
+<h2>Q-Q plot<a class="headerlink" href="#q-q-plot" title="Link to this heading">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Crear el gráfico Q-Q para la serie &#39;precio_bid&#39;</span>
@@ -966,8 +953,8 @@ Precio Bid - Variance1 = 36.87, Variance2 = 145.65
 </div>
 <p>The graph shows an almost normal distribution. However, at the beginning, there is a slight deviation from the normal line. Significant deviations are present at the end, which coincides with the peaks observed in the time series. This suggests that the distribution is likely not completely normal.</p>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="kolmogorov-smirnov-ks-test">
-<h1>Kolmogorov-Smirnov (KS) Test<a class="headerlink" href="#kolmogorov-smirnov-ks-test" title="Link to this heading">#</a></h1>
+<section id="kolmogorov-smirnov-ks-test">
+<h2>Kolmogorov-Smirnov (KS) Test<a class="headerlink" href="#kolmogorov-smirnov-ks-test" title="Link to this heading">#</a></h2>
 <p><strong>Hypothesis Statement:</strong></p>
 <ul class="simple">
 <li><p><strong>Null Hypothesis (H0)</strong>: The data series follows a normal distribution.</p></li>
@@ -1001,6 +988,7 @@ La serie no sigue una distribución normal (rechazamos la hipótesis nula)
 </div>
 </div>
 <p>Given that the p-value is 0.0, we reject the null hypothesis, concluding that the <strong>precio_bid</strong> time series does not follow a normal distribution. This is consistent with the observations made in the Q-Q plot, where significant deviations from normality are noticeable, particularly in the extreme values.</p>
+</section>
 <section id="reference-to-the-case-study">
 <h2>Reference to the Case Study<a class="headerlink" href="#reference-to-the-case-study" title="Link to this heading">#</a></h2>
 <p>In Professor <strong>Lihki Rubio’s</strong> paper, a case is presented using the technique of <strong>Time Series Data Resampling</strong>. This technique is demonstrated with a time series of chemical concentrations taken every two hours between January 1, 1975, and January 17, 1975.</p>
@@ -1286,9 +1274,8 @@ p-value: 0.187947
 </ul>
 <p>In all cases, the p-value is higher than the 0.05 significance level, suggesting that we cannot reject the null hypothesis. This indicates that the time series does not show sufficient evidence to be considered stationary and may contain a unit root.</p>
 </section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="differencing-application">
-<h1>Differencing Application<a class="headerlink" href="#differencing-application" title="Link to this heading">#</a></h1>
+<section id="differencing-application">
+<h2>Differencing Application<a class="headerlink" href="#differencing-application" title="Link to this heading">#</a></h2>
 <p>Due to the previous results, we will apply the differencing method to transform a non-stationary series into a stationary one.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1376,8 +1363,8 @@ p-value: 0.187947
 </div>
 <p>Here, we observe the graphs of the differenced and resampled series, with the previously mentioned characteristics, but now showing apparent visual stationarity.</p>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="autocorrelation-and-partial-autocorrelation">
-<h1>Autocorrelation and Partial Autocorrelation<a class="headerlink" href="#autocorrelation-and-partial-autocorrelation" title="Link to this heading">#</a></h1>
+<section id="autocorrelation-and-partial-autocorrelation">
+<h2>Autocorrelation and Partial Autocorrelation<a class="headerlink" href="#autocorrelation-and-partial-autocorrelation" title="Link to this heading">#</a></h2>
 <p>After performing the differencing.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1419,6 +1406,7 @@ p-value: 0.187947
 </div>
 </div>
 <p>After reviewing the autocorrelation and partial autocorrelation, we notice a visual change compared to the previous analysis, as seasonality is now evident.</p>
+</section>
 <section id="id1">
 <h2><strong>Analytical Method (Augmented Dickey-Fuller Test - ADF)</strong><a class="headerlink" href="#id1" title="Link to this heading">#</a></h2>
 <p>After applying differencing.</p>
@@ -1556,7 +1544,7 @@ In this case, the p-value is greater than 0.05, suggesting that we cannot reject
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Modelos regulares</p>
+        <p class="prev-next-title">Usual Models</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -1576,7 +1564,6 @@ In this case, the p-value is greater than 0.05, suggesting that we cannot reject
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Exploratory Data Analysis</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objective-of-the-eda">Objective of the EDA</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#description-of-the-trading-dataframe">Description of the Trading DataFrame</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dataframe-analysis">DataFrame Analysis</a><ul class="nav section-nav flex-column">
@@ -1597,23 +1584,16 @@ In this case, the p-value is greater than 0.05, suggesting that we cannot reject
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#time-series-analysis-of-precio-bid">Time Series Analysis of “precio_bid”</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#q-q-plot">Q-Q plot</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#kolmogorov-smirnov-ks-test">Kolmogorov-Smirnov (KS) Test</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#q-q-plot">Q-Q plot</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#kolmogorov-smirnov-ks-test">Kolmogorov-Smirnov (KS) Test</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reference-to-the-case-study">Reference to the Case Study</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#resampling">Resampling</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-of-autocorrelation-and-partial-autocorrelation-graphs">Analysis of Autocorrelation and Partial Autocorrelation Graphs</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#analytical-method-augmented-dickey-fuller-test-adf"><strong>Analytical Method (Augmented Dickey-Fuller Test - ADF)</strong></a></li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#differencing-application">Differencing Application</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#autocorrelation-and-partial-autocorrelation">Autocorrelation and Partial Autocorrelation</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#differencing-application">Differencing Application</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#autocorrelation-and-partial-autocorrelation">Autocorrelation and Partial Autocorrelation</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><strong>Analytical Method (Augmented Dickey-Fuller Test - ADF)</strong></a></li>
 </ul>
-</li>
-</ul>
-
   </nav></div>
 
 </div></div>
