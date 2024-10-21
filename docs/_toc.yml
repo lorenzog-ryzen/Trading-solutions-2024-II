@@ -5,6 +5,8 @@ format: jb-book
 root: intro
 chapters:
 - file: EDA_ProyectoF
+- file: Modelos_PF.ipynb
 - file: Theorical_explanation.ipynb
 - file: Borrador_NEAT.ipynb
+
 
