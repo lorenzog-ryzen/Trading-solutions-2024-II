@@ -567,7 +567,9 @@ document.write(`
     <span class="n">param_grid</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;alpha&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">100</span><span class="p">],</span>
                   <span class="s1">&#39;n_neighbors&#39;</span><span class="p">:[</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">20</span><span class="p">)]}</span>
     <span class="c1">##############################################################</span>
-    <span class="n">all_sub</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span> <span class="o">//</span> <span class="n">T</span>
+    <span class="n">all_sub</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span> <span class="o">/</span> <span class="n">T</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">X_train</span><span class="p">),</span><span class="n">T</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;all&#39;</span><span class="p">,</span><span class="n">all_sub</span><span class="p">)</span>
     <span class="n">block_size</span> <span class="o">=</span> <span class="n">T</span> <span class="o">*</span> <span class="n">hour_test</span>
     <span class="n">best_score</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="s1">&#39;inf&#39;</span><span class="p">)</span>
     <span class="n">best_model</span> <span class="o">=</span> <span class="kc">None</span>
@@ -601,30 +603,36 @@ document.write(`
           <span class="n">model</span> <span class="o">=</span>  <span class="n">best_model</span>
     <span class="k">elif</span> <span class="n">type_model</span> <span class="o">==</span> <span class="s1">&#39;lasso&#39;</span><span class="p">:</span>
           <span class="k">for</span> <span class="n">Alpha</span> <span class="ow">in</span> <span class="n">param_grid</span><span class="p">[</span><span class="s1">&#39;alpha&#39;</span><span class="p">]:</span>
-              <span class="n">model</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">([(</span><span class="s1">&#39;scaler&#39;</span><span class="p">,</span> <span class="n">MinMaxScaler</span><span class="p">()),</span> <span class="p">(</span><span class="s1">&#39;classifier&#39;</span><span class="p">,</span> <span class="n">Lasso</span><span class="p">(</span><span class="n">alpha</span> <span class="o">=</span> <span class="n">Alpha</span><span class="p">))])</span>
-              <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">all_sub</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">T</span><span class="p">):</span>
-                        <span class="n">xtrain</span>         <span class="o">=</span> <span class="n">X_train</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">last_index</span><span class="p">:</span><span class="n">index</span> <span class="o">*</span> <span class="n">block_size</span><span class="p">]</span>
-                        <span class="n">ytrain</span>         <span class="o">=</span> <span class="n">y_train</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">last_index</span><span class="p">:</span><span class="n">index</span> <span class="o">*</span> <span class="n">block_size</span><span class="p">]</span>
-                        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">xtrain</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span><span class="n">ytrain</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
-                            <span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">xtrain</span><span class="p">,</span> <span class="n">ytrain</span><span class="p">)</span>
-                            <span class="n">ypred</span>          <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-                            <span class="n">rmse</span>           <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">((</span><span class="n">y_test</span> <span class="o">-</span> <span class="n">ypred</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span>
-                            <span class="k">if</span> <span class="n">rmse</span> <span class="o">&lt;</span> <span class="n">best_score</span><span class="p">:</span>
-                                <span class="n">best_score</span> <span class="o">=</span> <span class="n">rmse</span>
-                                <span class="n">best_model</span> <span class="o">=</span> <span class="n">model</span>
-                            <span class="n">last_index</span> <span class="o">=</span> <span class="n">index</span> <span class="o">*</span> <span class="n">block_size</span>
+              <span class="n">model</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">([(</span><span class="s1">&#39;scaler&#39;</span><span class="p">,</span> <span class="n">MinMaxScaler</span><span class="p">()),</span> <span class="p">(</span><span class="s1">&#39;classifier&#39;</span><span class="p">,</span> <span class="n">Lasso</span><span class="p">(</span><span class="n">alpha</span><span class="o">=</span><span class="n">Alpha</span><span class="p">))])</span>
+              
+              <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">T</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">X_train</span><span class="p">),</span> <span class="n">T</span><span class="p">):</span>
+                  <span class="n">xtrain</span> <span class="o">=</span> <span class="n">X_train</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">last_index</span><span class="p">:</span><span class="n">index</span><span class="p">]</span>
+                  <span class="n">ytrain</span> <span class="o">=</span> <span class="n">y_train</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">last_index</span><span class="p">:</span><span class="n">index</span><span class="p">]</span>
+                  <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">xtrain</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">ytrain</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+                      <span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">xtrain</span><span class="p">,</span> <span class="n">ytrain</span><span class="p">)</span>
+                      <span class="n">ypred</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+                      <span class="n">rmse</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">((</span><span class="n">y_test</span> <span class="o">-</span> <span class="n">ypred</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span>
+
+                      <span class="k">if</span> <span class="n">rmse</span> <span class="o">&lt;</span> <span class="n">best_score</span><span class="p">:</span>
+                          <span class="n">best_score</span> <span class="o">=</span> <span class="n">rmse</span>
+                          <span class="n">best_model</span> <span class="o">=</span> <span class="n">model</span>
+
+                  <span class="n">last_index</span> <span class="o">=</span> <span class="n">index</span>
           <span class="n">model</span> <span class="o">=</span>  <span class="n">best_model</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">param_grid</span><span class="p">[</span><span class="s1">&#39;n_neighbors&#39;</span><span class="p">]:</span>
             <span class="n">model</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">([(</span><span class="s1">&#39;scaler&#39;</span><span class="p">,</span> <span class="n">MinMaxScaler</span><span class="p">()),</span> <span class="p">(</span><span class="s1">&#39;classifier&#39;</span><span class="p">,</span> <span class="n">KNeighborsRegressor</span><span class="p">(</span><span class="n">n_neighbors</span><span class="o">=</span><span class="n">n</span><span class="p">))])</span>
-            <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">all_sub</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">T</span><span class="p">):</span>
+            <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">T</span><span class="p">,</span> <span class="n">all_sub</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">T</span><span class="p">):</span>
+                
                 <span class="n">xtrain</span> <span class="o">=</span> <span class="n">X_train</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">last_index</span><span class="p">:</span><span class="n">index</span> <span class="o">*</span> <span class="n">block_size</span><span class="p">]</span>
                 <span class="n">ytrain</span> <span class="o">=</span> <span class="n">y_train</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">last_index</span><span class="p">:</span><span class="n">index</span> <span class="o">*</span> <span class="n">block_size</span><span class="p">]</span>
                 <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">xtrain</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">ytrain</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+      
                     <span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">xtrain</span><span class="p">,</span> <span class="n">ytrain</span><span class="p">)</span>
                     <span class="n">ypred</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
                     <span class="n">rmse</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">((</span><span class="n">y_test</span> <span class="o">-</span> <span class="n">ypred</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span>
                     <span class="k">if</span> <span class="n">rmse</span> <span class="o">&lt;</span> <span class="n">best_score</span><span class="p">:</span>
+                        <span class="nb">print</span><span class="p">(</span><span class="n">best_score</span><span class="p">)</span>
                         <span class="n">best_score</span> <span class="o">=</span> <span class="n">rmse</span>
                         <span class="n">best_model</span> <span class="o">=</span> <span class="n">model</span>
                 <span class="n">last_index</span> <span class="o">=</span> <span class="n">index</span> <span class="o">*</span> <span class="n">block_size</span>
@@ -656,6 +664,12 @@ document.write(`
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">lin_model</span> <span class="o">=</span> <span class="n">grid_search_custom</span><span class="p">(</span><span class="n">X_train</span><span class="o">=</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="o">=</span><span class="n">y_train</span><span class="p">,</span> <span class="n">hour_test</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">T</span><span class="o">=</span><span class="mi">10000</span><span class="p">,</span> <span class="n">type_model</span><span class="o">=</span><span class="s1">&#39;linear&#39;</span><span class="p">)</span>
 <span class="n">y_pred</span> <span class="o">=</span> <span class="p">(</span><span class="n">lin_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1213312 10000
+all 121
 </pre></div>
 </div>
 </div>
@@ -741,15 +755,23 @@ document.write(`
 </table>
 </div></div></div>
 </div>
-<p>El análisis visual de los residuos nos permite evaluar la calidad del modelo de predicción. En el gráfico de <strong>Valores Reales vs Predichos vs Residuos</strong>, podemos ver cómo los valores predichos se ajustan a los valores reales, y cualquier discrepancia entre ambos es un indicador del error residual. El <strong>Histograma de Residuos</strong> sugiere que los residuos están distribuidos de forma aproximadamente normal, con una mayor concentración cercana a cero, lo que indica que el modelo no presenta sesgos significativos. La gráfica de <strong>Residuos</strong> muestra la variación de los residuos a lo largo de las observaciones, siendo importante que estos residuos no sigan un patrón claro, lo cual sugiere que el modelo ha capturado la estructura subyacente de los datos. La <strong>Autocorrelación Parcial</strong> nos indica que no existe una autocorrelación significativa en los residuos, lo que implica que los errores no están correlacionados, un buen indicador para la validez del modelo. Finalmente, el <strong>QQ-plot de Residuos</strong> confirma que los residuos se ajustan bastante bien a una distribución normal, ya que la mayoría de los puntos siguen la línea roja, aunque existen algunos valores atípicos en las colas.</p>
-<p>Los resultados del modelo muestran un rendimiento bastante sólido. El <strong>RMSE (Root Mean Squared Error)</strong> es extremadamente bajo, con un valor de 0.00004, lo que indica que las predicciones del modelo están muy cerca de los valores reales, minimizando el error absoluto promedio. El <strong>MAPE (Mean Absolute Percentage Error)</strong> es de 0.003311, lo que implica que el error porcentual medio absoluto de las predicciones es inferior al 0.33%, un indicador de precisión muy alto. Finalmente, el <strong>R² (Coeficiente de Determinación)</strong> es 0.9756, lo que significa que el modelo explica aproximadamente el 97.56% de la variabilidad de los datos, lo que es un excelente desempeño para un modelo predictivo. Estos valores sugieren que el modelo está bien ajustado y tiene una gran capacidad de generalización.</p>
+<p>The visual analysis of the Linear Regressor model shows an overall solid performance with some areas for potential improvement. The Real vs Predicted plot indicates that the predicted values closely follow the actual values, though there are minor fluctuations, suggesting small deviations in the predictions. The Residuals Histogram shows a symmetrical distribution of residuals around zero, with most residuals concentrated near zero, indicating that the model’s predictions are generally accurate, with only a few outliers. The Residuals Plot reveals a random pattern, which is a positive sign as it suggests that the model is not missing any significant patterns in the data. However, the Partial Autocorrelation plot indicates some autocorrelation in the early lags, which might suggest that the residuals are not entirely independent, and there may be room for improving the model’s structure.</p>
 </section>
 <section id="knn-regressor">
 <h2>Knn Regressor<a class="headerlink" href="#knn-regressor" title="Link to this heading">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">knn_model</span> <span class="o">=</span> <span class="n">grid_search_custom</span><span class="p">(</span><span class="n">X_train</span><span class="o">=</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="o">=</span><span class="n">y_train</span><span class="p">,</span> <span class="n">hour_test</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">T</span><span class="o">=</span><span class="mi">10000</span><span class="p">,</span> <span class="n">type_model</span><span class="o">=</span><span class="s1">&#39;knn&#39;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">knn_model</span> <span class="o">=</span> <span class="n">grid_search_custom</span><span class="p">(</span><span class="n">X_train</span><span class="o">=</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="o">=</span><span class="n">y_train</span><span class="p">,</span> <span class="n">hour_test</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">T</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span> <span class="n">type_model</span><span class="o">=</span><span class="s1">&#39;knn&#39;</span><span class="p">)</span>
 <span class="n">y_pred</span> <span class="o">=</span> <span class="p">(</span><span class="n">knn_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1213312 1000
+all 1213
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>inf
 </pre></div>
 </div>
 </div>
@@ -791,7 +813,7 @@ document.write(`
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Text(0.5, 1.0, &#39;Residuos&#39;)
 </pre></div>
 </div>
-<img alt="_images/733d667f00f0e7dfcebf059ec3904648296ede0ba130a69f4ba78f07a4ce7508.png" src="_images/733d667f00f0e7dfcebf059ec3904648296ede0ba130a69f4ba78f07a4ce7508.png" />
+<img alt="_images/2e6c678468b7a535ce96d9f6872250c9d8b785bba7075e5a21ae45d1107a4dac.png" src="_images/2e6c678468b7a535ce96d9f6872250c9d8b785bba7075e5a21ae45d1107a4dac.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -827,16 +849,17 @@ document.write(`
   <tbody>
     <tr>
       <th>0</th>
-      <td>0.000409</td>
-      <td>0.03832</td>
-      <td>-3.932416</td>
+      <td>0.000029</td>
+      <td>0.000855</td>
+      <td>0.975176</td>
     </tr>
   </tbody>
 </table>
 </div></div></div>
 </div>
-<p>Los resultados del modelo presentados muestran un rendimiento razonable, aunque con margen de mejora en algunas métricas. El <strong>RMSE</strong> (Root Mean Squared Error) es de 0.00012, lo que indica que el error absoluto promedio entre los valores predichos y los valores reales es pequeño, aunque mayor que en otros modelos previos, lo que sugiere un ajuste ligeramente menos preciso. El <strong>MAPE</strong> (Mean Absolute Percentage Error) es de 0.007985, lo que implica un error porcentual medio cercano al 0.8%, que sigue siendo bajo y muestra un nivel de precisión aceptable. Sin embargo, el <strong>R² (Coeficiente de Determinación)</strong> es 0.7835, lo que significa que el modelo explica el 78.35% de la variabilidad de los datos, una disminución con respecto a otros resultados, lo que indica que aún queda un porcentaje significativo de la variabilidad que no está siendo capturada por el modelo.</p>
-<p>El análisis gráfico muestra el comportamiento de los residuos. En la gráfica de <strong>Valores Reales vs Predichos vs Residuos</strong>, observamos que el ajuste no es perfecto, ya que hay discrepancias claras entre los valores reales y predichos. El <strong>Histograma de Residuos</strong> sugiere que la distribución de los residuos es razonablemente normal, aunque con cierta dispersión. La gráfica de <strong>Autocorrelación Parcial</strong> muestra que no hay una fuerte autocorrelación en los residuos, lo cual es un buen indicio. Sin embargo, en el <strong>QQ-plot de Residuos</strong>, vemos que los puntos no siguen perfectamente la línea de distribución normal, lo que sugiere que los residuos pueden no seguir una distribución completamente normal.</p>
+<p>The Real vs Predicted graph indicates that the predicted values follow a similar trend to the real values, but there are visible discontinuities, suggesting issues with the consistency of the predictions over time. The Residuals Histogram shows a high concentration of residuals around zero, indicating that most errors are small, though there are some extreme residuals that could be impacting the model’s performance.</p>
+<p>The Residuals Plot reveals irregular variation, with noticeable peaks and troughs, indicating that the errors are not uniformly distributed and there may be patterns not adequately captured by the model. The Partial Autocorrelation plot suggests some correlation in the early lags, implying that the errors are not entirely independent, leaving room for improvement in this area. The Residuals QQ-Plot shows deviations from the normal distribution line, especially at the extremes, suggesting the presence of outliers.</p>
+<p>As for the metrics, the RMSE is 0.000029, indicating an extremely low root mean squared error. The MAPE is 0.000855, showing that the mean absolute percentage error is less than 0.1%, which is excellent in terms of accuracy. Finally, the R² of 0.975176 suggests that the model explains 97.52% of the variability in the data, reflecting good performance. However, the discontinuities in the predictions and the autocorrelation in the residuals suggest that there is room for optimizing the model to make it more robust.</p>
 </section>
 <section id="ridge">
 <h2>Ridge<a class="headerlink" href="#ridge" title="Link to this heading">#</a></h2>
@@ -844,6 +867,12 @@ document.write(`
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ridge_model</span> <span class="o">=</span> <span class="n">grid_search_custom</span><span class="p">(</span><span class="n">X_train</span><span class="o">=</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="o">=</span><span class="n">y_train</span><span class="p">,</span> <span class="n">hour_test</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">T</span><span class="o">=</span><span class="mi">10000</span><span class="p">,</span> <span class="n">type_model</span><span class="o">=</span><span class="s1">&#39;ridge&#39;</span><span class="p">)</span>
 <span class="n">y_pred</span> <span class="o">=</span> <span class="p">(</span><span class="n">ridge_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1213312 10000
+all 121
 </pre></div>
 </div>
 </div>
@@ -929,7 +958,7 @@ document.write(`
 </table>
 </div></div></div>
 </div>
-<p>Los resultados presentados reflejan un excelente desempeño del modelo. El <strong>RMSE (Root Mean Squared Error)</strong> de 0.00004 indica que el error cuadrático medio es extremadamente bajo, lo que sugiere que el modelo tiene una alta precisión en las predicciones. El <strong>MAPE (Mean Absolute Percentage Error)</strong> de 0.003312 confirma esta precisión, con un error porcentual promedio cercano al 0.33%, lo que muestra un ajuste muy bueno. Además, el <strong>R²</strong> de 0.9756 significa que el modelo es capaz de explicar el 97.56% de la variabilidad en los datos, lo que denota un ajuste muy robusto. En los gráficos de residuos, podemos observar lo siguiente: En la gráfica de <strong>Valores Reales vs Predichos vs Residuos</strong>, se nota una alta similitud entre los valores reales y predichos, con residuos relativamente pequeños. El <strong>Histograma de Residuos</strong> sugiere que los residuos siguen una distribución aproximadamente normal, con una concentración cerca de cero, lo cual es una buena señal de un modelo bien ajustado. El gráfico de <strong>Residuos</strong> muestra que los errores no siguen un patrón claro, lo cual indica que el modelo no está dejando patrones sistemáticos sin capturar. La <strong>Autocorrelación Parcial</strong> muestra que no hay autocorrelación significativa en los residuos, lo que es positivo ya que indica que los errores son independientes entre sí. Finalmente, el <strong>QQ-plot de Residuos</strong> muestra que la mayoría de los residuos siguen una distribución normal, con solo algunas desviaciones en las colas. En conjunto</p>
+<p>The visual analysis of the Ridge model results suggests acceptable performance, though with some areas for improvement. In the Real vs Predicted graph, we can see that the predicted values closely follow the actual values, but with visible fluctuations. The Residuals Histogram shows that the residuals are approximately centered around zero, which is a good indication that the model does not present significant bias. The Residuals Plot indicates that the magnitude of the errors is small, but variations are observed throughout the observations. In the Partial Autocorrelation plot, there is a correlation in the early lags, indicating that the residuals are not entirely independent, which might suggest potential for model improvement. The Residuals QQ-Plot shows a general tendency to fit the normal distribution, although some deviations in the tails suggest the presence of outliers or errors not adequately captured by the model. The metric values, including an RMSE of 0.000032, a MAPE of 0.003405, and an R² of 0.943510, indicate that the model has high prediction accuracy, with a low average error and a robust fit, explaining 94.35% of the variability in the data. However, the fit could be improved to reduce autocorrelation in the residuals and refine the prediction of extreme values.</p>
 </section>
 <section id="lasso">
 <h2>Lasso<a class="headerlink" href="#lasso" title="Link to this heading">#</a></h2>
@@ -937,6 +966,12 @@ document.write(`
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">lasso_model</span> <span class="o">=</span> <span class="n">grid_search_custom</span><span class="p">(</span><span class="n">X_train</span><span class="o">=</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="o">=</span><span class="n">y_train</span><span class="p">,</span> <span class="n">hour_test</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">T</span><span class="o">=</span><span class="mi">10000</span><span class="p">,</span> <span class="n">type_model</span><span class="o">=</span><span class="s1">&#39;lasso&#39;</span><span class="p">)</span>
 <span class="n">y_pred</span> <span class="o">=</span> <span class="p">(</span><span class="n">lasso_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1213312 10000
+all 121
 </pre></div>
 </div>
 </div>
@@ -978,7 +1013,7 @@ document.write(`
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Text(0.5, 1.0, &#39;Residuos&#39;)
 </pre></div>
 </div>
-<img alt="_images/0fa6a08188606acdbef59814f81b4cf37e7710afbe8366c408e4983a13d1e02f.png" src="_images/0fa6a08188606acdbef59814f81b4cf37e7710afbe8366c408e4983a13d1e02f.png" />
+<img alt="_images/18f9117591d50afa6da0691ee79271f2ab4f7402f52d5d50351bf6be992da422.png" src="_images/18f9117591d50afa6da0691ee79271f2ab4f7402f52d5d50351bf6be992da422.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -1014,15 +1049,16 @@ document.write(`
   <tbody>
     <tr>
       <th>0</th>
-      <td>0.000923</td>
-      <td>0.093234</td>
-      <td>-24.135576</td>
+      <td>0.000208</td>
+      <td>0.016493</td>
+      <td>-0.280084</td>
     </tr>
   </tbody>
 </table>
 </div></div></div>
 </div>
-<p>Los resultados indican que el modelo presenta problemas significativos en su rendimiento. Aunque el RMSE de 0.000496 sugiere que el error cuadrático medio es bajo, lo que podría interpretarse como predicciones cercanas a los valores reales, el MAPE de 0.043955 (aproximadamente 4.4%) revela que, en promedio, el error porcentual de las predicciones es moderado. Sin embargo, el principal problema es el valor de R² de -2.681618, que indica que el modelo es peor que simplemente predecir la media de los valores de prueba, lo que implica que no está capturando la estructura de los datos y está fallando gravemente. Las gráficas refuerzan esta observación, con la gráfica de Valores Reales vs Predichos mostrando una línea plana, lo que indica que el modelo predice valores constantes o con muy poca variabilidad. El Histograma de Residuos muestra una dispersión considerable, y el QQ-plot sugiere que los residuos no siguen una distribución normal, lo cual es un mal indicador. Además, la Autocorrelación Parcial muestra algunas correlaciones en los primeros retardos, lo que indica que los residuos no son completamente independientes. En conjunto, estos resultados sugieren que el modelo está mal ajustado y que sería necesario revisarlo o probar con un enfoque diferente para capturar mejor la estructura de los datos.</p>
+<p>The Partial Autocorrelation shows that the residuals have significant autocorrelation in the early lags, suggesting that the errors are not independent, another sign of poor fit. In the Residuals QQ-plot, we see that the points do not follow the expected normal distribution line, indicating that the residuals are not normally distributed and that there are outliers.</p>
+<p>The metrics confirm this poor performance, with an RMSE of 0.000208, a MAPE of 0.016493 (1.65% average percentage error), and an R² of -0.280084, meaning that the model is performing worse than a reference model that would simply predict the mean. In summary, the Lasso model is not capturing the variability of the data and exhibits significant errors that need to be addressed through model adjustments or reconfiguration.</p>
 </section>
 </section>
 
