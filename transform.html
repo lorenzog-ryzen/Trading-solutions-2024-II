@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Introduction to the Machine Learning Project &#8212; Trading-solutions-2024-II</title>
+    <title>From Months to Full Data &#8212; Trading-solutions-2024-II</title>
   
   
   
@@ -57,10 +57,11 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'transform';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="From Months to Full Data" href="transform.html" />
+    <link rel="next" title="Exploratory Data Analysis" href="EDA_ProyectoF.html" />
+    <link rel="prev" title="Introduction to the Machine Learning Project" href="intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -122,8 +123,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -140,7 +139,7 @@
 
   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="intro.html">
   
   
   
@@ -171,14 +170,14 @@
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1 current active">
-                <a class="reference internal" href="#">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
                     Introduction to the Machine Learning Project
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="transform.html">From Months to Full Data</a></li>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">From Months to Full Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="EDA_ProyectoF.html">Exploratory Data Analysis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Modelos_PF.html">Usual Models</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Theorical_explanation.html">Theorical Explanation</a></li>
@@ -254,7 +253,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Ftransform.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -284,7 +283,7 @@
       
       
       
-      <li><a href="_sources/intro.md" target="_blank"
+      <li><a href="_sources/transform.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -294,7 +293,7 @@
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.md</span>
+<span class="btn__text-container">.ipynb</span>
 </a>
 </li>
       
@@ -355,9 +354,7 @@ document.write(`
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</label>
+
 </div></div>
       
     </div>
@@ -368,19 +365,11 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Introduction to the Machine Learning Project</h1>
+    <h1>From Months to Full Data</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-objectives">Project Objectives</a></li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -390,32 +379,327 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="introduction-to-the-machine-learning-project">
-<h1>Introduction to the Machine Learning Project<a class="headerlink" href="#introduction-to-the-machine-learning-project" title="Link to this heading">#</a></h1>
-<p>The rise of <strong>Machine Learning</strong> has transformed the financial landscape, providing innovative tools for decision-making in stock trading. In this context, the present project aims to explore the synergy between <strong>neural networks</strong> and <strong>genetic algorithms</strong> to develop a robust predictive model that optimizes trading strategies.</p>
-<p><strong>Neural networks</strong>, inspired by the functioning of the human brain, are capable of learning complex patterns from large datasets. Their ability to process and analyze information in a non-linear manner makes them a powerful tool for predicting stock market movements. This project focuses on the use of neural networks to model stock price behavior, leveraging historical data and relevant market features.</p>
-<p>On the other hand, <strong>genetic algorithms</strong> are optimization techniques based on the principles of natural evolution. These algorithms can be used to tune the hyperparameters of neural networks, improving their performance and optimizing trading strategies. By simulating evolutionary processes, genetic algorithms efficiently explore the solution space, finding configurations that maximize the profitability of trading operations.</p>
-<section id="project-objectives">
-<h2>Project Objectives<a class="headerlink" href="#project-objectives" title="Link to this heading">#</a></h2>
-<ol class="arabic simple">
-<li><p><strong>Define the Problem</strong>: Identify the specific problem in stock trading to be addressed, such as price prediction or the classification of buy/sell signals.</p></li>
-<li><p><strong>Data Collection</strong>: Compile a historical dataset that includes stock prices, trading volumes, and other financial indicators.</p></li>
-<li><p><strong>Model Development</strong>: Implement neural networks for the analysis and prediction of price movements, using supervised learning techniques.</p></li>
-<li><p><strong>Optimization</strong>: Apply genetic algorithms to adjust the hyperparameters of the neural network model, improving its accuracy and generalization capacity.</p></li>
-<li><p><strong>Performance Evaluation</strong>: Evaluate the model using relevant metrics and compare its performance with conventional trading strategies.</p></li>
-<li><p><strong>Strategy Implementation</strong>: Develop an automated trading system that integrates the predictive model, allowing the execution of operations based on the generated signals.</p></li>
-</ol>
-<p>Through this project, we aim to demonstrate how the combination of neural networks and genetic algorithms can offer an innovative and effective approach to stock trading. Ultimately, the goal is not only to provide a functional model but also to contribute to the understanding of how these technologies can transform financial analysis and enhance investment profitability.</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="transform.html">From Months to Full Data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="EDA_ProyectoF.html">Exploratory Data Analysis</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Modelos_PF.html">Usual Models</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Theorical_explanation.html">Theorical Explanation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Borrador_NEAT.html">Algorithms</a></li>
-</ul>
+  <section class="tex2jax_ignore mathjax_ignore" id="from-months-to-full-data">
+<h1>From Months to Full Data<a class="headerlink" href="#from-months-to-full-data" title="Link to this heading">#</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</pre></div>
 </div>
-</section>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_0</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;SPY_05_2024_BidAndAsk.txt&#39;</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s1">&#39;,&#39;</span><span class="p">)</span>
+<span class="n">df_0</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>time</th>
+      <th>...</th>
+      <th>....1</th>
+      <th>....2</th>
+      <th>bid</th>
+      <th>....3</th>
+      <th>ask</th>
+      <th>...</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2024.05.22</td>
+      <td>07:59</td>
+      <td>30</td>
+      <td>0</td>
+      <td>0</td>
+      <td>530.55</td>
+      <td>0</td>
+      <td>530.57</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2024.05.22</td>
+      <td>07:59</td>
+      <td>34</td>
+      <td>0</td>
+      <td>0</td>
+      <td>530.55</td>
+      <td>0</td>
+      <td>530.58</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2024.05.22</td>
+      <td>07:59</td>
+      <td>40</td>
+      <td>0</td>
+      <td>0</td>
+      <td>530.53</td>
+      <td>0</td>
+      <td>530.56</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2024.05.22</td>
+      <td>07:59</td>
+      <td>50</td>
+      <td>0</td>
+      <td>0</td>
+      <td>530.53</td>
+      <td>0</td>
+      <td>530.57</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2024.05.22</td>
+      <td>07:59</td>
+      <td>51</td>
+      <td>0</td>
+      <td>0</td>
+      <td>530.53</td>
+      <td>0</td>
+      <td>530.56</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>138860</th>
+      <td>2024.05.31</td>
+      <td>19:19</td>
+      <td>44</td>
+      <td>0</td>
+      <td>0</td>
+      <td>528.23</td>
+      <td>0</td>
+      <td>528.26</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>138861</th>
+      <td>2024.05.31</td>
+      <td>19:19</td>
+      <td>52</td>
+      <td>0</td>
+      <td>0</td>
+      <td>528.24</td>
+      <td>0</td>
+      <td>528.26</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>138862</th>
+      <td>2024.05.31</td>
+      <td>19:19</td>
+      <td>53</td>
+      <td>0</td>
+      <td>0</td>
+      <td>528.20</td>
+      <td>0</td>
+      <td>528.26</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>138863</th>
+      <td>2024.05.31</td>
+      <td>19:19</td>
+      <td>55</td>
+      <td>0</td>
+      <td>0</td>
+      <td>528.20</td>
+      <td>0</td>
+      <td>528.25</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>138864</th>
+      <td>2024.05.31</td>
+      <td>23:39</td>
+      <td>32</td>
+      <td>0</td>
+      <td>0</td>
+      <td>528.20</td>
+      <td>0</td>
+      <td>528.25</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>138865 rows × 9 columns</p>
+</div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="sd">&#39;&#39;&#39;new_archive = open(&#39;prices_for_models.txt&#39;, &#39;w&#39;)</span>
+<span class="sd">for index_month in range(5,10):</span>
+<span class="sd">  archive_name = f&#39;SPY_0{index_month}_2024_BidAndAsk.txt&#39;</span>
+<span class="sd">  with open(archive_name, &#39;r&#39;) as file:</span>
+<span class="sd">    lines = file.readlines()</span>
+<span class="sd">    for line in lines:</span>
+<span class="sd">      date, hour, _,  _, _, bid_price, _, ask_price, _ = line.split(&#39;,&#39;)</span>
+<span class="sd">      bid_price = float(bid_price)</span>
+<span class="sd">      ask_price = float(ask_price)</span>
+<span class="sd">      new_archive.write(f&#39;{date},{hour},{bid_price},{ask_price}\n&#39;)</span>
+<span class="sd">new_archive.close()&#39;&#39;&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&quot;new_archive = open(&#39;prices_for_models.txt&#39;, &#39;w&#39;)\nfor index_month in range(5,10):\n  archive_name = f&#39;SPY_0{index_month}_2024_BidAndAsk.txt&#39;\n  with open(archive_name, &#39;r&#39;) as file:\n    lines = file.readlines()\n    for line in lines:\n      date, hour, _,  _, _, bid_price, _, ask_price, _ = line.split(&#39;,&#39;)\n      bid_price = float(bid_price)\n      ask_price = float(ask_price)\n      new_archive.write(f&#39;{date},{hour},{bid_price},{ask_price}\n&#39;)\nnew_archive.close()&quot;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;prices_for_models.txt&#39;</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s1">&#39;,&#39;</span><span class="p">)</span>
+<span class="n">df</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>time</th>
+      <th>bid</th>
+      <th>ask</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2024.05.22</td>
+      <td>07:59</td>
+      <td>530.55</td>
+      <td>530.57</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2024.05.22</td>
+      <td>07:59</td>
+      <td>530.55</td>
+      <td>530.58</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2024.05.22</td>
+      <td>07:59</td>
+      <td>530.53</td>
+      <td>530.56</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2024.05.22</td>
+      <td>07:59</td>
+      <td>530.53</td>
+      <td>530.57</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2024.05.22</td>
+      <td>07:59</td>
+      <td>530.53</td>
+      <td>530.56</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>2191459</th>
+      <td>2024.09.27</td>
+      <td>19:19</td>
+      <td>570.65</td>
+      <td>570.68</td>
+    </tr>
+    <tr>
+      <th>2191460</th>
+      <td>2024.09.27</td>
+      <td>19:19</td>
+      <td>570.65</td>
+      <td>570.67</td>
+    </tr>
+    <tr>
+      <th>2191461</th>
+      <td>2024.09.27</td>
+      <td>19:19</td>
+      <td>570.65</td>
+      <td>570.66</td>
+    </tr>
+    <tr>
+      <th>2191462</th>
+      <td>2024.09.27</td>
+      <td>19:19</td>
+      <td>570.65</td>
+      <td>570.80</td>
+    </tr>
+    <tr>
+      <th>2191463</th>
+      <td>2024.09.27</td>
+      <td>23:36</td>
+      <td>570.65</td>
+      <td>570.80</td>
+    </tr>
+  </tbody>
+</table>
+<p>2191464 rows × 4 columns</p>
+</div></div></div>
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -448,12 +732,21 @@ document.write(`
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="intro.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Introduction to the Machine Learning Project</p>
+      </div>
+    </a>
     <a class="right-next"
-       href="transform.html"
+       href="EDA_ProyectoF.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">From Months to Full Data</p>
+        <p class="prev-next-title">Exploratory Data Analysis</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -464,20 +757,7 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-objectives">Project Objectives</a></li>
-</ul>
-  </nav></div>
-
-</div></div>
+                <div class="bd-sidebar-secondary bd-toc"></div>
               
             
           </div>

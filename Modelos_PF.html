@@ -28,7 +28,7 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b76e3c8a" />
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
@@ -42,7 +42,7 @@
   <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
 
     <script src="_static/documentation_options.js?v=9eb32ce0"></script>
-    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="_static/copybutton.js?v=f281be69"></script>
@@ -177,6 +177,7 @@
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="transform.html">From Months to Full Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="EDA_ProyectoF.html">Exploratory Data Analysis</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Usual Models</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Theorical_explanation.html">Theorical Explanation</a></li>
@@ -440,29 +441,24 @@ document.write(`
 </pre></div>
 </div>
 </div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">posixpath</span> <span class="kn">import</span> <span class="n">split</span>
-<span class="n">df</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;bid_price&#39;</span><span class="p">:[],</span><span class="s1">&#39;bid_volume&#39;</span><span class="p">:[],</span><span class="s1">&#39;ask_price&#39;</span><span class="p">:[],</span><span class="s1">&#39;ask_volume&#39;</span><span class="p">:[]}</span>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">4</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="ne">----&gt; </span><span class="mi">4</span> <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="g g-Whitespace">      </span><span class="mi">6</span> <span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">mean_squared_error</span><span class="p">,</span> <span class="n">r2_score</span><span class="p">,</span> <span class="n">mean_absolute_percentage_error</span>
 
-<span class="k">with</span> <span class="nb">open</span> <span class="p">(</span><span class="s1">&#39;26-09-2022.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-    <span class="n">lines</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
-    <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">lines</span><span class="p">):</span>
-      <span class="k">if</span> <span class="n">index</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
-        <span class="n">splitted_line</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)</span>
-        <span class="n">df</span><span class="p">[</span><span class="s1">&#39;bid_price&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">splitted_line</span><span class="p">[</span><span class="mi">2</span><span class="p">]))</span>
-        <span class="n">df</span><span class="p">[</span><span class="s1">&#39;bid_volume&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">splitted_line</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
-        <span class="n">df</span><span class="p">[</span><span class="s1">&#39;ask_price&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">splitted_line</span><span class="p">[</span><span class="mi">4</span><span class="p">]))</span>
-        <span class="n">df</span><span class="p">[</span><span class="s1">&#39;ask_volume&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">splitted_line</span><span class="p">[</span><span class="mi">5</span><span class="p">]))</span>
+<span class="ne">ModuleNotFoundError</span>: No module named &#39;seaborn&#39;
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
-<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;prices_data.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span>  <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;prices_data.csv&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -542,6 +538,13 @@ document.write(`
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;ask_price&#39;</span><span class="p">,</span><span class="n">axis</span><span class="o">=</span><span class="s1">&#39;columns&#39;</span><span class="p">)</span>
 <span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;ask_price&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">dix</span>  <span class="o">=</span> <span class="p">{}</span>
 </pre></div>
 </div>
 </div>
@@ -687,6 +690,9 @@ all 121
     <span class="s1">&#39;Valores Reales&#39;</span><span class="p">:</span> <span class="n">y2</span><span class="p">,</span>
     <span class="s1">&#39;residuos&#39;</span><span class="p">:</span> <span class="n">residuos_lineales</span>
 <span class="p">})</span>
+<span class="n">dix</span><span class="p">[</span><span class="s1">&#39;reales&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">y2</span>
+<span class="n">dix</span><span class="p">[</span><span class="s1">&#39;Linear&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">lin_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">));</span>
+
 <span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Valores reales vs Predichos&#39;</span><span class="p">)</span>
 <span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">data</span><span class="p">[</span> <span class="s1">&#39;Valores Reales&#39;</span><span class="p">],</span><span class="s1">&#39;-&#39;</span><span class="p">)</span>
 <span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;Predicciones&#39;</span><span class="p">],</span><span class="s1">&#39;-&#39;</span><span class="p">)</span>
@@ -769,9 +775,7 @@ all 121
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1213312 1000
 all 1213
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>inf
+inf
 </pre></div>
 </div>
 </div>
@@ -789,6 +793,7 @@ all 1213
     <span class="s1">&#39;Valores Reales&#39;</span><span class="p">:</span> <span class="n">y2</span><span class="p">,</span>
     <span class="s1">&#39;residuos&#39;</span><span class="p">:</span> <span class="n">residuos_knn</span>
 <span class="p">})</span>
+<span class="n">dix</span><span class="p">[</span><span class="s1">&#39;Knn&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">knn_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">));</span>
 <span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Valores reales vs Predichos&#39;</span><span class="p">)</span>
 <span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">data</span><span class="p">[</span> <span class="s1">&#39;Valores Reales&#39;</span><span class="p">],</span><span class="s1">&#39;-&#39;</span><span class="p">)</span>
 <span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;Predicciones&#39;</span><span class="p">],</span><span class="s1">&#39;-&#39;</span><span class="p">)</span>
@@ -890,6 +895,7 @@ all 121
     <span class="s1">&#39;Valores Reales&#39;</span><span class="p">:</span> <span class="n">y2</span><span class="p">,</span>
     <span class="s1">&#39;residuos&#39;</span><span class="p">:</span> <span class="n">residuos_ridge</span>
 <span class="p">})</span>
+<span class="n">dix</span><span class="p">[</span><span class="s1">&#39;Ridge&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">ridge_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">))</span>
 <span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Valores reales vs Predichos&#39;</span><span class="p">)</span>
 <span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">data</span><span class="p">[</span> <span class="s1">&#39;Valores Reales&#39;</span><span class="p">],</span><span class="s1">&#39;-&#39;</span><span class="p">)</span>
 <span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;Predicciones&#39;</span><span class="p">],</span><span class="s1">&#39;-&#39;</span><span class="p">)</span>
@@ -989,6 +995,8 @@ all 121
     <span class="s1">&#39;Valores Reales&#39;</span><span class="p">:</span> <span class="n">y2</span><span class="p">,</span>
     <span class="s1">&#39;residuos&#39;</span><span class="p">:</span> <span class="n">residuos_lasso</span>
 <span class="p">})</span>
+<span class="n">dix</span><span class="p">[</span><span class="s1">&#39;Lasso&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">lasso_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">));</span>
+
 <span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Valores reales vs Predichos&#39;</span><span class="p">)</span>
 <span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">y_pred</span><span class="p">,</span><span class="s1">&#39;-&#39;</span><span class="p">)</span>
 
@@ -1059,6 +1067,139 @@ all 121
 </div>
 <p>The Partial Autocorrelation shows that the residuals have significant autocorrelation in the early lags, suggesting that the errors are not independent, another sign of poor fit. In the Residuals QQ-plot, we see that the points do not follow the expected normal distribution line, indicating that the residuals are not normally distributed and that there are outliers.</p>
 <p>The metrics confirm this poor performance, with an RMSE of 0.000208, a MAPE of 0.016493 (1.65% average percentage error), and an R² of -0.280084, meaning that the model is performing worse than a reference model that would simply predict the mean. In summary, the Lasso model is not capturing the variability of the data and exhibits significant errors that need to be addressed through model adjustments or reconfiguration.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">dix</span><span class="p">))</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;results_project_models.csv&#39;</span><span class="p">,</span> <span class="n">index</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">dix</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>reales</th>
+      <th>Linear</th>
+      <th>Knn</th>
+      <th>Ridge</th>
+      <th>Lasso</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0.9699</td>
+      <td>0.969939</td>
+      <td>0.9699</td>
+      <td>0.969939</td>
+      <td>0.96993</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.9699</td>
+      <td>0.969935</td>
+      <td>0.9699</td>
+      <td>0.969935</td>
+      <td>0.96993</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0.9699</td>
+      <td>0.969939</td>
+      <td>0.9699</td>
+      <td>0.969939</td>
+      <td>0.96993</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0.9699</td>
+      <td>0.969950</td>
+      <td>0.9699</td>
+      <td>0.969950</td>
+      <td>0.96993</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0.9699</td>
+      <td>0.969946</td>
+      <td>0.9699</td>
+      <td>0.969946</td>
+      <td>0.96993</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>9995</th>
+      <td>0.9695</td>
+      <td>0.969547</td>
+      <td>0.9696</td>
+      <td>0.969547</td>
+      <td>0.96993</td>
+    </tr>
+    <tr>
+      <th>9996</th>
+      <td>0.9695</td>
+      <td>0.969544</td>
+      <td>0.9696</td>
+      <td>0.969544</td>
+      <td>0.96993</td>
+    </tr>
+    <tr>
+      <th>9997</th>
+      <td>0.9695</td>
+      <td>0.969547</td>
+      <td>0.9696</td>
+      <td>0.969547</td>
+      <td>0.96993</td>
+    </tr>
+    <tr>
+      <th>9998</th>
+      <td>0.9695</td>
+      <td>0.969565</td>
+      <td>0.9695</td>
+      <td>0.969564</td>
+      <td>0.96993</td>
+    </tr>
+    <tr>
+      <th>9999</th>
+      <td>0.9695</td>
+      <td>0.969562</td>
+      <td>0.9695</td>
+      <td>0.969562</td>
+      <td>0.96993</td>
+    </tr>
+  </tbody>
+</table>
+<p>10000 rows × 5 columns</p>
+</div></div></div>
+</div>
 </section>
 </section>
 
