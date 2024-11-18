@@ -28,7 +28,7 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b76e3c8a" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
@@ -42,7 +42,7 @@
   <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
 
     <script src="_static/documentation_options.js?v=9eb32ce0"></script>
-    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="_static/copybutton.js?v=f281be69"></script>
@@ -407,20 +407,6 @@ document.write(`
 <span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">import</span> <span class="nn">copy</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">3</span>
-<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
-<span class="ne">----&gt; </span><span class="mi">3</span> <span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
-<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="kn">import</span> <span class="nn">pydot</span>
-
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;networkx&#39;
 </pre></div>
 </div>
 </div>
@@ -806,18 +792,18 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>kahn_topological_order : 
-[0, 1, 5, 3, 2, 4, 7, 6]
+[0, 1, 4, 3, 5, 2, 6, 7]
 </pre></div>
 </div>
-<img alt="_images/069dfe2e82f6b1d1c59e05c7757dc0316ee0ba3be6658a99cb7e019ed06759c0.png" src="_images/069dfe2e82f6b1d1c59e05c7757dc0316ee0ba3be6658a99cb7e019ed06759c0.png" />
+<img alt="_images/3e9c19e4b3ce0a06acb4adc0a256e034ae04bc4e104e2c1f65b67b12a21ee91c.png" src="_images/3e9c19e4b3ce0a06acb4adc0a256e034ae04bc4e104e2c1f65b67b12a21ee91c.png" />
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>3
-[&lt;__main__.Neuron object at 0x000001FE1F4F5F10&gt;, &lt;__main__.Neuron object at 0x000001FE1F4F5370&gt;] 7
-[&lt;__main__.Neuron object at 0x000001FE1F4F55E0&gt;, &lt;__main__.Neuron object at 0x000001FE1F4F5700&gt;, &lt;__main__.Neuron object at 0x000001FE1F4F5E50&gt;]
-[&lt;__main__.Neuron object at 0x000001FE1F4F5DF0&gt;, &lt;__main__.Neuron object at 0x000001FE1F4F54F0&gt;]
+[&lt;__main__.Neuron object at 0x0000027021C907F0&gt;, &lt;__main__.Neuron object at 0x0000027021C90DF0&gt;] 7
+[&lt;__main__.Neuron object at 0x0000027021C90B50&gt;, &lt;__main__.Neuron object at 0x0000027021C90880&gt;, &lt;__main__.Neuron object at 0x0000027032610DC0&gt;]
+[&lt;__main__.Neuron object at 0x0000027032610DF0&gt;, &lt;__main__.Neuron object at 0x0000027032610E20&gt;]
 10
 </pre></div>
 </div>
-<img alt="_images/da1a0aff46a8277dd68243a4eaed878e28ad0f925e91bccf7d162a7e8e531e82.png" src="_images/da1a0aff46a8277dd68243a4eaed878e28ad0f925e91bccf7d162a7e8e531e82.png" />
+<img alt="_images/56c5da8269d8c020cc53074f938036e84ed52a0795a50d511a148a46374ff7d1.png" src="_images/56c5da8269d8c020cc53074f938036e84ed52a0795a50d511a148a46374ff7d1.png" />
 </div>
 </div>
 </section>
