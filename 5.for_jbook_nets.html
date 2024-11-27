@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Notebooks with MyST Markdown &#8212; Trading-solutions-2024-II</title>
+    <title>&lt;no title&gt; &#8212; Trading-solutions-2024-II</title>
   
   
   
@@ -57,7 +57,7 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'markdown-notebooks';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '5.for_jbook_nets';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -177,11 +177,9 @@
             </li>
         </ul>
         <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="transform.html">From Months to Full Data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="EDA_ProyectoF.html">Exploratory Data Analysis</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Modelos_PF.html">Usual Models</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Theorical_explanation.html">Theorical Explanation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Borrador_NEAT.html">Algorithms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="1.EDA_ProyectoF.html">Exploratory Data Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3.Theorical_explanation.html">Theorical Explanation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4.Borrador_NEAT.html">Algorithms</a></li>
 </ul>
 
     </div>
@@ -253,7 +251,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fmarkdown-notebooks.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F5.for_jbook_nets.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -283,7 +281,7 @@
       
       
       
-      <li><a href="_sources/markdown-notebooks.md" target="_blank"
+      <li><a href="_sources/5.for_jbook_nets.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -293,7 +291,7 @@
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.md</span>
+<span class="btn__text-container">.ipynb</span>
 </a>
 </li>
       
@@ -367,7 +365,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Notebooks with MyST Markdown</h1>
+    <h1><no title></h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -376,11 +374,9 @@ document.write(`
                 <h2> Contents </h2>
             </div>
             <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#an-example-cell">An example cell</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-notebook-with-myst-markdown">Create a notebook with MyST Markdown</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quickly-add-yaml-metadata-for-myst-notebooks">Quickly add YAML metadata for MyST Notebooks</a></li>
+                <ul class="simple visible nav section-nav flex-column">
 </ul>
+
             </nav>
         </div>
     </div>
@@ -391,52 +387,36 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="notebooks-with-myst-markdown">
-<h1>Notebooks with MyST Markdown<a class="headerlink" href="#notebooks-with-myst-markdown" title="Link to this heading">#</a></h1>
-<p>Jupyter Book also lets you write text-based notebooks using MyST Markdown.
-See <a class="reference external" href="https://jupyterbook.org/file-types/myst-notebooks.html">the Notebooks with MyST Markdown documentation</a> for more detailed instructions.
-This page shows off a notebook written in MyST Markdown.</p>
-<section id="an-example-cell">
-<h2>An example cell<a class="headerlink" href="#an-example-cell" title="Link to this heading">#</a></h2>
-<p>With MyST Markdown, you can define code cells with a directive like so:</p>
+  <div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">Net_Gens_copy</span> <span class="kn">import</span> <span class="o">*</span>
+</pre></div>
+</div>
+</div>
+</div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pop</span> <span class="o">=</span> <span class="n">Population</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1000</span><span class="p">)</span>
+<span class="n">Gens</span><span class="p">,</span> <span class="n">Nets</span><span class="o">=</span> <span class="n">pop</span><span class="o">.</span><span class="n">initialize_population</span><span class="p">()</span>
+<span class="n">plot_network</span><span class="p">(</span><span class="n">Gens</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="n">Gens</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">mutate</span><span class="p">()</span>
+<span class="n">plot_network</span><span class="p">(</span><span class="n">Gens</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>4
+<img alt="_images/d8273fd7a933057050a2311d7764a8a22148134e93a6c17fc8e48a5ebcd8c94c.png" src="_images/d8273fd7a933057050a2311d7764a8a22148134e93a6c17fc8e48a5ebcd8c94c.png" />
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>DFS (0 -&gt; 7): True
+DFS (0 -&gt; 8): True
+Mutación válida, se realizó un cambio
+Caminos validados: [True, True]
+Función de mutación aplicada: &lt;function Genotype.mutate.&lt;locals&gt;.add_random_neuron at 0x000001489B84DF70&gt;
 </pre></div>
 </div>
+<img alt="_images/6d39e1c85686b6cb8db1ccd8a4bfced09fc2551a2a2504268a6944389f7d5da5.png" src="_images/6d39e1c85686b6cb8db1ccd8a4bfced09fc2551a2a2504268a6944389f7d5da5.png" />
 </div>
 </div>
-<p>When your book is built, the contents of any <code class="docutils literal notranslate"><span class="pre">{code-cell}</span></code> blocks will be
-executed with your default Jupyter kernel, and their outputs will be displayed
-in-line with the rest of your content.</p>
-<div class="admonition seealso">
-<p class="admonition-title">See also</p>
-<p>Jupyter Book uses <a class="reference external" href="https://jupytext.readthedocs.io/en/latest/">Jupytext</a> to convert text-based files to notebooks, and can support <a class="reference external" href="https://jupyterbook.org/file-types/jupytext.html">many other text-based notebook files</a>.</p>
-</div>
-</section>
-<section id="create-a-notebook-with-myst-markdown">
-<h2>Create a notebook with MyST Markdown<a class="headerlink" href="#create-a-notebook-with-myst-markdown" title="Link to this heading">#</a></h2>
-<p>MyST Markdown notebooks are defined by two things:</p>
-<ol class="arabic simple">
-<li><p>YAML metadata that is needed to understand if / how it should convert text files to notebooks (including information about the kernel needed).
-See the YAML at the top of this page for example.</p></li>
-<li><p>The presence of <code class="docutils literal notranslate"><span class="pre">{code-cell}</span></code> directives, which will be executed with your book.</p></li>
-</ol>
-<p>That’s all that is needed to get started!</p>
-</section>
-<section id="quickly-add-yaml-metadata-for-myst-notebooks">
-<h2>Quickly add YAML metadata for MyST Notebooks<a class="headerlink" href="#quickly-add-yaml-metadata-for-myst-notebooks" title="Link to this heading">#</a></h2>
-<p>If you have a markdown file and you’d like to quickly add YAML metadata to it, so that Jupyter Book will treat it as a MyST Markdown Notebook, run the following command:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">jupyter</span><span class="o">-</span><span class="n">book</span> <span class="n">myst</span> <span class="n">init</span> <span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">markdownfile</span><span class="o">.</span><span class="n">md</span>
-</pre></div>
-</div>
-</section>
-</section>
 
     <script type="text/x-thebe-config">
     {
@@ -483,11 +463,9 @@ See the YAML at the top of this page for example.</p></li>
     <i class="fa-solid fa-list"></i> Contents
   </div>
   <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#an-example-cell">An example cell</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-notebook-with-myst-markdown">Create a notebook with MyST Markdown</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quickly-add-yaml-metadata-for-myst-notebooks">Quickly add YAML metadata for MyST Notebooks</a></li>
+    <ul class="simple visible nav section-nav flex-column">
 </ul>
+
   </nav></div>
 
 </div></div>
